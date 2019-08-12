@@ -1,5 +1,4 @@
 \version "2.18.2"
-\include "english.ly"
 \include "header.ly"
 \include "RememberMeNotes.ly"
 
@@ -50,19 +49,19 @@
       }
     >>
     \new StaffGroup <<
-      \new Staff \with { instrumentName = #"Trumpets" shortInstrumentName = #"Tpt" } {
-        \clef treble
-        \numericTimeSignature
-        \accidentalStyle modern-cautionary
-        \compressFullBarRests
-        \partcombine \RememberMeTrumpetOne \RememberMeTrumpetTwo
-      }
       \new Staff \with { instrumentName = #"Horns" shortInstrumentName = #"Hn" } {
         \clef alto
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
         \partcombine \RememberMeHornOne \RememberMeHornTwo
+      }
+      \new Staff \with { instrumentName = #"Trumpets" shortInstrumentName = #"Tpt" } {
+        \clef treble
+        \numericTimeSignature
+        \accidentalStyle modern-cautionary
+        \compressFullBarRests
+        \partcombine \RememberMeTrumpetOne \RememberMeTrumpetTwo
       }
       \new Staff \with { instrumentName = #"Trombone" shortInstrumentName = #"Tbn" } {
         \clef bass
@@ -72,21 +71,29 @@
         \RememberMeTrombone
       }
     >>
-    \new GrandStaff <<
+    \new StaffGroup <<
       \new Staff \with { instrumentName = \markup{ \center-column{ "Soprano" \line { "Alto" } } } shortInstrumentName = #"SA" } {
         \clef treble
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \RememberMeSA
+        <<
+          \new Voice \partcombine \RememberMeSoprano \RememberMeAlto
+          \new NullVoice = "alignerSA" \RememberMeSoprano
+        >>
       }
+      \new Lyrics \lyricsto "alignerSA" \RememberMeSALyrics
       \new Staff \with { instrumentName = \markup{ \center-column{ "Tenor" \line { "Bass" } } } shortInstrumentName = #"TB" } {
         \clef bass
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \RememberMeTB
+        <<
+          \new Voice \partcombine \RememberMeTenor \RememberMeBass
+          \new NullVoice = "alignerTB" \RememberMeTenor
+        >>
       }
+      \new Lyrics \lyricsto "alignerTB" \RememberMeTBLyrics
     >>
     \new GrandStaff \with { instrumentName = #"Piano" shortInstrumentName = #"Pf" } <<
       \new Staff  {
