@@ -10,6 +10,11 @@
 }
 
 \score {
+  \layout{
+    \context{
+      \Staff \RemoveEmptyStaves
+    }
+  }
   <<
     \new StaffGroup <<
       \new Staff \with { instrumentName = #"Flutes" shortInstrumentName = #"Fl" } {
