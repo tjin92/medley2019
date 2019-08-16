@@ -3,7 +3,7 @@
 ## Instrumentation
 
 * Woodwinds
-  * 2 Flutes (with possibly Flute I doubling as piccolo - will confirm)
+  * 2 Flutes (Flute I can double as piccolo if necessary)
   * 1 Oboe
   * 1 Bb clarinet (can double on A if necessary)
   * 1 Alto sax
@@ -11,9 +11,9 @@
 * Brass
   * 2 F horns
   * 2 Bb trumpets
-  * 1 Trombone
+  * 2 Trombones
 * Percussion (need to verify availability)
-* Keyboard (can be piano, harp, timpani, etc.)
+* Keyboard (can be piano, harp, timpani, drums, etc.)
 * Choir
   * Sopranos/Altos
   * Tenors/Basses
