@@ -73,7 +73,7 @@
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \RememberMeTrombone
+        \partcombine \RememberMeTromboneOne \RememberMeTromboneTwo
       }
     >>
     \new StaffGroup <<

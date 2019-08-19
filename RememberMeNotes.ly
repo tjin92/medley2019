@@ -111,10 +111,22 @@ RememberMeTrumpetTwo = \relative c' {
   g8-> r r
 }
 
-RememberMeTrombone = \relative c {
+RememberMeTromboneOne = \relative c {
   \key g \major
   \time 4/4
-  \partial 8 r8 R1*20 g2--\f g4-- g--
+  \partial 8 r8 R1*2 bf'1\mp\< a2\mf r2
+  R1*14 bf1\mf\< a1\f g2-- g4-- g--
+  \bar "||"
+  \key g \minor
+  \time 3/8
+  g8-> r r
+}
+
+RememberMeTromboneTwo = \relative c {
+  \key g \major
+  \time 4/4
+  \partial 8 r8 R1*2 ef1\mp\< d2\mf r2
+  R1*14 ef1\mf\< d1\f g,2-- g4-- g--
   \bar "||"
   \key g \minor
   \time 3/8
@@ -215,10 +227,10 @@ RememberMeViolinOne = \relative c' {
   \key g \major
   \time 4/4
   \partial 8 r8 g'1\f b4\> a g2 g1\mp\< a2\mf e
-  b'8^\pizz b r b b r r4 a8 a r a a r r4
-  b8 b r b b r r4 a8 a r a a r r4
-  g8 g r g g r r4 a8 a r a b r r4
-  b8 b r b b r r4 bf2^\arco\< a\>
+  b'8-.\upbow( b-.\upbow) r b-.( b-.) r r4 a8-.( a-.) r a-.( a-.) r r4
+  b8-.( b-.) r b-.( b-.) r r4 a8-.( a-.) r a-.( a-.) r r4
+  g8-.( g-.) r g-.( g-.) r r4 a8-.( a-.) r a-.( b-.) r r4
+  b8-.( b-.) r b-.( b-.) r r4 bf2\< a\>
   b1\mf a b c2 d e1 d4 ds e2 g1\< a\f g2-- g4-- g--
   \bar "||"
   \key g \minor
@@ -230,10 +242,10 @@ RememberMeViolinTwo = \relative c' {
   \key g \major
   \time 4/4
   \partial 8 r8 e1\f g4\> fs e2 ef1\mp\< fs2\mf c
-  g'8^\pizz g r g g r r4 ef8 ef r ef ef r r4
-  g8 g r g g r r4 ef8 ef r ef ef r r4
-  e8 e r e d r r4 f8 f r f g r r4
-  e8 e r e e r r4 cs2^\arco\< d\>
+  g'8-.\upbow( g-.\upbow) r g-.( g-.) r r4 ef8-.( ef-.) r ef-.( ef-.) r r4
+  g8-.( g-.) r g-.( g-.) r r4 ef8-.( ef-.) r ef-.( ef-.) r r4
+  e8-.( e-.) r e-.( d-.) r r4 f8-.( f-.) r f-.( g-.) r r4
+  e8-.( e-.) r e-.( e-.) r r4 cs2\< d\>
   g1\mf ef g f2 a g1 g4 fs g2 bf1\< d\f c2-- g4-- g--
   \bar "||"
   \key g \minor
@@ -245,10 +257,10 @@ RememberMeViola = \relative c {
   \key g \major
   \time 4/4
   \partial 8 r8 g'1\f d'4\> ds b2 bf1\mp\< a2\mf g
-  d'8^\pizz d r d d r r4 c8 c r c c r r4
-  d8 d r d d r r4 c8 c r c b r r4
-  b8 b r b b r r4 c8 c r c d r r4
-  c8 c r c c r r4 g2^\arco\< fs\>
+  d'8-.\upbow( d-.\upbow) r d-.( d-.) r r4 c8-.( c-.) r c-.( c-.) r r4
+  d8-.( d-.) r d-.( d-.) r r4 c8-.( c-.) r c-.( b-.) r r4
+  b8-.( b-.) r b-.( b-.) r r4 c8-.( c-.) r c-.( d-.) r r4
+  c8-.( c-.) r c-.( c-.) r r4 g2\< fs\>
   d'1\mf c d a2 b c1 b4 a b2 ef1\< fs\f g2-- ef4-- f--
   \bar "||"
   \key g \minor
@@ -260,10 +272,10 @@ RememberMeCello = \relative c {
   \key g \major
   \time 4/4
   \partial 8 r8 c1\f g4\> b e2 ef1\mp\< d2\mf c
-  g'8^\pizz g r g g r r4 g8 g r g g r r4
-  g8 g r g g r r4 g8 g r g fs r r4
-  e8 e r e e r r4 f8 f r f g r r4
-  g8 g r g g r r4 ef2^\arco\< d\>
+  g'8-.\upbow( g-.\upbow) r g-.( g-.) r r4 g8-.( g-.) r g-.( g-.) r r4
+  g8-.( g-.) r g-.( g-.) r r4 g8-.( g-.) r g-.( fs-.) r r4
+  e8-.( e-.) r e-.( e-.) r r4 f8-.( f-.) r f-.( g-.) r r4
+  g8-.( g-.) r g-.( g-.) r r4 ef2\< d\>
   g1\mf g g d2 g, c1 d4 ds e2 ef1\< d\f g2-- g4-- g--
   \bar "||"
   \key g \minor
@@ -275,10 +287,10 @@ RememberMeDoubleBass = \relative c, {
   \key g \major
   \time 4/4
   \partial 8 r8 c1\f g4\> b e2 ef1\mp\< d2\mf c
-  g'8^\pizz g r g g r r4 c8 c r c c r r4
-  g8 g r g g r r4 c8 c r c b r r4
-  e,8 e r e e r r4 f8 f r f g r r4
-  c8 c r c c r r4 ef,2^\arco\< d\>
+  g'8-.\upbow( g-.\upbow) r g-.( g-.) r r4 c8-.( c-.) r c-.( c-.) r r4
+  g8-.( g-.) r g-.( g-.) r r4 c8-.( c-.) r c-.( b-.) r r4
+  e,8-.( e-.) r e-.( e-.) r r4 f8-.( f-.) r f-.( g-.) r r4
+  c8-.( c-.) r c-.( c-.) r r4 ef,2\< d\>
   g1\mf c g d2 g, c1 d4 ds e2 ef1\< d\f g2-- g4-- g--
   \bar "||"
   \key g \minor
