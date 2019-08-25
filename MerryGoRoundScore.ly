@@ -76,7 +76,7 @@
         \partcombine \MerryGoRoundTromboneOne \MerryGoRoundTromboneTwo
       }
     >>
-    \new GrandStaff \with { instrumentName = #"Piano" shortInstrumentName = #"Pf" } <<
+    \new PianoStaff \with { instrumentName = #"Piano" shortInstrumentName = #"Pf" } <<
       \new Staff  {
         \clef treble
         \numericTimeSignature
