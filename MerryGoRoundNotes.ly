@@ -13,6 +13,10 @@ MerryGoRoundFluteOne = \relative c'''' {
   a'4) a8 a( g f) g4.\>~g
   R4.*2\! r8 \trip{ f'16\p[( e ef] } \trip{ d df c } bf8) \trip{ bf16[( a af] } \trip{ g gf f }
   e8) r r R4. r8 \trip{ g'16[( gf f] } \trip{ e ef d } c8) \trip{ c16[( b bf] } \trip{ a af g)}
+  R4.*6 fs16\mf( a) \trip{ c[( d c]) } bf8 r \trip{ bf16\dim[( c bf]) } a8
+  r \trip{ g16[( a g]) } fs8 r \trip{ ef16[\p( fs ef]) } d8\fermata
+  ds8\ff gs b R4.\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundFluteTwo = \relative c''' {
@@ -25,6 +29,10 @@ MerryGoRoundFluteTwo = \relative c''' {
   f'4) f8 f( e d) e4.\>~e
   R4.*2\! r8 \trip{ d'16\p[( cs c] } \trip{ b bf a } g8) \trip{ g16[( fs f] } \trip{ e ef d }
   c8) r r R4. r8 \trip{ e'16[( ef d] } \trip{ cs c b } a8) \trip{ a16[( gs g] } \trip{ fs f e)}
+  R4.*6 fs16\mf( a) \trip{ c[( d c]) } bf8 r \trip{ bf16\dim[( c bf]) } a8
+  r \trip{ g16[( a g]) } fs8 r \trip{ ef16[\p( fs ef]) } d8\fermata
+  ds8\ff gs b R4.\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundOboe = \relative c''' {
@@ -35,6 +43,10 @@ MerryGoRoundOboe = \relative c''' {
   e4 d8 c8 bf c d c g a4. R4.*26
   r8 r d\mp \trip{ d16[( e d] } cs8) d f( e) d cs4 e8( a,4) a8(
   f'4) f8 f( e d) e4.\>~e R4.*8\!
+  R4.*6 fs16\mf( a) \trip{ c[( d c]) } bf8 r \trip{ bf16\dim[( c bf]) } a8
+  r \trip{ g16[( a g]) } fs8 r \trip{ ef16[\p( fs ef]) } d8\fermata
+  ds8\ff gs b R4.\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundClarinet = \relative c'' {
@@ -45,6 +57,10 @@ MerryGoRoundClarinet = \relative c'' {
   e4 d8 c8 bf c d c g a4. R4.*26
   r8 r d'\mp \trip{ d16[( e d] } cs8) d f( e) d cs4 e8( a,4) a8(
   f'4) f8 f( e d) e4.\>~e R4.*8\!
+  R4.*6 fs,16\mf( a) \trip{ c[( d c]) } bf8 r \trip{ bf16\dim[( c bf]) } a8
+  r \trip{ g16[( a g]) } fs8 r \trip{ ef16[\p( fs ef]) } d8\fermata
+  ds8\ff gs b R4.\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundSax = \relative c' {
@@ -55,9 +71,13 @@ MerryGoRoundSax = \relative c' {
   e4 d8 c8 bf c d c g a4. R4.*15
   r8 fs\mf( g a fs) r r d( e fs d) r R4.*7
   r8 r d'\mp \trip{ d16[( e d] } cs8) d f( e) d cs4 e8( a,4) a8(
-  f'4) f8 f( e d) e4.\<~e
+  f'4) f8 f( e d) e4.~e
   d8\mf( ef d c bf a) g4.(~g8 a bf)
   c4 c8 c( d e) e4.~e
+  R4.*6 fs16\mf( a) \trip{ c[( d c]) } bf8 r \trip{ bf16\dim[( c bf]) } a8
+  r \trip{ g16[( a g]) } fs8 r \trip{ ef16[\p( fs ef]) } d8\fermata
+  ds8\ff gs b R4.\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundBassClarinet = \relative c {
@@ -66,21 +86,32 @@ MerryGoRoundBassClarinet = \relative c {
   g8-> r r R4.*11
   e'4.\mp a, d c bf a d R4.*35
   d8\mf( ef' d c bf a) g4.~g
-  c,8( df' c bf a g) f4.~f
+  c,8( df' c bf a g) f4.~f R4.*6
+  d4.\mf d\dim d d\p\fermata
+  ds8\ff gs b R4.\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundHornOne = \relative c'' {
   \key g \minor
   \time 3/8
   g8-> r r R4.*37
-  c,4.\mf~c d~d c~c f~f4 r8 R4.*16
+  c,4.\mp~c d~d c~c f~f4 r8 R4.*15
+  r8 g\mf f e ds e g f e d cs d e4 a8
+  c4 bf8 a4 g8 fs r r R4.*2
+  R4.\fermataMarkup R R\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundHornTwo = \relative c' {
   \key g \minor
   \time 3/8
   d8-> r r R4.*37
-  f,4.\mf~f f~f a~a bf~bf4 r8 R4.*16
+  f,4.\mp~f f~f a~a bf~bf4 r8 R4.*15
+  r8 g'\mf f e ds e g f e d cs d e4 a8
+  c4 bf8 a4 g8 fs r r R4.*2
+  R4.\fermataMarkup R R\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundTrumpetOne = \relative c''' {
@@ -90,7 +121,9 @@ MerryGoRoundTrumpetOne = \relative c''' {
   d,8\mp g bf d4 d8 c bf a bf4.
   g8 bf d g4 g8 g f ef f4. R4.*26
   r8 r d\mf ef4 d8 c bf a bf c d f,4 f8
-  ef'4 d8 c bf c d4.~d4 r8 R4.*16
+  ef'4 d8 c bf c d4.~d4 r8 R4.*25
+  R4.\fermataMarkup R R\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundTrumpetTwo = \relative c'' {
@@ -100,21 +133,27 @@ MerryGoRoundTrumpetTwo = \relative c'' {
   d8\mp g bf bf4 bf8 a g fs g4.
   g8 bf d ef4 ef8 ef d c d4. R4.*26
   r8 r bf\mf c4 bf8 a g f d ef f d4 d8
-  c'4 bf8 a g a bf4.~bf4 r8 R4.*16
+  c'4 bf8 a g a bf4.~bf4 r8 R4.*25
+  R4.\fermataMarkup R R\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundTromboneOne = \relative c {
   \key g \minor
   \time 3/8
   g'8-> r r R4.*37
-  f4.\mf~f bf~bf f~f bf~bf4 r8 R4.*16
+  f4.\mp~f bf~bf f~f bf~bf4 r8 R4.*25
+  R4.\fermataMarkup R R\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundTromboneTwo = \relative c {
   \key g \minor
   \time 3/8
   g8-> r r R4.*37
-  f4.\mf~f bf~bf f~f bf~bf4 r8 R4.*16
+  f4.\mp~f bf~bf f~f bf~bf4 r8 R4.*25
+  R4.\fermataMarkup R R\fermataMarkup R
+  \bar "||"
 }
 
 MerryGoRoundPianoRH = \relative c' {
@@ -128,7 +167,10 @@ MerryGoRoundPianoRH = \relative c' {
   r <a c ef>-. <a c ef>-. r\mf <g bf ef>-. <g bf ef>-. r <a c fs>-. <a c fs>-. r <a bf d>-. <a bf d>-.
   r <a bf d>-. <a bf d>-. r <g bf ef>-. <g bf ef>-. r <f a c>-. <f a c>-. r <f a d>-. <f a d>-.
   r <f a d>-. <f a d>-. r <g bf d>-. <g bf d>-. r <e g cs>-. <e g cs>-. r <f a d>-. <f a d>-.
-  r <f a d>-. <f a d>-. r <f bf d>-. <f bf d>-. r <e a cs>-. <e a cs>-. R4.*28
+  r <f a d>-. <f a d>-. r <f bf d>-. <f bf d>-. r <e a cs>-. <e a cs>-.
+  R4.*37 R4.\fermataMarkup
+  <ds ds'>8\ff <gs gs'> <b b'> <e, e'>4.\fermata\sfz R4.
+  \bar "||"
 }
 
 MerryGoRoundPianoLH = \relative c' {
@@ -142,7 +184,10 @@ MerryGoRoundPianoLH = \relative c' {
   d-- r r c-- r r d-- r r g,-- r r
   g-- r r c-- r r f,-- r r bf-- r r
   f-- r r e'-- r r a,-- r r d-- r r
-  c-- r r bf-- r r a-- r r <d, d'>-- r r R4.*27
+  c-- r r bf-- r r a-- r r <d, d'>-- r r
+  R4.*36 R4.\fermataMarkup
+  <ds ds'>8\ff <gs gs'> <b b'> \repeat tremolo 6 { e,32_\fermata e' } R4.
+  \bar "||"
 }
 
 MerryGoRoundViolinOne = \relative c''' {
@@ -162,6 +207,10 @@ MerryGoRoundViolinOne = \relative c''' {
   r8 a'16[( gs-.]) a-. bf-. a( bf-.) g-.[ a-.] f-. g-. e-. f-. g-.[ f-.] e-. d-. cs-.\< a-. b-.[ cs-.] e-. g(
   fs4\mf) fs8 fs( g a) bf4.~bf
   e,4 e8 e( f g) a4.~a
+  r8 b,,4\mp r8 d4 r8 a4 r8 cs4 r8 bf4 r8 bf4
+  r8 c''\mf( bf) r bf\dim( a) r g( fs) r ef\p( d\fermata)
+  ds8\ff gs b R4.\fermataMarkup e,8\f( a c)
+  \bar "||"
 }
 
 MerryGoRoundViolinTwo = \relative c'' {
@@ -183,6 +232,10 @@ MerryGoRoundViolinTwo = \relative c'' {
   r <a d>-. <a d>-. r <a d>-. <a d>-. r <a cs>-. <a cs>-. r <a cs>-. <a cs>-.
   r <a d>-.\mf <a d>-. r <a d>-. <a d>-. r <bf d>-. <bf d>-. r <bf d>-. <bf d>-.
   r <c e>-. <c e>-. r <c e>-. <c e>-. r <c e>-. <c e>-. r <c e>-. <c e>-.
+  r a4\mp r8 b4 r8 g4 r8 a4 r8 g4 r8 g4
+  r8 ef''\mf( d) r d\dim( c) r bf( a) r a\p( fs\fermata)
+  ds8\ff gs b R4.\fermataMarkup e,8\f( a c)
+  \bar "||"
 }
 
 MerryGoRoundViola = \relative c'' {
@@ -204,6 +257,10 @@ MerryGoRoundViola = \relative c'' {
   r f-. f-. r f-. f-. r e-. e-. r e-. e-.
   r fs-.\mf fs-. r fs-. fs-. r g-. g-. r g-. g-.
   r g-. g-. r g-. g-. r a-. a-. r a-. a-.
+  r fs4\mp r8 gs4 r8 e4 r8 g4 r8 ef4 r8 ef4
+  r8 fs'\mf( g) r g\dim( fs) r ef( d) r c\p( d\fermata)
+  ds8\ff gs b <e,, e'>4.:32\fermata\sfz e'8\f( a c)
+  \bar "||"
 }
 
 MerryGoRoundCello = \relative c' {
@@ -225,6 +282,10 @@ MerryGoRoundCello = \relative c' {
   d-- r r d-- r r a-- r r a-- r r
   d--\mf r r d-- r r g-- r r g-- r r
   c,-- r r c-- r r f-- r r f-- r r
+  b,4.\mp e a, a c c
+  d\mf d\dim d d\p\fermata
+  ds8\ff gs b <e,, e'>4.:32\fermata\sfz e'8\f( a c)
+  \bar "||"
 }
 
 MerryGoRoundDoubleBass = \relative c {
@@ -246,4 +307,8 @@ MerryGoRoundDoubleBass = \relative c {
   d-- r r d-- r r a-- r r a-- r r
   d--\mf r r d-- r r g-- r r g-- r r
   c,-- r r c-- r r f-- r r f-- r r
+  b,4.\mp e a, a c c
+  d\mf d\dim d d\p\fermata
+  ds8\ff gs b e,,4.:32\fermata\sfz R4.
+  \bar "||"
 }
