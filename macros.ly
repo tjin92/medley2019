@@ -2,6 +2,7 @@
 
 arco = \markup{\italic arco}
 pizz = \markup{\italic pizz.}
+solo = \markup{\italic solo}
 
 trip =
 #(define-music-function
