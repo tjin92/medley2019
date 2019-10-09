@@ -168,8 +168,16 @@ GodfatherViolinOne = \relative c''' {
   \bar "||"
   \key c \minor 
   <c' ef>2:32\pp <d f>: <ef g>1: <c ef>: <c f>2: r b, r
-  c r8 c'\p^\solo( ef bf') af( g bf af) af( g) g--\> b-- c2\pp r
-  \bar "||"
+  c r8 c'\p^\solo( ef bf') af( g bf af) af( g) g--\> b--
+  c2\pp r8\fermata g,,,^\markup{\italic {sul G}} c ef
+  d c ef c d c af bf \tuplet 6/4 { g16 c ef g c ef } \tuplet 6/4 { g c ef
+    \ottava #1
+  g c ef } g8\fermata \breathe g,[ c ef] d c ef c d c g fs f
+  \ottava #0
+  \trip{ af16[ f d] } \tuplet 6/4 { c af f d c af } f8\fermata f af b
+  <af, f' d'>2 r8 f' af b <g, ef' c'>2 r8 c ef bf'
+  << { af g bf af af g d ef } \\ { g,4 d' b g } >>
+  c2
 }
 
 GodfatherViolinTwo = \relative c'' {
@@ -209,7 +217,7 @@ GodfatherCello = \relative c' {
   f1\f g2\mf r f1\mp e2 g8\sfz\fermata r r4
   \bar "||"
   \key c \minor
-  <c g'>2:32\pp <c f>: <c g'>1: <c g'> <c f>2: r
+  <c g'>2:32\pp <c f>: <c g'>1: <c g'>: <c f>2: r
   af r c r R1*2
   \bar "||"
 }
