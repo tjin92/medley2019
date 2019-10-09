@@ -1,12 +1,12 @@
 \version "2.18.2"
 \include "header.ly"
-\include "Por una cabeza(Notes).ly"
+\include "City of Stars(Notes).ly"
 
 #(set! paper-alist (cons '("my size" . (cons (* 11 in) (* 14 in))) paper-alist))
 #(set-default-paper-size "my size")
 
 \header {
-  subtitle = "Por Una Cabeza(Full Orchestra)"
+  subtitle = "Full Orchestra"
 }
 
 \score {
@@ -22,35 +22,35 @@
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-         \PorUnaCabezaFlute
+         \CityOfStarsFlute
       }
       \new Staff \with { instrumentName = #"Oboe" shortInstrumentName = #"Ob" } {
         \clef treble
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaOboe
+        \CityOfStarsOboe
       }
       \new Staff \with { instrumentName = #"Clarinet" shortInstrumentName = #"Cl" } {
         \clef treble
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaClarinet
+        \CityOfStarsClarinet
       }
       \new Staff \with { instrumentName = #"Alto sax" shortInstrumentName = #"Sax" } {
         \clef alto
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaAltoSax
+        \CityOfStarsAltoSax
       }
       \new Staff \with { instrumentName = #"Bass clarinet" shortInstrumentName = #"Bcl" } {
         \clef bass
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaBassClarinet
+        \CityOfStarsBassClarinet
       }
     >>
     \new StaffGroup <<
@@ -59,21 +59,21 @@
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-         \PorUnaCabezaHorn
+         \CityOfStarsHorn
       }
       \new Staff \with { instrumentName = #"Trumpets" shortInstrumentName = #"Tpt" } {
         \clef treble
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaTrumpet
+        \CityOfStarsTrumpet
       }
       \new Staff \with { instrumentName = #"Trombone" shortInstrumentName = #"Tbn" } {
         \clef bass
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaTrombone
+        \CityOfStarsTrombone
       }
     >>
     \new StaffGroup <<
@@ -83,11 +83,11 @@
         \accidentalStyle modern-cautionary
         \compressFullBarRests
         <<
-          \PorUnaCabezaSoprano
-          \new NullVoice = "alignerSA" \PorUnaCabezaSoprano
+          \partcombine \CityOfStarsSopranoOne \CityOfStarsSopranoTwo
+          \new NullVoice = "alignerSA" \CityOfStarsSopranoOne
         >>
       }
-      \new Lyrics \lyricsto "alignerSA" \PorUnaCabezaSopranoLyricsOne
+      \new Lyrics \lyricsto "alignerSA" \CityOfStarsSopranoOneLyricsOne
 
       \new Staff \with { instrumentName = \markup{ \center-column{ { "Alto" } } } shortInstrumentName = #"A" } {
         \clef treble
@@ -95,11 +95,11 @@
         \accidentalStyle modern-cautionary
         \compressFullBarRests
         <<
-          \PorUnaCabezaAlto
-          \new NullVoice = "alignerSA" \PorUnaCabezaAlto
+          \CityOfStarsAlto
+          \new NullVoice = "alignerSA" \CityOfStarsAlto
         >>
       }
-      \new Lyrics \lyricsto "alignerSA" \PorUnaCabezaAltoLyricsOne
+      \new Lyrics \lyricsto "alignerSA" \CityOfStarsAltoLyricsOne
       
       \new Staff \with { instrumentName = \markup{ \center-column{  { "Tenor" } } } shortInstrumentName = #"T" } {
         \clef bass
@@ -107,11 +107,11 @@
         \accidentalStyle modern-cautionary
         \compressFullBarRests
         <<
-          \new Voice \PorUnaCabezaTenor
-          \new NullVoice = "alignerTB" \PorUnaCabezaTenor
+          \new Voice \CityOfStarsTenor
+          \new NullVoice = "alignerTB" \CityOfStarsTenor
         >>
       }
-      \new Lyrics \lyricsto "alignerTB" \PorUnaCabezaTenorLyricsOne
+      \new Lyrics \lyricsto "alignerTB" \CityOfStarsTenorLyricsOne
 
      \new Staff \with { instrumentName = \markup{ \center-column{  { "Bass" } } } shortInstrumentName = #"B" } {
         \clef bass
@@ -119,11 +119,11 @@
         \accidentalStyle modern-cautionary
         \compressFullBarRests
         <<
-          \new Voice  \PorUnaCabezaBass
-          \new NullVoice = "alignerTB" \PorUnaCabezaBass
+          \new Voice  \CityOfStarsBass
+          \new NullVoice = "alignerTB" \CityOfStarsBass
         >>
       }
-      \new Lyrics \lyricsto "alignerTB" \PorUnaCabezaBassLyricsOne
+      \new Lyrics \lyricsto "alignerTB" \CityOfStarsBassLyricsOne
     >>
     
     
@@ -133,14 +133,14 @@
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaPianoRH
+        \CityOfStarsPianoRH
       }
       \new Staff {
         \clef bass
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaPianoLH
+        \CityOfStarsPianoLH
       }
     >>
     \new StaffGroup <<
@@ -149,35 +149,35 @@
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaViolinOne
+        \CityOfStarsViolinOne
       }
       \new Staff \with { instrumentName = #"Violin 2" shortInstrumentName = #"Vn2" } {
         \clef treble
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaViolinTwo
+        \CityOfStarsViolinTwo
       }
       \new Staff \with { instrumentName = #"Viola" shortInstrumentName = #"Va" } {
         \clef alto
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaViola
+        \CityOfStarsViola
       }
       \new Staff \with { instrumentName = #"Cello" shortInstrumentName = #"Vc" } {
         \clef bass
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaCello
+        \CityOfStarsCello
       }
       \new Staff \with { instrumentName = #"Double bass" shortInstrumentName = #"Db" } {
         \clef "bass_8"
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaDoubleBass
+        \CityOfStarsDoubleBass
       }
     >>
     
@@ -186,7 +186,7 @@
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \PorUnaCabezaTriangle
+        \CityOfStarsTriangle
       }
 
     >>
