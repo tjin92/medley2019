@@ -18,9 +18,6 @@
     \compressFullBarRests
     \accidentalStyle modern-cautionary
     <<
-      \set Staff.explicitKeySignatureVisibility = #all-invisible
-      \set Staff.printKeyCancellation = ##f
-      \override Staff.KeySignature.break-visibility = #all-invisible
       \transpose f c' \removeWithTag #'single {
         \RememberMeHornTwo
         \MerryGoRoundHornTwo
