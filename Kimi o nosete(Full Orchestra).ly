@@ -74,55 +74,43 @@
       }
     >>
     \new StaffGroup <<
-      \new Staff \with { instrumentName = \markup{ \center-column{  { "Soprano" } } } shortInstrumentName = #"S" } {
-        \clef treble
-        \numericTimeSignature
-        \accidentalStyle modern-cautionary
-        \compressFullBarRests
-        <<
-          \new Voice  \KimiONoseteSoprano 
-          \new NullVoice = "alignerSA" \KimiONoseteSoprano
-        >>
-      }   
-      \new Lyrics \lyricsto "alignerSA" \KimiONoseteSopranoLyricsOne
-      
-      \new Staff \with { instrumentName = \markup{ \center-column{ { "Alto" } } } shortInstrumentName = #"A" } {
-        \clef treble
-        \numericTimeSignature
-        \accidentalStyle modern-cautionary
-        \compressFullBarRests
-        <<
-          \new Voice  \KimiONoseteAlto
-          \new NullVoice = "alignerSA" \KimiONoseteAlto
-        >>
-      }
-      \new Lyrics \lyricsto "alignerSA" \KimiONoseteAltoLyricsOne
-      
-      \new Staff \with { instrumentName = \markup{ \center-column{  { "Tenor" } } } shortInstrumentName = #"T" } {
-        \clef bass
-        \numericTimeSignature
-        \accidentalStyle modern-cautionary
-        \compressFullBarRests
-        <<
-          \new Voice \KimiONoseteTenor
-          \new NullVoice = "alignerTB" \KimiONoseteTenor
-        >>
-      }
-      \new Lyrics \lyricsto "alignerTB" \KimiONoseteTenorLyricsOne
-
-      \new Staff \with { instrumentName = \markup{ \center-column{  { "Bass" } } } shortInstrumentName = #"B" } {
-        \clef bass
-        \numericTimeSignature
-        \accidentalStyle modern-cautionary
-        \compressFullBarRests
-        <<
-          \new Voice  \KimiONoseteBass
-          \new NullVoice = "alignerTB" \KimiONoseteBass
-        >>
-      }
-      \new Lyrics \lyricsto "alignerTB" \KimiONoseteBassLyricsOne
-    >>
-
+    \new Staff \with { instrumentName = #"Soprano" shortInstrumentName = #"S" } {
+      \clef treble
+      \numericTimeSignature
+      \accidentalStyle modern-cautionary
+      \compressFullBarRests
+      \new Voice = "soprano" \KimiONoseteSoprano
+    }
+    \new Lyrics \lyricsto "soprano" \KimiONoseteSopranoLyricsOne
+    
+    \new Staff \with { instrumentName = #"Alto" shortInstrumentName = #"A" } {
+      \clef treble
+      \numericTimeSignature
+      \accidentalStyle modern-cautionary
+      \compressFullBarRests
+      \new Voice = "alto" \KimiONoseteAlto
+    }
+    \new Lyrics \lyricsto "alto" \KimiONoseteAltoLyricsOne
+   
+   \new Staff \with { instrumentName = #"Tenor" shortInstrumentName = #"T" } {
+      \clef "treble_8"
+      \numericTimeSignature
+      \accidentalStyle modern-cautionary
+      \compressFullBarRests
+      \new Voice = "tenor" \KimiONoseteTenor
+    }
+    \new Lyrics \lyricsto "tenor" \KimiONoseteTenorLyricsOne
+  
+  \new Staff \with { instrumentName = #"Bass" shortInstrumentName = #"B" } {
+      \clef bass
+      \numericTimeSignature
+      \accidentalStyle modern-cautionary
+      \compressFullBarRests
+      \new Voice = "bass" \KimiONoseteBass
+    }
+    \new Lyrics \lyricsto "bass" \KimiONoseteBassLyricsOne
+                                                
+  >>
     \new StaffGroup <<
       \new Staff \with { instrumentName = #"Violin 1" shortInstrumentName = #"Vn1" } {
         \clef treble

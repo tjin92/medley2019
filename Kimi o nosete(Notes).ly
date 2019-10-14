@@ -9,22 +9,17 @@
   title = "Kimi o nosete"
 }
 
-\layout {
-    \context { \Score
-        skipBars = ##t
-        autoBeaming = ##f
-        }
-    }
+
 
 KimiONoseteAlto =  {
   \clef "treble" \key g \minor \numericTimeSignature\time 4/4 | % 1
-  \tempo 4=100 \tempo 4=100 r2. g'8 \mp [ a'8 ] | % 2
+  \tempo 4=100 \tempo 4=100 r2. g'8 \mp  a'8  | % 2
   bes'4. a'8 bes'4 d''4 | % 3
   a'2. d'4 | % 4
   g'4. f'8 g'4 bes'4 | % 5
-  f'2. d'8 [ d'8 ] \break | % 6
+  f'2. d'8  d'8  \break | % 6
   es'4. d'8 es'8 bes'4. | % 7
-  d'2 r8 bes'8 [ bes'8 bes'8 ] | % 8
+  d'2 r8 bes'8  bes'8 bes'8  | % 8
   a'4. e'8 e'4 a'4 | % 9
   a'2. r4 | \barNumberCheck #10
   g'1 \p | % 11
@@ -33,13 +28,13 @@ KimiONoseteAlto =  {
   d'4 \< bes'4 c''4 d''4 \! | % 14
   c''1 \mf | % 15
   a'2 \mp bes'2 | % 16
-  bes'8 [ a'8 g'8 g'8 ] a'4 fis'4 | % 17
-  g'2 r4 g'8 [ a'8 ] | % 18
+  bes'8  a'8 g'8 g'8  a'4 fis'4 | % 17
+  g'2 r4 g'8  a'8  | % 18
   bes'4. a'8 bes'4 d''4 \break | % 19
-  a'4 bes'4 a'4 d'8 [ d'8 ] | \barNumberCheck #20
+  a'4 bes'4 a'4 d'8  d'8  | \barNumberCheck #20
   g'4. f'8 g'4 bes'4 | % 21
   d''1 | % 22
-  g'8 [ a'8 ] bes'4 a'8 [ bes'8 c''8 c''8 ] | % 23
+  g'8  a'8  bes'4 a'8  bes'8 c''8 c''8  | % 23
   bes'2 f'2 | % 24
   es''4 \< d''4 c''4 bes'4 \! \break | % 25
   a'1 \f ~ | % 26
@@ -51,25 +46,25 @@ KimiONoseteAlto =  {
   g'2 d'2 \break | % 32
   f'2 d'2 | % 33
   es'4 \> d'8 es'4. c'4 | % 34
-  d'2. \! g'8 \mf [ a'8 ] | % 35
+  d'2. \! g'8 \mf  a'8  | % 35
   bes'4. a'8 bes'4 d''4 | % 36
-  a'2. d'8 [ d'8 ] | % 37
+  a'2. d'8  d'8  | % 37
   g'4. f'8 g'4 bes'4 \break | % 38
-  f'2. d'8 [ d'8 ] | % 39
+  f'2. d'8  d'8  | % 39
   es'4. d'8 es'8 bes'4. | \barNumberCheck #40
-  d'2 r8 g'8 [ g'8 g'8 ] | % 41
+  d'2 r8 g'8  g'8 g'8  | % 41
   e'4. cis'8 cis'4 f'4 | % 42
-  a'2. g'8 [ a'8 ] | % 43
+  a'2. g'8  a'8  | % 43
   bes'4. a'8 bes'4 d''4 \break | % 44
   a'2. d'4 | % 45
   g'4. f'8 g'4 bes'4 | % 46
   f'2. d'4 | % 47
   es'4 bes'8 a'4. bes'4 | % 48
   c''4 d''8 bes'2 r8 | % 49
-  bes'8 [ a'8 g'8 g'8 ] a'4 fis'4 \pageBreak | \barNumberCheck #50
-  g'2. g'8 \f [ a'8 ] | % 51
+  bes'8  a'8 g'8 g'8  a'4 fis'4  | \barNumberCheck #50
+  g'2. g'8 \f  a'8  | % 51
   bes'4. a'8 bes'4 d''4 | % 52
-  a'2 ~ a'8 [ d'8 \< es'8 f'8 ] | % 53
+  a'2 ~ a'8  d'8 \< es'8 f'8  | % 53
   g'1 \ff | % 54
   a'2 \! _> _- \times 2/3 {
     es''4 ^- d''4 ^- c''4 ^-
@@ -80,15 +75,16 @@ KimiONoseteAlto =  {
 }
 
 KimiONoseteAltoLyricsOne =  \lyricmode {
-  A -- Chi -- he -- i -- sen --
-  \skip4 Ka ga ya ku no wa Do Ka Ni Ki mi Wo Ka te i ru Ka ra Ooh
-  \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 ki ru
-  ka ra "Sa " __ De ka ke yo u \skip4 \skip4 hi ki re no pa n Na fu ra
+  A -- no  Chi -- he -- i -- sen --
+  \skip4 Ka ga ya ku no wa Do ko Ka Ni Ki mi Wo Ka ku shi te i ru Ka ra Ooh
+  \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 ki mi ga i ru
+  ka ra "Sa " _ De ka ke yo u \skip4 \skip4 hi to ki re no pa n Na i fu ra n pu ka 
   ban ni Tsu me ko n de Ah \skip4 \skip4 \skip4 tsui o mo i \skip4 Ka
-  san ga Ah \skip4 no ma na za \skip4 Chi u wa ma wa ru ki o ka ku shi
-  te Ka ya ku hi to mi Ki ku to mo shi bi Chi u wa ma wa ru Ki mi o no
-  se te I tsu ka kit to de a u Bo no se te Chi u wa ma wa ru Oh Ki mi
-  o no se te
+  san ga Ah \skip4 no ma na za shi Chi kyu u wa ma wa ru ki mi o ka ku shi
+  te Ka ta ya ku hi to mi Ki ra me ku to mo "shi " bi  Chi kyu u wa ma wa ru 
+  Ki mi o no
+  se te I tsu ka kit to de a u Bo ka a o no se te Chi kyu u wa ma wa ru Ki mi o Oh
+  Ki mi o no se te
 }
 
 
@@ -106,11 +102,11 @@ KimiONoseteBass =  {
   d4 \< es4 fis4 a4 | % 26
   d2. \! d4 \f | % 27
   d2 f4. f8 | % 28
-  d8 [ c8 ] bes,2 r8 bes,8 | % 29
+  d8  c8  bes,2 r8 bes,8 | % 29
   c4 bes,8 c4. f4 | \barNumberCheck #30
   d2. d4 \break | % 31
   g2 f2 | % 32
-  d8 [ c8 ] bes,2 r8 bes,8 | % 33
+  d8  c8  bes,2 r8 bes,8 | % 33
   c4 \> bes,8 c4. a,4 | % 34
   g,2. \! r4 | % 35
   g,1 \mf | % 36
@@ -128,9 +124,9 @@ KimiONoseteBass =  {
   g1 | % 48
   a4. d2 r8 | % 49
   es2. d4 | \barNumberCheck #50
-  g,2. g,8 \f [ a,8 ] | % 51
+  g,2. g,8 \f  a,8  | % 51
   bes,4. a,8 bes,4 d4 | % 52
-  a,2 ~ a,8 [ d8 \< es8 f8 \! ] \break | % 53
+  a,2 ~ a,8  d8 \< es8 f8 \!  \break | % 53
   g1 \ff | % 54
   f2 ^> ^- \times 2/3 {
     c4 _- d4 ^- es4 ^-
@@ -143,11 +139,11 @@ KimiONoseteBass =  {
 KimiONoseteBassLyricsOne =  \lyricmode {
   Ooh \skip4 \skip4 \skip4
   \skip4 \skip4 \skip4 Ah \skip4 \skip4 \skip4 \skip4 \skip4 Tsu me ko
-  n de Ka san ga no ko ta A tsui o mo i \skip4 Ka san ga ku ta A no ma
+  n de Sa n ga no ko shi ta A tsui o mo i \skip4 Ka san ga ku re ta A no ma
   na za shi Ooh \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4
   \skip4 \skip4 Ooh \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4
-  \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 Chi u wa ma wa ru
-  Oh Ki mi o no se te
+  \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 Chi kyu u wa ma wa ru
+  Ki mi o Oh Ki mi o no se te
 }
 
 
@@ -155,22 +151,22 @@ KimiONoseteTenor =  {
   \clef "treble_8" \key g \minor \numericTimeSignature\time 4/4 | % 1
   \tempo 4=100 \tempo 4=100 R1*8 \break | % 9
   R1*8 \break | % 17
-  r2 r4 \mf g8 [ a8 ] | % 18
+  r2 r4 \mf g8  a8  | % 18
   bes4. c'8 bes4 g4 | % 19
-  a4 g4 f4 d8 [ d8 ] | \barNumberCheck #20
+  a4 g4 f4 d8  d8  | \barNumberCheck #20
   es4. d8 bes4 g4 | % 21
   a1 | % 22
-  bes8 [ c'8 ] d'4 c'8 [ bes8 a8 g8 ] \break | % 23
+  bes8  c'8  d'4 c'8  bes8 a8 g8  \break | % 23
   f2 bes2 | % 24
   c4 \< d4 es4 g4 \! | % 25
   fis4 \< g4 a4 c'4 | % 26
   d'2. \! bes4 \f | % 27
   d'2 f'4. f'8 | % 28
-  d'8 [ c'8 ] bes2 r8 bes8 \break | % 29
+  d'8  c'8  bes2 r8 bes8 \break | % 29
   c'4 bes8 c'4. f'4 | \barNumberCheck #30
   d'2. d'4 | % 31
   g'2 f'2 | % 32
-  d'8 [ c'8 ] bes2 r8 bes8 | % 33
+  d'8  c'8  bes2 r8 bes8 | % 33
   c'4 \> bes8 c'4. a4 | % 34
   bes2. \! r4 | % 35
   g1 \mf \break | % 36
@@ -178,35 +174,35 @@ KimiONoseteTenor =  {
   es1 | % 38
   d1 | % 39
   es1 | \barNumberCheck #40
-  f8*5 bes8 bes8 [ bes8 ] | % 41
+  f8*5 bes8 bes8  bes8  | % 41
   a4. e8 e4 a4 | % 42
-  a2. g8 [ a8 ] \break | % 43
+  a2. g8  a8  \break | % 43
   bes4. a8 bes4 d4 | % 44
   f2. d4 | % 45
   g4. f8 g4 bes4 | % 46
   f2. d4 | % 47
   es4 bes8 a4. bes4 | % 48
   c'4 d'8 bes2 r8 \break | % 49
-  bes8 [ a8 g8 g8 ] a4 c'4 | \barNumberCheck #50
-  bes2. g8 \f [ a8 ] | % 51
+  bes8  a8 g8 g8  a4 c'4 | \barNumberCheck #50
+  bes2. g8 \f  a8  | % 51
   bes4. c'8 d'4 f'4 | % 52
-  d'8 \< [ es'8 f'8 g'8 ~ ] g'2 | % 53
+  d'8 \<  es'8 f'8 g'8 ~  g'2 | % 53
   d'1 \! \ff | % 54
   d'2 ^> ^- \times 2/3 {
     c'4 ^- bes4 ^- a4 _-
   }
-  \pageBreak | % 55
+   | % 55
   fis1 | % 56
   g1 \bar "|."
 }
 
 KimiONoseteTenorLyricsOne =  \lyricmode {
-  "Sa " __ De ka ke yo u \skip4
-  \skip4 hi ki re no pa n Na fu ra ban ni Tsu me ko n Tsu me ko n de
-  Ka san ga no ko ta A tsui o mo "i " __ __ Ka san ga ku ta A no ma na
-  za shi Ooh \skip4 \skip4 \skip4 \skip4 \skip4 Ki ra ku to mo shi bi
-  Chi u wa ma wa ru Ki mi o no se te I tsu ka kit to de a u Bo no se
-  te Chi u wa ma wa ru Oh Ki mi o no se te
+  "Sa " _ De ka ke yo u \skip4
+  \skip4 hi to ki re no pa n Na i fu ra  n pu ka ban ni Tsu me ko n Tsu me ko n de
+  Sa n ga no ko shi ta A tsui o mo "i " _ Ka san ga ku re ta A no ma na
+  za shi Ooh \skip4 \skip4 \skip4 \skip4 \skip4 Ki ra me ku to mo "shi " bi  Chi kyu u wa ma wa ru
+  Ki mi o no se te I tsu ka kit to de a u Bo ka ra o no se
+  te Chi kyu u wa ma wa ru Oh _ _ _  Ki mi o no se te
 }
 
 KimiONoseteSoprano =  {
@@ -219,40 +215,40 @@ KimiONoseteSoprano =  {
   c''1 | % 7
   d''1 \break | % 8
   a'4 \< d''4 e''4 f''4 \! | % 9
-  e''2. \mp \> g'8 \! \mf [ a'8 ] | \barNumberCheck #10
+  e''2. \mp \> g'8 \! \mf  a'8  | \barNumberCheck #10
   bes'4. a'8 bes'4 d''4 | % 11
-  a'2. d'8 [ d'8 ] | % 12
+  a'2. d'8  d'8  | % 12
   g'4. f'8 g'4 bes'4 | % 13
   f'2. d'4 \break | % 14
   es'4 bes'8 a'4. bes'4 | % 15
   c''8 c''4 d''8 bes'4. r8 | % 16
-  d''8 [ c''8 bes'8 bes'8 ] c''4 a'4 | % 17
-  g'2 r4 \mf bes'8 [ c''8 ] | % 18
+  d''8  c''8 bes'8 bes'8  c''4 a'4 | % 17
+  g'2 r4 \mf bes'8  c''8  | % 18
   d''4. c''8 d''4 f''4 | % 19
-  c''2. f'8 [ f'8 ] \break | \barNumberCheck #20
+  c''2. f'8  f'8  \break | \barNumberCheck #20
   bes'4. a'8 bes'4 d''4 | % 21
   d''1 | % 22
-  g'8 [ a'8 ] bes'4 a'8 [ bes'8 c''8 c''8 ] | % 23
+  g'8  a'8  bes'4 a'8  bes'8 c''8 c''8  | % 23
   bes'2 f'2 | % 24
   es''4 \< d''4 c''4 bes'4 \! | % 25
   d''1 \f ~ | % 26
   d''2. r4 \break | % 27
   d''2 \mf f''2 | % 28
-  d''4 f''4 d''8 [ c''8 bes'8 bes'8 ] | % 29
+  d''4 f''4 d''8  c''8 bes'8 bes'8  | % 29
   c''4 bes'8 c''4. f''4 | \barNumberCheck #30
   d''2. d''4 \f | % 31
   d''2 f''2 | % 32
-  d''4 f''4 d''8 [ c''8 ] bes'4 \break | % 33
+  d''4 f''4 d''8  c''8  bes'4 \break | % 33
   c''4 \> bes'8 c''4. a'4 | % 34
-  g'2. \! g'8 \mf [ a'8 ] | % 35
+  g'2. \! g'8 \mf  a'8  | % 35
   bes'4. a'8 bes'4 d''4 | % 36
-  a'2. d'8 [ d'8 ] | % 37
+  a'2. d'8  d'8  | % 37
   g'4. f'8 g'4 bes'4 | % 38
-  f'2. d'8 [ d'8 ] \break | % 39
+  f'2. d'8  d'8  \break | % 39
   es'4. d'8 es'8 bes'4. | \barNumberCheck #40
-  d'2 r8 bes'8 [ bes'8 bes'8 ] | % 41
+  d'2 r8 bes'8  bes'8 bes'8  | % 41
   a'4. e'8 e'4 a'4 | % 42
-  a'2. g'8 [ a'8 ] | % 43
+  a'2. g'8  a'8  | % 43
   bes'4. a'8 bes'4 d''4 | % 44
   c''4 d''4 f''4 g''4 \break | % 45
   d''2. bes'4 | % 46
@@ -260,8 +256,8 @@ KimiONoseteSoprano =  {
   g''1 | % 48
   a''4. f''2 r8  | % 49
   d''2. fis''4 | \barNumberCheck #50
-  g''2. g'8 \f [ a'8 ] | % 51
-  bes'4. a'8 bes'4 d''4 \pageBreak | % 52
+  g''2. g'8 \f  a'8  | % 51
+  bes'4. a'8 bes'4 d''4  | % 52
   c''4 \< d''4 f''4 g''4 ~ | % 53
   g''1 \! \ff | % 54
   f''2 ^> ^- \times 2/3 {
@@ -274,14 +270,14 @@ KimiONoseteSoprano =  {
 
 KimiONoseteSopranoLyricsOne =  \lyricmode {
   Ah \skip4 \skip4 \skip4 \skip4
-  \skip4 Ah \skip4 \skip4 \skip4 \skip4 Ta san \skip4 no hi ga Na ka
-  shi i no wa A no do re ka hi to tsu ni ki ru ka ra "Sa " __ De ka ke
-  yo u hi ki re no pa n Na fu ra ban ni Tsu me ko n de Ah \skip4
-  \skip4 \skip4 \skip4 tsui o mo i \skip4 Ka san ga Ah \skip4 ku ta no
-  ma na za \skip4 Chi u wa ma wa ru ki o ka ku shi te Ka ya ku hi to
-  mi Ki ku to mo "shi " __ \skip4 \skip4 u wa ma wa ru ooh \skip4
-  \skip4 \skip4 \skip4 \skip4 Ah \skip4 \skip4 \skip4 \skip4 \skip4
-  Chi u wa ma wa ru ooh \skip4 \skip4 Ki mi o no se te
+  \skip4 Ah \skip4 \skip4 \skip4 \skip4 Ta ku san \skip4 no hi ga Na tsui ka
+  shi i no wa A no do re ka hi to tsu ni ki mi ga i ru ka ra "Sa " _ De ka ke
+  yo u hi to ki re no pa n Na i fu ra u pu ka ban ni Tsu me ko n de Ah \skip4
+  \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 tsui o mo i \skip4 Ka san ga Ah \skip4 ku re ta no
+  ma na za shi Chi kyu u wa ma wa ru ki mi o ka ku shi te Ka ga ya ku hi to
+  mi Ki ra me ku to mo "shi " bi  Chi kyu u wa ma wa ru ooh \skip4
+  \skip4 \skip4 \skip4 \skip4 Ah \skip4 \skip4 \skip4 \skip4 \skip4 \skip4
+  Chi kyu u wa ma wa ru ooh \skip4 \skip4 Ki mi o no se te
 }
 
 
@@ -289,30 +285,30 @@ KimiONoseteViolinOne =  {
   \clef "treble" \key g \minor \numericTimeSignature\time 4/4 | % 1
   \tempo 4=100 \tempo 4=100 R1*8 \break | % 9
   R1*8 \break | % 17
-  r2 r4 bes''8 [ c'''8 ] | % 18
+  r2 r4 bes''8  c'''8  | % 18
   d'''4. c'''8 d'''4 f'''4 | % 19
-  c'''2. f''8 [ f''8 ] | \barNumberCheck #20
+  c'''2. f''8  f''8  | \barNumberCheck #20
   bes''4. a''8 bes''4 d'''4 | % 21
   d'''1 | % 22
-  g''8 [ a''8 ] bes''4 a''8 [ bes''8 c'''8 c'''8 ] \break | % 23
+  g''8  a''8  bes''4 a''8  bes''8 c'''8 c'''8  \break | % 23
   bes''2 f''2 | % 24
   es'''4 \< d'''4 c'''4 bes''4 \! | % 25
   d'''1 ~ | % 26
   d'''2. r4 | % 27
   d'''2 f'''2 | % 28
-  d'''4 f'''4 d'''8 [ c'''8 bes''8 bes''8 ] \break | % 29
+  d'''4 f'''4 d'''8  c'''8 bes''8 bes''8  \break | % 29
   c'''4 bes''8 c'''4. f'''4 | \barNumberCheck #30
   d'''2. d'''4 \f | % 31
   d'''2 f'''2 | % 32
-  d'''4 f'''4 d'''8 [ c'''8 ] bes''4 | % 33
+  d'''4 f'''4 d'''8  c'''8  bes''4 | % 33
   c'''4 \> bes''8 c'''4. a''4 | % 34
-  g''2. \! g''8 \mf [ a''8 ] \break | % 35
+  g''2. \! g''8 \mf  a''8  \break | % 35
   bes''4. a''8 bes''4 d'''4 | % 36
-  a''2. d''8 [ d''8 ] | % 37
+  a''2. d''8  d''8  | % 37
   g''4. f''8 g''4 bes''4 | % 38
-  f''2. d''8 [ d''8 ] | % 39
+  f''2. d''8  d''8  | % 39
   es''4. d''8 es''8 bes''4. | \barNumberCheck #40
-  d''2 r8 bes''8 [ bes''8 bes''8 ] \break | % 41
+  d''2 r8 bes''8  bes''8 bes''8  \break | % 41
   a''4. e''8 e''4 a''4 | % 42
   a''2. r4 | % 43
   \ottava #1 | % 43
@@ -323,7 +319,7 @@ KimiONoseteViolinOne =  {
   g'''1 \trill \startTrillSpan \stopTrillSpan \break | % 48
   a'''1 \trill \startTrillSpan | % 49
   d'''2. \stopTrillSpan fis'''4 | \barNumberCheck #50
-  g'''2. g''8 \f [ a''8 ] \ottava #0 | % 51
+  g'''2. g''8 \f  a''8  \ottava #0 | % 51
   \ottava #1 | % 51
   bes''4. a''8 bes''4 d'''4 | % 52
   c'''4 \< d'''4 f'''4 g'''4 ~ | % 53
@@ -331,7 +327,7 @@ KimiONoseteViolinOne =  {
   f'''2 ^> ^- \times 2/3 {
     es'''4 ^- d'''4 ^- c'''4 ^-
   }
-  \pageBreak | % 55
+   | % 55
   d'''1 | % 56
   \ottava #0 | % 56
   g'''1 \bar "|."
@@ -341,12 +337,12 @@ KimiONoseteViolinTwo =  {
   \clef "treble" \key g \minor \numericTimeSignature\time 4/4 | % 1
   \tempo 4=100 \tempo 4=100 R1*8 \break | % 9
   R1*8 \break | % 17
-  r2 r4 bes'8 [ c''8 ] | % 18
+  r2 r4 bes'8  c''8  | % 18
   d''4. c''8 d''4 f''4 | % 19
-  c''2. f'8 [ f'8 ] | \barNumberCheck #20
+  c''2. f'8  f'8  | \barNumberCheck #20
   bes'4. a'8 bes'4 d''4 | % 21
   d''1 | % 22
-  g'8 [ a'8 ] bes'4 a'8 [ bes'8 c''8 c''8 ] \break | % 23
+  g'8  a'8  bes'4 a'8  bes'8 c''8 c''8  \break | % 23
   bes'2 f'2 | % 24
   es''4 \< d''4 c''4 bes'4 \! | % 25
   d''1 ~ | % 26
@@ -358,30 +354,30 @@ KimiONoseteViolinTwo =  {
   g'2 d'2 | % 32
   f'2 d'2 | % 33
   es'4 d'8 es'4. c'4 | % 34
-  d'2. g'8 \mf [ a'8 ] | % 35
+  d'2. g'8 \mf  a'8  | % 35
   bes'4. a'8 bes'4 d''4 | % 36
-  a'2. d'8 [ d'8 ] \break | % 37
+  a'2. d'8  d'8  \break | % 37
   g'4. f'8 g'4 bes'4 | % 38
-  f'2. d'8 [ d'8 ] | % 39
+  f'2. d'8  d'8  | % 39
   es'4. d'8 es'8 bes'4. | \barNumberCheck #40
-  d'2 r8 g'8 [ g'8 g'8 ] | % 41
+  d'2 r8 g'8  g'8 g'8  | % 41
   e'4. cis'8 cis'4 f'4 | % 42
-  a'2. g'8 [ a'8 ] \break | % 43
+  a'2. g'8  a'8  \break | % 43
   bes'4. a'8 bes'4 d''4 | % 44
   a'2. d'4 | % 45
   g'4. f'8 g'4 bes'4 | % 46
   f'2. d'4 | % 47
   es'4 bes'8 a'4. bes'4 | % 48
   c''4 d''8 bes'2 r8 \break | % 49
-  bes'8 [ a'8 g'8 g'8 ] a'4 fis'4 | \barNumberCheck #50
-  g'2. g'8 \f [ a'8 ] | % 51
+  bes'8  a'8 g'8 g'8  a'4 fis'4 | \barNumberCheck #50
+  g'2. g'8 \f  a'8  | % 51
   bes'4. a'8 bes'4 d''4 | % 52
-  a'2 ~ a'8 [ d'8 \< es'8 f'8 ] | % 53
+  a'2 ~ a'8  d'8 \< es'8 f'8  | % 53
   g'1 \ff | % 54
   a'2 \! _> _- \times 2/3 {
     es''4 ^- d''4 ^- c''4 ^-
   }
-  \pageBreak | % 55
+   | % 55
   d''1 | % 56
   bes'1 \bar "|."
 }
@@ -392,12 +388,12 @@ KimiONoseteAltoSax =  {
   \numericTimeSignature\time 4/4 | % 1
   \tempo 4=100 \tempo 4=100 R1*8 \break | % 9
   R1*8 \break | % 17
-  r2 r4 e''8 [ fis''8 ] | % 18
+  r2 r4 e''8  fis''8  | % 18
   g''4. fis''8 g''4 b''4 | % 19
-  fis''4 g''4 fis''4 b'8 [ b'8 ] | \barNumberCheck #20
+  fis''4 g''4 fis''4 b'8  b'8  | \barNumberCheck #20
   e''4. d''8 e''4 g''4 | % 21
   b''1 | % 22
-  e''8 [ fis''8 ] g''4 fis''8 [ g''8 a''8 a''8 ] \break | % 23
+  e''8  fis''8  g''4 fis''8  g''8 a''8 a''8  \break | % 23
   g''2 d''2 | % 24
   c'''4 \< b''4 a''4 g''4 \! | % 25
   fis''1 \f | % 26
@@ -410,17 +406,17 @@ KimiONoseteAltoSax =  {
   b'2. \! r4 | % 35
   R1*4 \break | % 39
   R1*3 | % 42
-  r2. e''8 [ fis''8 ] | % 43
+  r2. e''8  fis''8  | % 43
   g''4. fis''8 g''4 b''4 | % 44
   fis''2. b'4 | % 45
   e''4. d''8 e''4 g''4 \break | % 46
   d''2. b'4 | % 47
   c''4 g''8 fis''4. g''4 | % 48
   a''4 b''8 g''2 r8 | % 49
-  g''8 [ fis''8 e''8 e''8 ] fis''4 dis''4 | \barNumberCheck #50
-  e''2. e''8 \f [ fis''8 ] | % 51
+  g''8  fis''8 e''8 e''8  fis''4 dis''4 | \barNumberCheck #50
+  e''2. e''8 \f  fis''8  | % 51
   g''4. fis''8 g''4 b''4 \break | % 52
-  fis''2 ~ fis''8 [ b'8 \< c''8 d''8 ] | % 53
+  fis''2 ~ fis''8  b'8 \< c''8 d''8  | % 53
   e''1 \ff | % 54
   fis''2 \! ^> ^- \times 2/3 {
     c'''4 ^- b''4 ^- a''4 ^-
@@ -445,11 +441,11 @@ KimiONoseteBassClarinet =  {
   e'4 \< f'4 gis'4 b'4 | % 26
   e'2. \! e'4 \f | % 27
   a'2 g'4. g'8 | % 28
-  e'8 [ d'8 ] c'2 r8 c'8 | % 29
+  e'8  d'8  c'2 r8 c'8 | % 29
   d'4 c'8 d'4. g'4 | \barNumberCheck #30
   e'2. e'4 | % 31
   a'2 g'2 \break | % 32
-  e'8 [ d'8 ] c'2 r8 c'8 | % 33
+  e'8  d'8  c'2 r8 c'8 | % 33
   d'4 \> c'8 d'4. b4 | % 34
   a2. \! r4 | % 35
   R1*5 \break | \barNumberCheck #40
@@ -461,9 +457,9 @@ KimiONoseteBassClarinet =  {
   a'1 \break | % 48
   b'1 | % 49
   f'2. e'4 | \barNumberCheck #50
-  a2. a8 \f [ b8 ] | % 51
+  a2. a8 \f  b8  | % 51
   c'4. b8 c'4 e'4 | % 52
-  b2 ~ b8 [ e'8 \< f'8 g'8 \! ] | % 53
+  b2 ~ b8  e'8 \< f'8 g'8 \!  | % 53
   a'1 \ff | % 54
   g'2 _> _- \times 2/3 {
     d'4 _- e'4 _- f'4 _-
@@ -478,37 +474,37 @@ KimiONoseteClarinet =  {
   \numericTimeSignature\time 4/4 | % 1
   \tempo 4=100 \tempo 4=100 R1*8 \break | % 9
   R1*8 | % 17
-  r2 r4 a'8 [ b'8 ] \break | % 18
+  r2 r4 a'8  b'8  \break | % 18
   c''4. d''8 c''4 a'4 | % 19
-  b'4 a'4 g'4 e'8 [ e'8 ] | \barNumberCheck #20
+  b'4 a'4 g'4 e'8  e'8  | \barNumberCheck #20
   f'4. e'8 c''4 a'4 | % 21
   b'1 | % 22
-  c''8 [ d''8 ] e''4 d''8 [ c''8 b'8 a'8 ] | % 23
+  c''8  d''8  e''4 d''8  c''8 b'8 a'8  | % 23
   g'2 c''2 \break | % 24
   d'4 \< e'4 f'4 a'4 \! | % 25
   gis'4 \< a'4 b'4 d''4 | % 26
   e''2. \! c'4 \f | % 27
   a'2 g'4. g'8 | % 28
-  e'8 [ d'8 ] c'2 r8 c'8 | % 29
+  e'8  d'8  c'2 r8 c'8 | % 29
   d'4 c'8 d'4. g'4 \break | \barNumberCheck #30
   e'2. e'4 | % 31
   a'2 g'2 | % 32
-  e'8 [ d'8 ] c'2 r8 c'8 | % 33
+  e'8  d'8  c'2 r8 c'8 | % 33
   d'4 \> c'8 d'4. b4 | % 34
   c'2. \! r4 | % 35
   R1*2 \break | % 37
   R1*5 | % 42
-  r2. a'8 [ b'8 ] | % 43
+  r2. a'8  b'8  | % 43
   c''4. b'8 c''4 e'4 | % 44
   g'2. e'4 \break | % 45
   a'4. g'8 a'4 c''4 | % 46
   g'2. e'4 | % 47
   f'4 c''8 b'4. c''4 | % 48
   d''4 e''8 c''2 r8 | % 49
-  c''8 [ b'8 a'8 a'8 ] b'4 d''4 | \barNumberCheck #50
-  c''2. a'8 \f [ b'8 ] \break | % 51
+  c''8  b'8 a'8 a'8  b'4 d''4 | \barNumberCheck #50
+  c''2. a'8 \f  b'8  \break | % 51
   c'4. d'8 e'4 g'4 | % 52
-  e'8 \< [ f'8 g'8 a'8 ~ ] a'2 | % 53
+  e'8 \<  f'8 g'8 a'8 ~  a'2 | % 53
   e'1 \! \ff | % 54
   e'2 _> _- \times 2/3 {
     d'4 _- c'4 _- b4 _-
@@ -529,9 +525,9 @@ KimiONoseteTrombone =  {
   R1*8 \break | % 35
   R1*9 \break | % 44
   R1*6 | \barNumberCheck #50
-  bes2. g8 \f [ a8 ] | % 51
+  bes2. g8 \f  a8  | % 51
   bes,4. c8 d4 f4 \break | % 52
-  d8 \< [ es8 f8 g8 ~ ] g2 | % 53
+  d8 \<  es8 f8 g8 ~  g2 | % 53
   d1 \! \ff | % 54
   d2 ^> ^- \times 2/3 {
     c4 _- bes,4 _- a,4 _-
@@ -551,18 +547,18 @@ KimiONoseteTrumpetOne =  {
   e'4 \f f'4 gis'4 b'4 \break | % 26
   e''2. c'4 | % 27
   a'2 g'4. g'8 | % 28
-  e'8 [ d'8 ] c'2 r8 c'8 | % 29
+  e'8  d'8  c'2 r8 c'8 | % 29
   d'4 c'8 d'4. g'4 | \barNumberCheck #30
   e'2. e'4 | % 31
   a'2 g'2 | % 32
-  e'8 [ d'8 ] c'2 r8 c'8 \break | % 33
+  e'8  d'8  c'2 r8 c'8 \break | % 33
   d'4 \> c'8 d'4. b4 | % 34
   c'2. \! r4 | % 35
   R1*6 \break | % 41
   R1*9 \break | \barNumberCheck #50
-  a'2. a'8 \f [ b'8 ] | % 51
+  a'2. a'8 \f  b'8  | % 51
   c''4. b'8 c''4 e''4 | % 52
-  b'2 ~ b'8 [ e'8 \< f'8 g'8 ] | % 53
+  b'2 ~ b'8  e'8 \< f'8 g'8  | % 53
   a'1 \ff | % 54
   b'2 \! ^> ^- \times 2/3 {
     f''4 ^- e''4 ^- d''4 ^-
@@ -587,22 +583,22 @@ KimiONoseteCello =  {
   \clef "bass" \key g \minor \numericTimeSignature\time 4/4 | % 1
   \tempo 4=100 \tempo 4=100 R1*8 \break | % 9
   R1*8 \break | % 17
-  r2 r4 g8 [ a8 ] | % 18
+  r2 r4 g8  a8  | % 18
   bes4. c'8 bes4 g4 | % 19
-  a4 g4 f4 d8 [ d8 ] | \barNumberCheck #20
+  a4 g4 f4 d8  d8  | \barNumberCheck #20
   es4. d8 bes4 g4 | % 21
   a1 | % 22
-  bes8 [ c'8 ] d'4 c'8 [ bes8 a8 g8 ] \break | % 23
+  bes8  c'8  d'4 c'8  bes8 a8 g8  \break | % 23
   f2 bes2 | % 24
   c4 \< d4 es4 g4 \! | % 25
   fis4 \< g4 a4 c'4 | % 26
   d'2. \! d4 \f | % 27
   g2 f4. f8 | % 28
-  d8 [ c8 ] bes,2 r8 bes,8 \break | % 29
+  d8  c8  bes,2 r8 bes,8 \break | % 29
   c4 bes,8 c4. f4 | \barNumberCheck #30
   d2. d4 | % 31
   g2 f2 | % 32
-  d8 [ c8 ] bes,2 r8 bes,8 | % 33
+  d8  c8  bes,2 r8 bes,8 | % 33
   c4 \> bes,8 c4. a,4 | % 34
   g,2. \! r4 | % 35
   g1 \break | % 36
@@ -610,7 +606,7 @@ KimiONoseteCello =  {
   es1 | % 38
   d1 | % 39
   es1 | \barNumberCheck #40
-  f8*5 bes,8 bes,8 [ bes,8 ] | % 41
+  f8*5 bes,8 bes,8  bes,8  | % 41
   cis2 cis4 d4 | % 42
   e2. r4 | % 43
   d1 \break | % 44
@@ -620,9 +616,9 @@ KimiONoseteCello =  {
   g1 | % 48
   a1 | % 49
   es2. d4 | \barNumberCheck #50
-  g,2. g,8 \f [ a,8 ] \break | % 51
+  g,2. g,8 \f  a,8  \break | % 51
   bes,4. a,8 bes,4 d4 | % 52
-  a,2 ~ a,8 [ d8 \< es8 f8 \! ] | % 53
+  a,2 ~ a,8  d8 \< es8 f8 \!  | % 53
   g1 \ff | % 54
   f2 ^> ^- \times 2/3 {
     c4 _- d4 ^- es4 ^-
@@ -642,17 +638,17 @@ KimiONoseteHorn =  {
   a'1 \f \break | % 26
   cis''2. r4 | % 27
   a'2 c''2 | % 28
-  a'4 c''4 a'8 [ g'8 f'8 f'8 ] | % 29
+  a'4 c''4 a'8  g'8 f'8 f'8  | % 29
   g'4 f'8 g'4. c''4 | \barNumberCheck #30
   a'2. a'4 \f | % 31
   a'2 c''2 \break | % 32
-  a'4 c''4 a'8 [ g'8 ] f'4 | % 33
+  a'4 c''4 a'8  g'8  f'4 | % 33
   g'4 \> f'8 g'4. e'4 | % 34
   d'2. \! r4 | % 35
   R1*5 \break | \barNumberCheck #40
   R1*9 \break | % 49
   R1 | \barNumberCheck #50
-  d'2. d'8 \f [ e'8 ] | % 51
+  d'2. d'8 \f  e'8  | % 51
   f'4. e'8 f'4 a'4 | % 52
   g'4 \< a'4 c''4 d''4 ~ | % 53
   d''1 \! \ff | % 54
@@ -701,9 +697,9 @@ KimiONoseteDoubleBass =  {
   g1 | % 48
   a1 | % 49
   es2. d4 \break | \barNumberCheck #50
-  g,2. g,8 \f [ a,8 ] | % 51
+  g,2. g,8 \f  a,8  | % 51
   bes,4. a,8 bes,4 d4 | % 52
-  a,2 ~ a,8 [ d8 \< es8 f8 \! ] | % 53
+  a,2 ~ a,8  d8 \< es8 f8 \!  | % 53
   g1 \ff | % 54
   f2 ^> ^- \times 2/3 {
     c4 _- d4 ^- es4 ^-
@@ -717,42 +713,42 @@ KimiONoseteDoubleBass =  {
 KimiONoseteViola =  {
   \clef "alto" \key g \minor \numericTimeSignature\time 4/4 | % 1
   \tempo 4=100 \tempo 4=100 R1*16 | % 17
-  r2 r4 g'8 [ a'8 ] | % 18
+  r2 r4 g'8  a'8  | % 18
   bes'4. a'8 bes'4 d''4 | % 19
-  a'4 bes'4 a'4 d'8 [ d'8 ] | \barNumberCheck #20
+  a'4 bes'4 a'4 d'8  d'8  | \barNumberCheck #20
   g'4. f'8 g'4 bes'4 | % 21
   d''1 | % 22
-  g'8 [ a'8 ] bes'4 a'8 [ bes'8 c''8 c''8 ] | % 23
+  g'8  a'8  bes'4 a'8  bes'8 c''8 c''8  | % 23
   bes'2 f'2 | % 24
   es''4 \< d''4 c''4 bes'4 \! | % 25
   a'1 \f ~ | % 26
   a'2. bes4 \mf | % 27
   g'2 f'4. f'8 | % 28
-  d'8 [ c'8 ] bes2 r8 bes8 | % 29
+  d'8  c'8  bes2 r8 bes8 | % 29
   c'4 bes8 c'4. f'4 | \barNumberCheck #30
   d'2. d'4 | % 31
   g'2 f'2 | % 32
-  d'8 [ c'8 ] bes2 r8 bes8 | % 33
+  d'8  c'8  bes2 r8 bes8 | % 33
   c'4 \> bes8 c'4. a4 | % 34
-  bes2. \! g'8 [ a'8 ] | % 35
+  bes2. \! g'8  a'8  | % 35
   bes'4. a'8 bes'4 d''4 | % 36
-  a'2. d'8 [ d'8 ] | % 37
+  a'2. d'8  d'8  | % 37
   g'4. f'8 g'4 bes'4 | % 38
-  f'2. d'8 [ d'8 ] | % 39
+  f'2. d'8  d'8  | % 39
   es'4. d'8 es'8 bes'4. | \barNumberCheck #40
-  d'2 r8 g'8 [ g'8 g'8 ] | % 41
+  d'2 r8 g'8  g'8 g'8  | % 41
   cis'2 cis'4 d'4 | % 42
-  cis'2. g8 [ a8 ] | % 43
+  cis'2. g8  a8  | % 43
   bes4. a8 bes4 d4 | % 44
   f2. d4 | % 45
   g4. f8 g4 bes4 | % 46
   f2. d4 | % 47
   es4 bes8 a4. bes4 | % 48
   c'4 d'8 bes2 r8 | % 49
-  bes8 [ a8 g8 g8 ] a4 c'4 | \barNumberCheck #50
-  bes2. g8 \f [ a8 ] | % 51
+  bes8  a8 g8 g8  a4 c'4 | \barNumberCheck #50
+  bes2. g8 \f  a8  | % 51
   bes4. c'8 d'4 f'4 | % 52
-  d'8 \< [ es'8 f'8 g'8 ~ ] g'2 | % 53
+  d'8 \<  es'8 f'8 g'8 ~  g'2 | % 53
   d'1 \! \ff | % 54
   d'2 ^> ^- \times 2/3 {
     c'4 ^- bes4 _- a4 _-
@@ -765,20 +761,20 @@ KimiONoseteViola =  {
 KimiONoseteFlute =  {
     \clef "treble" \key g \minor \numericTimeSignature\time 4/4 | % 1
     \tempo 4=100 \tempo 4=100 R1*8 \break | % 9
-    r2 r4 g''8 \mf [ a''8 ] | \barNumberCheck #10
+    r2 r4 g''8 \mf  a''8  | \barNumberCheck #10
     bes''4. a''8 bes''4 d'''4 | % 11
-    a''2. d''8 [ d''8 ] | % 12
+    a''2. d''8  d''8  | % 12
     g''4. f''8 g''4 bes''4 | % 13
     f''2. d''4 | % 14
     es''4 bes''8 a''4. bes''4 \break | % 15
     c'''8 c'''4 d'''8 bes''4. r8 | % 16
-    d'''8 [ c'''8 bes''8 bes''8 ] c'''4 a''4 | % 17
-    g''2 r4 bes''8 [ c'''8 ] | % 18
+    d'''8  c'''8 bes''8 bes''8  c'''4 a''4 | % 17
+    g''2 r4 bes''8  c'''8  | % 18
     d'''4. c'''8 d'''4 f'''4 | % 19
-    c'''2. f''8 [ f''8 ] | \barNumberCheck #20
+    c'''2. f''8  f''8  | \barNumberCheck #20
     bes''4. a''8 bes''4 d'''4 \break | % 21
     d'''1 | % 22
-    g''8 [ a''8 ] bes''4 a''8 [ bes''8 c'''8 c'''8 ] | % 23
+    g''8  a''8  bes''4 a''8  bes''8 c'''8 c'''8  | % 23
     bes''2 f''2 | % 24
     es'''4 \< d'''4 c'''4 bes''4 \! | % 25
     d'''1 ~ | % 26
@@ -787,11 +783,11 @@ KimiONoseteFlute =  {
     R1*2 | \barNumberCheck #30
     r2 r4 d'''4 | % 31
     d'''2 f'''2 | % 32
-    d'''4 f'''4 d'''8 [ c'''8 ] bes''4 | % 33
+    d'''4 f'''4 d'''8  c'''8  bes''4 | % 33
     c'''4 \> bes''8 c'''4. a''4 | % 34
     g''2. \! r4 \break | % 35
     R1*7 | % 42
-    r2. g''8 [ a''8 ] \break | % 43
+    r2. g''8  a''8  \break | % 43
     bes''4. a''8 bes''4 d'''4 | % 44
     c'''4 d'''4 f'''4 g'''4 | % 45
     d'''2. bes''4 | % 46
@@ -799,7 +795,7 @@ KimiONoseteFlute =  {
     g'''1 \trill% 48
     a'''1 \trill% 49
     d'''2. fis'''4 \break | \barNumberCheck #50
-    g'''2. \ottava #0 g''8 \f [ a''8 ] | % 51
+    g'''2. \ottava #0 g''8 \f  a''8  | % 51
     bes''4. a''8 bes''4 d'''4 | % 52
     c'''4 \< d'''4 f'''4 g'''4 ~ | % 53
     g'''1 \! \ff | % 54
@@ -820,13 +816,13 @@ KimiONoseteOboe =  {
   d'4 \< bes'4 c''4 d''4 \! | % 14
   c''1 \mf | % 15
   a'2 \mp bes'2 \break | % 16
-  bes'8 [ a'8 g'8 g'8 ] a'4 fis'4 | % 17
-  g'2 r4 g'8 [ a'8 ] | % 18
+  bes'8  a'8 g'8 g'8  a'4 fis'4 | % 17
+  g'2 r4 g'8  a'8  | % 18
   bes'4. a'8 bes'4 d''4 | % 19
-  a'4 bes'4 a'4 d'8 [ d'8 ] | \barNumberCheck #20
+  a'4 bes'4 a'4 d'8  d'8  | \barNumberCheck #20
   g'4. f'8 g'4 bes'4 | % 21
   d''1 \break | % 22
-  g'8 [ a'8 ] bes'4 a'8 [ bes'8 c''8 c''8 ] | % 23
+  g'8  a'8  bes'4 a'8  bes'8 c''8 c''8  | % 23
   bes'2 f'2 | % 24
   es''4 \< d''4 c''4 bes'4 \! | % 25
   a'1 \f ~ | % 26
@@ -840,17 +836,17 @@ KimiONoseteOboe =  {
   d''2. \! r4 | % 35
   R1 \break | % 36
   R1*6 | % 42
-  r2. g'8 [ a'8 ] | % 43
+  r2. g'8  a'8  | % 43
   bes'4. a'8 bes'4 d''4 \break | % 44
   a'2. d'4 | % 45
   g'4. f'8 g'4 bes'4 | % 46
   f'2. d'4 | % 47
   es'4 bes'8 a'4. bes'4 | % 48
   c''4 d''8 bes'2 r8 | % 49
-  bes'8 [ a'8 g'8 g'8 ] a'4 fis'4 \break | \barNumberCheck #50
-  g'2. g'8 \f [ a'8 ] | % 51
+  bes'8  a'8 g'8 g'8  a'4 fis'4 \break | \barNumberCheck #50
+  g'2. g'8 \f  a'8  | % 51
   bes'4. a'8 bes'4 d''4 | % 52
-  a'2 ~ a'8 [ d'8 \< es'8 f'8 ] | % 53
+  a'2 ~ a'8  d'8 \< es'8 f'8  | % 53
   g'1 \ff | % 54
   a'2 \! _> _- \times 2/3 {
     es''4 ^- d''4 ^- c''4 ^-

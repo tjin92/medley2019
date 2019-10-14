@@ -76,55 +76,47 @@
         \CityOfStarsTrombone
       }
     >>
-    \new StaffGroup <<
-      \new Staff \with { instrumentName = \markup{ \center-column{ { "Soprano" } } } shortInstrumentName = #"S" } {
-        \clef treble
-        \numericTimeSignature
-        \accidentalStyle modern-cautionary
-        \compressFullBarRests
+   \new StaffGroup <<
+    \new Staff \with { instrumentName = #"Soprano" shortInstrumentName = #"S" } {
+      \clef treble
+      \numericTimeSignature
+      \accidentalStyle modern-cautionary
+      \compressFullBarRests
         <<
           \partcombine \CityOfStarsSopranoOne \CityOfStarsSopranoTwo
           \new NullVoice = "alignerSA" \CityOfStarsSopranoOne
         >>
-      }
-      \new Lyrics \lyricsto "alignerSA" \CityOfStarsSopranoOneLyricsOne
-
-      \new Staff \with { instrumentName = \markup{ \center-column{ { "Alto" } } } shortInstrumentName = #"A" } {
-        \clef treble
-        \numericTimeSignature
-        \accidentalStyle modern-cautionary
-        \compressFullBarRests
-        <<
-          \CityOfStarsAlto
-          \new NullVoice = "alignerSA" \CityOfStarsAlto
-        >>
-      }
-      \new Lyrics \lyricsto "alignerSA" \CityOfStarsAltoLyricsOne
-      
-      \new Staff \with { instrumentName = \markup{ \center-column{  { "Tenor" } } } shortInstrumentName = #"T" } {
-        \clef bass
-        \numericTimeSignature
-        \accidentalStyle modern-cautionary
-        \compressFullBarRests
-        <<
-          \new Voice \CityOfStarsTenor
-          \new NullVoice = "alignerTB" \CityOfStarsTenor
-        >>
-      }
-      \new Lyrics \lyricsto "alignerTB" \CityOfStarsTenorLyricsOne
-
-     \new Staff \with { instrumentName = \markup{ \center-column{  { "Bass" } } } shortInstrumentName = #"B" } {
-        \clef bass
-        \numericTimeSignature
-        \accidentalStyle modern-cautionary
-        \compressFullBarRests
-        <<
-          \new Voice  \CityOfStarsBass
-          \new NullVoice = "alignerTB" \CityOfStarsBass
-        >>
-      }
-      \new Lyrics \lyricsto "alignerTB" \CityOfStarsBassLyricsOne
-    >>
+    }
+    \new Lyrics \lyricsto "alignerSA" \CityOfStarsSopranoOneLyricsOne
+    
+    \new Staff \with { instrumentName = #"Alto" shortInstrumentName = #"A" } {
+      \clef treble
+      \numericTimeSignature
+      \accidentalStyle modern-cautionary
+      \compressFullBarRests
+      \new Voice = "alto" \CityOfStarsAlto
+    }
+    \new Lyrics \lyricsto "alto" \CityOfStarsAltoLyricsOne
+   
+   \new Staff \with { instrumentName = #"Tenor" shortInstrumentName = #"T" } {
+      \clef "treble_8"
+      \numericTimeSignature
+      \accidentalStyle modern-cautionary
+      \compressFullBarRests
+      \new Voice = "tenor" \CityOfStarsTenor
+    }
+    \new Lyrics \lyricsto "tenor" \CityOfStarsTenorLyricsOne
+  
+  \new Staff \with { instrumentName = #"Bass" shortInstrumentName = #"B" } {
+      \clef bass
+      \numericTimeSignature
+      \accidentalStyle modern-cautionary
+      \compressFullBarRests
+      \new Voice = "bass" \CityOfStarsBass
+    }
+    \new Lyrics \lyricsto "bass" \CityOfStarsBassLyricsOne
+                                                
+  >>
     
     
     \new PianoStaff \with { instrumentName = #"Piano" shortInstrumentName = #"Pf" } <<
