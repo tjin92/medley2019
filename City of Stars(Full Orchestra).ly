@@ -82,12 +82,9 @@
       \numericTimeSignature
       \accidentalStyle modern-cautionary
       \compressFullBarRests
-        <<
-          \partcombine \CityOfStarsSopranoOne \CityOfStarsSopranoTwo
-          \new NullVoice = "alignerSA" \CityOfStarsSopranoOne
-        >>
+      \new Voice = "soprano" \CityOfStarsSoprano
     }
-    \new Lyrics \lyricsto "alignerSA" \CityOfStarsSopranoOneLyricsOne
+    \new Lyrics \lyricsto "soprano" \CityOfStarsSopranoLyricsOne
     
     \new Staff \with { instrumentName = #"Alto" shortInstrumentName = #"A" } {
       \clef treble
