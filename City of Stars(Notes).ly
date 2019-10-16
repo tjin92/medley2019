@@ -255,7 +255,7 @@ CityOfStarsViola =  {
   g'4 r8 g'8 g'8  f'8 g'8 g'8 ~   | % 37
   g'4 r8 g'8 g'8  f'8 g'8 a'8 ~  | % 38
   a'8  a'8 g'8 g'8  f'8  a'8 e''8 \rest a'8 \<  | % 39
-  bes'4 bes'4 bes'8  a'8 bes'8 c''8 \! ~  | \barNumberCheck #40
+  bes4 bes4 bes8  a8 bes8 c'8 \! ~  | \barNumberCheck #40
   c'4 r8 c'8 c'8  bes8 c'8 f'8 ~  | % 41
   f'4 e'4 \> d'4 c'4 \! | % 42
   d'1 | % 43
