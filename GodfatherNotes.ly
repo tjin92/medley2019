@@ -174,10 +174,14 @@ GodfatherViolinOne = \relative c''' {
     \ottava #1
   g c ef } g8\fermata \breathe g,[ c ef] d c ef c d c g fs f
   \ottava #0
-  \trip{ af16[ f d] } \tuplet 6/4 { c af f d c af } f8\fermata f af b
+  \trip{ af16[ f d] } \tuplet 6/4 { c af f d c af } f8\fermata \breathe f[ af b]
   <af, f' d'>2 r8 f' af b <g, ef' c'>2 r8 c ef bf'
   << { af g bf af af g d ef } \\ { g,4 d' b g } >>
-  c2
+  c2 r8 g' g fs
+  f16 a c a f' c a' f ef' c a f ef c a ef
+  d f bf f d' bf f' d bf' f d bf f' d bf d,
+  c ef g a c ef g a ef'8\fermata c,,[ ef cs]
+  d16 fs a d fs a d fs d'4\fermata d,32 a-+ fs d-+ a-+ fs d16-+
 }
 
 GodfatherViolinTwo = \relative c'' {
