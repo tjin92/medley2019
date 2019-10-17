@@ -7,10 +7,6 @@
 
 #(set-default-paper-size "letter")
 
-\paper {
-  page-count = 1
-}
-
 \header {
   instrument = "Violin I"
 }
