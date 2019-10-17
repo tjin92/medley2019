@@ -227,7 +227,7 @@ RememberMeViolinOne = \relative c' {
   \key g \major
   \time 4/4
   \partial 8 r8 g'1\f b4\> a g2 g1\mp\< a2\mf e
-  b'8-.\upbow( b-.\upbow) r b-.( b-.) r r4 a8-.( a-.) r a-.( a-.) r r4
+  b'8-.\upbow( b-.) r b-.\upbow( b-.) r r4 a8-.( a-.) r a-.( a-.) r r4
   b8-.( b-.) r b-.( b-.) r r4 a8-.( a-.) r a-.( a-.) r r4
   g8-.( g-.) r g-.( g-.) r r4 a8-.( a-.) r a-.( b-.) r r4
   b8-.( b-.) r b-.( b-.) r r4 bf2\< a\>
@@ -242,7 +242,7 @@ RememberMeViolinTwo = \relative c' {
   \key g \major
   \time 4/4
   \partial 8 r8 e1\f g4\> fs e2 ef1\mp\< fs2\mf c
-  g'8-.\upbow( g-.\upbow) r g-.( g-.) r r4 ef8-.( ef-.) r ef-.( ef-.) r r4
+  g'8-.\upbow( g-.) r g-.\upbow( g-.) r r4 ef8-.( ef-.) r ef-.( ef-.) r r4
   g8-.( g-.) r g-.( g-.) r r4 ef8-.( ef-.) r ef-.( ef-.) r r4
   e8-.( e-.) r e-.( d-.) r r4 f8-.( f-.) r f-.( g-.) r r4
   e8-.( e-.) r e-.( e-.) r r4 cs2\< d\>
@@ -257,7 +257,7 @@ RememberMeViola = \relative c {
   \key g \major
   \time 4/4
   \partial 8 r8 g'1\f d'4\> ds b2 bf1\mp\< a2\mf g
-  d'8-.\upbow( d-.\upbow) r d-.( d-.) r r4 c8-.( c-.) r c-.( c-.) r r4
+  d'8-.\upbow( d-.) r d-.\upbow( d-.) r r4 c8-.( c-.) r c-.( c-.) r r4
   d8-.( d-.) r d-.( d-.) r r4 c8-.( c-.) r c-.( b-.) r r4
   b8-.( b-.) r b-.( b-.) r r4 c8-.( c-.) r c-.( d-.) r r4
   c8-.( c-.) r c-.( c-.) r r4 g2\< fs\>
@@ -272,7 +272,7 @@ RememberMeCello = \relative c {
   \key g \major
   \time 4/4
   \partial 8 r8 c1\f g4\> b e2 ef1\mp\< d2\mf c
-  g'8-.\upbow( g-.\upbow) r g-.( g-.) r r4 g8-.( g-.) r g-.( g-.) r r4
+  g'8-.\upbow( g-.) r g-.\upbow( g-.) r r4 g8-.( g-.) r g-.( g-.) r r4
   g8-.( g-.) r g-.( g-.) r r4 g8-.( g-.) r g-.( fs-.) r r4
   e8-.( e-.) r e-.( e-.) r r4 f8-.( f-.) r f-.( g-.) r r4
   g8-.( g-.) r g-.( g-.) r r4 ef2\< d\>
@@ -287,7 +287,7 @@ RememberMeDoubleBass = \relative c, {
   \key g \major
   \time 4/4
   \partial 8 r8 c1\f g4\> b e2 ef1\mp\< d2\mf c
-  g'8-.\upbow( g-.\upbow) r g-.( g-.) r r4 c8-.( c-.) r c-.( c-.) r r4
+  g'8-.\upbow( g-.) r g-.\upbow( g-.) r r4 c8-.( c-.) r c-.( c-.) r r4
   g8-.( g-.) r g-.( g-.) r r4 c8-.( c-.) r c-.( b-.) r r4
   e,8-.( e-.) r e-.( e-.) r r4 f8-.( f-.) r f-.( g-.) r r4
   c8-.( c-.) r c-.( c-.) r r4 ef,2\< d\>
