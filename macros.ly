@@ -1,8 +1,8 @@
-\include "english.ly"
-
 arco = \markup{\italic arco}
 pizz = \markup{\italic pizz.}
 solo = \markup{\italic solo}
+tutti = \markup{\italic tutti}
+div = \markup{\italic div.}
 
 trip =
 #(define-music-function
