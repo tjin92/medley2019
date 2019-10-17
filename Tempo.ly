@@ -15,5 +15,4 @@ Tempo = {
   \time 4/4
   \tempo "Godfather Love Theme" 4 = 60
   s1*20
-  \bar "||"
 }
