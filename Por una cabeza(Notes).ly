@@ -10,11 +10,13 @@
     }
 
 PorUnaCabezaFlute =  {
-    \clef "treble" \key g \minor \numericTimeSignature\time 4/4 R1*6
+    \clef "treble" \key g \major \numericTimeSignature\time 4/4
+    R1*17
+    \bar "||" \key g \minor R1*6
     \bar "||"
     \key g \major R1*2  | % 9
     R1*7    | % 16
-    R1*4 | \barNumberCheck #20
+    R1*4 | %\barNumberCheck #20
     R1*2    | % 22
     R1*3 \bar "||"
     \key g \minor r4 ^\markup{ \italic {rit.} } bes''4 ( \times 2/3 {
@@ -27,7 +29,7 @@ PorUnaCabezaFlute =  {
     bes''2 f''2 | % 29
     r4 es''4 ( \times 2/3 {
         es''4 f''4 g''4 ) }
-    | \barNumberCheck #30
+    | %\barNumberCheck #30
     g''4 g''4 g''8 ( [ a''8 bes''8 g''8 ) ] | % 31
     a''4 a''4 g''8 ( [ a''8 bes''8 g''8 ) ] | % 32
     bes''2 a''2 | % 33
@@ -44,7 +46,7 @@ PorUnaCabezaFlute =  {
     | % 38
     g''4 g''4 g''8 ( [ a''8 bes''8 g''8 ) ] \bar "||"
     \key g \major a''4 a''4 fis''8 ( [ g''8 a''8 fis''8 ] |
-    \barNumberCheck #40
+    %\barNumberCheck #40
     g''4 ) r4 r2 | % 41
     e'''8 ^. [ d'''8 ^. ] r4 r2  | % 42
     a'''8 ^. [ g'''8 ^. ] r4 r2 | % 43
@@ -52,7 +54,7 @@ PorUnaCabezaFlute =  {
     c'''8 ^. r8 r4 r2 | % 45
     R1*3  | % 48
     R1 | % 49
-    e'''8 ^. [ d'''8 ^. ] r4 r2 | \barNumberCheck #50
+    e'''8 ^. [ d'''8 ^. ] r4 r2 | %\barNumberCheck #50
     a'''8 ^. [ g'''8 ^. ] r4 r2 | % 51
     r2 a''4. g''8 | % 52
     e'''8 ^. r8 r4 r2  | % 53
@@ -63,7 +65,7 @@ PorUnaCabezaFlute =  {
     d'''2 a''2  | % 59
     r4 g''4 ( \times 2/3 {
         g''4 a''4 bes''4 ) }
-    | \barNumberCheck #60
+    | %\barNumberCheck #60
     bes''2 f''2 | % 61
     r4 es''4 ( \times 2/3 {
         es''4 f''4 g''4 ) }
@@ -81,14 +83,17 @@ PorUnaCabezaFlute =  {
     bes''2 f''2 | % 69
     r4 es''4 ( \times 2/3 {
         es''4 f''4 g''4 ) }
-    | \barNumberCheck #70
+    | %\barNumberCheck #70
     g''4 g''4 g''8 ( [ a''8 bes''8 g''8 ) ] \bar "||"
     \key g \major a''4 a''4 fis''8 ( [ g''8 a''8 fis''8 ] | % 72
     g''2 ) r2 \bar "|."
     }
 
 PorUnaCabezaOboe =  {
-    \clef "treble" \key g \minor \numericTimeSignature\time 4/4 R1*6
+    \clef "treble" \key g \major \numericTimeSignature\time 4/4
+    R1*17
+    \bar "||" \key g \minor 
+    R1*6
     \bar "||"
     \key g \major R1*2  | % 9
     R1*7  | % 16
@@ -104,7 +109,7 @@ PorUnaCabezaOboe =  {
     bes'2 f'2 | % 29
     r4 es'4 ( \times 2/3 {
         es'4 f'4 g'4 ) }
-    | \barNumberCheck #30
+    | %\barNumberCheck #30
     g'4 g'4 g'8 ( [ a'8 bes'8 g'8 ) ] | % 31
     a'4 a'4 g'8 ( [ a'8 bes'8 g'8 ) ] | % 32
     bes'2 a'2 | % 33
@@ -120,8 +125,7 @@ PorUnaCabezaOboe =  {
         es'4 f'4 g'4 ) }
     | % 38
     g'4 g'4 g'8 ( [ a'8 bes'8 g'8 ) ] \bar "||"
-    \key g \major a'4 a'4 fis'8 ( [ g'8 a'8 fis'8 ] | \barNumberCheck
-    #40
+    \key g \major a'4 a'4 fis'8 ( [ g'8 a'8 fis'8 ] | %\barNumberCheck #40
     g'4 ) r4 r2 | % 41
     e''8 ^. [ d''8 ^. ] r4 r2  | % 42
     a''8 ^. [ g''8 ^. ] r4 r2 | % 43
@@ -129,7 +133,7 @@ PorUnaCabezaOboe =  {
     c''8 ^. r8 r4 r2 | % 45
     R1*3  | % 48
     R1 | % 49
-    e''8 ^. [ d''8 ^. ] r4 r2 | \barNumberCheck #50
+    e''8 ^. [ d''8 ^. ] r4 r2 | %\barNumberCheck #50
     a''8 ^. [ g''8 ^. ] r4 r2 | % 51
     r2 a''4. g''8 | % 52
     e'''8 ^. r8 r4 r2  | % 53
@@ -140,7 +144,7 @@ PorUnaCabezaOboe =  {
     d''2 a'2  | % 59
     r4 g'4 ( \times 2/3 {
         g'4 a'4 bes'4 ) }
-    | \barNumberCheck #60
+    | %\barNumberCheck #60
     bes'2 f'2 | % 61
     r4 es'4 ( \times 2/3 {
         es'4 f'4 g'4 ) }
@@ -158,15 +162,18 @@ PorUnaCabezaOboe =  {
     bes'2 f'2 | % 69
     r4 es'4 ( \times 2/3 {
         es'4 f'4 g'4 ) }
-    | \barNumberCheck #70
+    | %\barNumberCheck #70
     g'4 g'4 g'8 ( [ a'8 bes'8 g'8 ) ] \bar "||"
     \key g \major a'4 a'4 fis'8 ( [ g'8 a'8 fis'8 ] | % 72
     g'2 ) r2 \bar "|."
     }
 
 PorUnaCabezaBassClarinet =  {
-    \transposition bes, \clef "treble" \key a \minor
-    \numericTimeSignature\time 4/4 R1*6 \bar "||"
+    \transposition bes, \clef "treble" \key a \major
+    \numericTimeSignature\time 4/4 
+    R1*17
+    \bar "||" \key a \minor 
+    R1*6 \bar "||"
     \key a \major R1*2  | % 9
     R1*7  | % 16
     R1*6  | % 22
@@ -177,7 +184,7 @@ PorUnaCabezaBassClarinet =  {
     e'2 e'2 | % 29
     f'4 a'4 ( \times 2/3 {
         a'4 b'4 c''4 ) }
-    | \barNumberCheck #30
+    | %\barNumberCheck #30
     c''2 c''2 | % 31
     a'1 | % 32
     dis''4 f'4 e''4 e'4 | % 33
@@ -187,7 +194,7 @@ PorUnaCabezaBassClarinet =  {
     e''2 e''2 | % 37
     d''2 d''2 | % 38
     c''2 c''2 \bar "||"
-    \key a \major fis''2 e''2 | \barNumberCheck #40
+    \key a \major fis''2 e''2 | %\barNumberCheck #40
     a'4 r4 r2 | % 41
     R1  | % 42
     R1*2 | % 44
@@ -200,7 +207,7 @@ PorUnaCabezaBassClarinet =  {
     R1*4 \bar "||"
     \key a \minor a'4 e''4 e''2 \f | % 58
     g'8 [ a'8 b'8 c''8 ] d''8 [ e''8 f''8 g''8 ]  | % 59
-    a'1 | \barNumberCheck #60
+    a'1 | %\barNumberCheck #60
     e'2 e'2 | % 61
     f'4 a'4 ( \times 2/3 {
         a'4 b'4 c''4 ) }
@@ -212,18 +219,21 @@ PorUnaCabezaBassClarinet =  {
     g''2 g''2 | % 67
     f''2 f''2 | % 68
     e''2 e''2 | % 69
-    d''2 d''2 | \barNumberCheck #70
+    d''2 d''2 | %\barNumberCheck #70
     c''2 c''2 \bar "||"
     \key a \major fis''2 e''2 | % 72
     a'2 r2 \bar "|."
     }
 
 PorUnaCabezaPianoRH =  {
-    \clef "treble" \key g \minor \numericTimeSignature\time 4/4 R1*6
+    \clef "treble" \key g \major \numericTimeSignature\time 4/4
+    R1*17
+    \bar "||" \key g \minor 
+    R1*6
     \bar "||"
     \key g \major R1 | % 8
     r2 b'8 [ c''8 cis''8 d''8 ]  | % 9
-    e''8 [ d''8 ] r4 cis''8 ( [ d''8 e''8 fis''8 ] | \barNumberCheck #10
+    e''8 [ d''8 ] r4 cis''8 ( [ d''8 e''8 fis''8 ] | %\barNumberCheck #10
     a''8 [ g''8 ) ] r4 b''8 ( [ c'''8 a''8 b''8 ] | % 11
     <b' g''>8 [ a''8 <a' fis''>8 g''8 ) ] <a' fis''>4. d''8 | % 12
     c''8 r8 r4 c'''8 ( [ b''8 ~ ] b''16 [ d'''16 c'''8 ] | % 13
@@ -238,7 +248,7 @@ PorUnaCabezaPianoRH =  {
     ( [ d''8 e''8 fis''8 ] | % 18
     a''8 [ g''8 ) ] <d'' fis'' g'' d'''>4 \arpeggio ^. \arpeggio
     \arpeggio \arpeggio g''8 ( [ a''8 b''8 g''8 ] | % 19
-    a''8 [ g''8 a''8 b''8 ) ] a''4. g''8 | \barNumberCheck #20
+    a''8 [ g''8 a''8 b''8 ) ] a''4. g''8 | %\barNumberCheck #20
     <c'' g'' ais'' e'''>8. \arpeggio \arpeggio \arpeggio \arpeggio r16 r4
     a''8 [ g''8 e''8 c''8 ] | % 21
     b'8 [ a'8 b'8 c''8 ] es''8 [ g''8 f''8 es''8 ]  | % 22
@@ -257,7 +267,7 @@ PorUnaCabezaPianoRH =  {
     ] | % 29
     es'''4 ^. es''4 ( \times 2/3 {
         <es' es''>4 <f' f''>4 <g' g''>4 ) }
-    | \barNumberCheck #30
+    | %\barNumberCheck #30
     <bes' g''>4 <bes' g''>4 <d'' g''>8 ( [ a''8 <d'' bes''>8 g''8 ) ] | % 31
     <a' a''>4 <a' a''>4 <cis'' g''>8 ( [ a''8 <es'' bes''>8 g''8 ) ] | % 32
     <cis'' bes''>2 <d'' a''>2 | % 33
@@ -277,7 +287,7 @@ PorUnaCabezaPianoRH =  {
     <bes' g''>4 <bes' g''>4 <d'' g''>8 ( [ a''8 <d'' bes''>8 g''8 ) ]
     \bar "||"
     \key g \major a''4 a''4 fis''8 [ g''8 a''8 fis''8 ] |
-    \barNumberCheck #40
+    %\barNumberCheck #40
     g''4 r4 b'8 [ c''8 cis''8 d''8 ] | % 41
     e''8 [ d''8 ] r4 cis''8 ( [ d''8 e''8 fis''8 ]  | % 42
     a''8 [ g''8 ) ] r4 b''8 ( [ c'''8 a''8 b''8 ] | % 43
@@ -291,7 +301,7 @@ PorUnaCabezaPianoRH =  {
      | % 48
     b'8 r8 r4 b'8 [ c''8 cis''8 d''8 ] | % 49
     e''8 [ d''8 ] <b' d'' b''>4 \arpeggio ^. \arpeggio \arpeggio cis''8
-    ( [ d''8 e''8 fis''8 ] | \barNumberCheck #50
+    ( [ d''8 e''8 fis''8 ] | %\barNumberCheck #50
     a''8 [ g''8 ) ] <d'' fis'' g'' d'''>4 \arpeggio ^. \arpeggio
     \arpeggio \arpeggio g''8 ( [ a''8 b''8 g''8 ] | % 51
     a''8 [ g''8 a''8 b''8 ) ] a''4. g''8 | % 52
@@ -308,7 +318,7 @@ PorUnaCabezaPianoRH =  {
     ]  | % 59
     g'''4 ^. <g' g''>4 ( \times 2/3 {
         <g' g''>4 <a' a''>4 <bes' bes''>4 ) }
-    | \barNumberCheck #60
+    | %\barNumberCheck #60
     <f' d''>2 g'16 ( [ a'16 bes'16 c''16 ] d''16 [ f''16 a''16 d'''16 )
     ] | % 61
     es'''4 ^. es''4 ( \times 2/3 {
@@ -329,7 +339,7 @@ PorUnaCabezaPianoRH =  {
     ] | % 69
     es'''4 ^. es''4 ( \times 2/3 {
         <es' es''>4 <f' f''>4 <g' g''>4 ) }
-    | \barNumberCheck #70
+    | %\barNumberCheck #70
     <bes' g''>4 <bes' g''>4 <d'' g''>8 ( [ a''8 <d'' bes''>8 g''8 ) ]
     \bar "||"
     \key g \major <a' a''>4 <a' a''>4 <fis' fis''>8 [ <g' g''>8 <a' a''>8
@@ -338,10 +348,13 @@ PorUnaCabezaPianoRH =  {
     }
 
 PorUnaCabezaPianoLH =  {
-    \clef "bass" \key g \minor \numericTimeSignature\time 4/4 R1*6 \bar
+    \clef "bass" \key g \major \numericTimeSignature\time 4/4
+    R1*17
+    \bar "||" \key g \minor 
+    R1*6 \bar
     "||"
     \key g \major R1*2  | % 9
-    g4 \mf <b d'>4 ^. r2 | \barNumberCheck #10
+    g4 \mf <b d'>4 ^. r2 | %\barNumberCheck #10
     g4 <b d'>4 ^. r2 | % 11
     g4 <b d'>4 ^. r2 | % 12
     a4 <c' e'>4 ^. r2 | % 13
@@ -353,7 +366,7 @@ PorUnaCabezaPianoLH =  {
     g4 <b d'>4 ^. <d g b>2 | % 19
     <a f'>4 ^. <d g b>4 ^. a4. \times 2/3 {
         g16 [ b16 d'16 ] }
-    | \barNumberCheck #20
+    | %\barNumberCheck #20
     <ais c' e'>4. r8 r2 | % 21
     c4 <c' e'>4 ^. c,4 <c' es'>4 ^.  | % 22
     d4 <b d'>4 ^. d,4 <b d'>4 ^. | % 23
@@ -363,7 +376,7 @@ PorUnaCabezaPianoLH =  {
     f16 [ g16 a16 bes16 ] c'16 [ d'16 es'16 f'16 ] <c a>2 | % 27
     <g g'>2 <g es'>4 <d bes>4  | % 28
     d16 ( [ es16 f16 g16 ] a16 [ bes16 c'16 d'16 ) ] <f d'>2 | % 29
-    <es c'>2 a,4 c4 | \barNumberCheck #30
+    <es c'>2 a,4 c4 | %\barNumberCheck #30
     <d bes>2 <bes d'>2 | % 31
     <a, cis>1 | % 32
     <cis cis'>4 <es, es>4 <d d'>4 <d, d>4 | % 33
@@ -373,7 +386,7 @@ PorUnaCabezaPianoLH =  {
     d16 ( [ es16 f16 g16 ] a16 [ bes16 c'16 d'16 ) ] <f d'>2 | % 37
     <es c'>2 a,4 c4 | % 38
     <d bes>2 <d bes>2 \bar "||"
-    \key g \major <a, cis>2 <fis, c d>2 | \barNumberCheck #40
+    \key g \major <a, cis>2 <fis, c d>2 | %\barNumberCheck #40
     <g, g>4 s2. | % 41
     g4 \mf <b d'>4 ^. r2  | % 42
     g4 <b d'>4 ^. r2 | % 43
@@ -383,7 +396,7 @@ PorUnaCabezaPianoLH =  {
     d4 <a d'>4 ^. r2 | % 47
     d4 <a d'>4 ^. r2  | % 48
     g4 <b d'>4 ^. r2 | % 49
-    g4 <b d'>4 ^. r2 | \barNumberCheck #50
+    g4 <b d'>4 ^. r2 | %\barNumberCheck #50
     g4 <b d'>4 ^. <d g b>2 | % 51
     <a f'>4 ^. <d g b>4 ^. a4. \times 2/3 {
         g16 [ b16 d'16 ] }
@@ -395,7 +408,7 @@ PorUnaCabezaPianoLH =  {
     <b d'>4 r8 <d d'>8 ^> <g g'>8 ^> [ r8 <d d'>8 ^> ] r8 \bar "||"
     \key g \minor <g, g>1 | % 58
     f16 [ g16 a16 bes16 ] c'16 [ d'16 es'16 f'16 ] <c a>2  | % 59
-    <g g'>2 <g es'>4 <d bes>4 | \barNumberCheck #60
+    <g g'>2 <g es'>4 <d bes>4 | %\barNumberCheck #60
     d16 ( [ es16 f16 g16 ] a16 [ bes16 c'16 d'16 ) ] <f d'>2 | % 61
     <es c'>2 a,4 c4 | % 62
     <d bes>2 <bes d'>2 | % 63
@@ -405,14 +418,17 @@ PorUnaCabezaPianoLH =  {
     f16 [ g16 a16 bes16 ] c'16 [ d'16 es'16 f'16 ] <c a>2 | % 67
     <g g'>2 <g es'>4 <d bes>4 | % 68
     d16 ( [ es16 f16 g16 ] a16 [ bes16 c'16 d'16 ) ] <f d'>2 | % 69
-    <es c'>2 a,4 c4 | \barNumberCheck #70
+    <es c'>2 a,4 c4 | %\barNumberCheck #70
     <d bes>2 <d bes>2 \bar "||"
     \key g \major <a, cis>2 <fis, c d>2 | % 72
     <g, d g>2 r2 \bar "|."
     }
 
 PorUnaCabezaSoprano =  {
-  \clef "treble" \key g \major \numericTimeSignature\time 4/4 | % 1
+  \clef "treble" \key g \major \numericTimeSignature\time 4/4
+    R1*17
+  \bar "||" \key g \minor 
+  | % 1
   R1*10 | % 11
   R1*4  | % 15
   R1*3 | % 18
@@ -433,7 +449,7 @@ PorUnaCabezaSoprano =  {
   r4 es'4 \times 2/3 {
     es'4 f'4 g'4
   }
-   | \barNumberCheck #30
+   | %\barNumberCheck #30
   g'4 g'4 g'8 [ a'8 bes'8 g'8 ] | % 31
   a'4 a'4 g'8 [ a'8 bes'8 g'8 ] | % 32
   bes'2 a'2 | % 33
@@ -452,7 +468,7 @@ PorUnaCabezaSoprano =  {
   }
    | % 38
   g'4 g'4 g'8 [ a'8 bes'8 g'8 ] \bar "||"
-  \key g \major a'4 a'4 fis'8 [ g'8 a'8 fis'8 ] | \barNumberCheck #40
+  \key g \major a'4 a'4 fis'8 [ g'8 a'8 fis'8 ] | %\barNumberCheck #40
   g'4 r4 r2 | % 41
   R1 | % 42
   R1*3  | % 45
@@ -468,7 +484,7 @@ PorUnaCabezaSoprano =  {
     a'4 g'4 f'4
   }
    | % 59
-  g'2 g'2 | \barNumberCheck #60
+  g'2 g'2 | %\barNumberCheck #60
   r4 f''4 \times 2/3 {
     f''4 es''4 d''4
   }
@@ -490,7 +506,7 @@ PorUnaCabezaSoprano =  {
     f''4 es''4 d''4
   }
   | % 69
-  es''2 es''2 | \barNumberCheck #70
+  es''2 es''2 | %\barNumberCheck #70
   r4 d''4 \times 2/3 {
     d''4 c''4 bes'4
   }
@@ -514,7 +530,10 @@ PorUnaCabezaSopranoLyrics =  \lyricmode {
   -- da Que~im -- por -- ta la vi -- da, pa -- ra que vi -- vir.
 }
 PorUnaCabezaAlto =  {
-  \clef "treble" \key g \major \numericTimeSignature\time 4/4 R1*10
+  \clef "treble" \key g \major \numericTimeSignature\time 4/4
+  R1*17
+  \bar "||" \key g \minor 
+  R1*10
   | % 11
   R1*4  | % 15
   R1*3 | % 18
@@ -535,7 +554,7 @@ PorUnaCabezaAlto =  {
   r4 es'4 \times 2/3 {
     es'4 f'4 g'4
   }
-   | \barNumberCheck #30
+   | %\barNumberCheck #30
   g'4 g'4 g'8 [ a'8 bes'8 g'8 ] | % 31
   a'4 a'4 g'8 [ a'8 bes'8 g'8 ] | % 32
   bes'2 a'2 | % 33
@@ -551,7 +570,7 @@ PorUnaCabezaAlto =  {
   f'4 f'8( [ g'8 ] a'8 [ bes'8 c''8 d''8) ] | % 37
   es''2 a'2  | % 38
   g'4 g'4 g'8 [ a'8 bes'8 g'8 ] \bar "||"
-  \key g \major a'4 a'4 fis'8 [ g'8 a'8 fis'8 ] | \barNumberCheck #40
+  \key g \major a'4 a'4 fis'8 [ g'8 a'8 fis'8 ] | %\barNumberCheck #40
   g'4 r4 r2 | % 41
   R1 | % 42
   R1*3  | % 45
@@ -576,7 +595,7 @@ PorUnaCabezaAlto =  {
   r4 g'4 \times 2/3 {
     g'4 a'4 bes'4
   }
-  | \barNumberCheck #60
+  | %\barNumberCheck #60
   bes'2 f'2 | % 61
   r4 es'4 \times 2/3 {
     es'4 f'4 g'4
@@ -595,7 +614,7 @@ PorUnaCabezaAlto =  {
     f'4 es'4 d'4
   }
   | % 69
-  es'2 es'2 | \barNumberCheck #70
+  es'2 es'2 | %\barNumberCheck #70
   r4 d'4 \times 2/3 {
     d'4 c'4 bes4
   }
@@ -621,7 +640,10 @@ PorUnaCabezaAltoLyrics =  \lyricmode {
   Que~im -- por -- ta la vi -- da, pa -- ra que vi -- vir.
 }
 PorUnaCabezaTenor =  {
-  \clef "bass" \key g \major \numericTimeSignature\time 4/4 R1*10
+  \clef "bass" \key g \major \numericTimeSignature\time 4/4
+  R1*17
+  \bar "||" \key g \minor 
+  R1*10
   | % 11
   R1 | % 12
   r2 c'8^\mf [ b8 d'8 c'8 ] | % 13
@@ -631,7 +653,7 @@ PorUnaCabezaTenor =  {
   r2 b,8 [ c8 cis8 d8 ] | % 17
   e8 [ d8 ] r4 cis8 [ d8 e8 fis8 ] | % 18
   a8 [ g8 ] r4 g8 [ a8 b8 g8 ] | % 19
-  a8 [ g8 a8 b8 ] a4. g8 | \barNumberCheck #20
+  a8 [ g8 a8 b8 ] a4. g8 | %\barNumberCheck #20
   e'4 r4 c'8 [ b8 g8 e8 ]  | % 21
   e8 e8 e8 [ a8 ] c'8 [ es'8 d'8 c'8 ] | % 22
   b4 g4 g8 [ a8 b8 g8 ] | % 23
@@ -652,7 +674,7 @@ PorUnaCabezaTenor =  {
   r4 es4 \times 2/3 {
     es4 f4 g4
   }
-   | \barNumberCheck #30
+   | %\barNumberCheck #30
   g4 g4 g8 [ a8 bes8 g8 ] | % 31
   a4 a4 g8 [ a8 bes8 g8 ] | % 32
   g2 fis2 | % 33
@@ -668,7 +690,7 @@ PorUnaCabezaTenor =  {
   }
    | % 38
   g4 g4 g8 [ a8 bes8 g8 ] \bar "||"
-  \key g \major a4 a4 fis8 [ g8 a8 fis8 ] | \barNumberCheck #40
+  \key g \major a4 a4 fis8 [ g8 a8 fis8 ] | %\barNumberCheck #40
   g4 r4 r2 | % 41
   R1 | % 42
   r2 b8^\mf [ c'8 a8 b8 ] | % 43
@@ -678,7 +700,7 @@ PorUnaCabezaTenor =  {
   r2 fis8 [ g8 ] gis8 [ a8 ] | % 47
   b8 [ a8 fis8 d8 ] dis8 [ fis8 e8 c8 ] | % 48
   b,8 r8 r4 b,8 [ c8 cis8 d8 ] | % 49
-  e8 [ d8 ] r4 cis8 [ d8 e8 fis8 ] | \barNumberCheck #50
+  e8 [ d8 ] r4 cis8 [ d8 e8 fis8 ] | %\barNumberCheck #50
   a8 [ g8 ] r4 g8 [ a8 b8 g8 ] | % 51
   a8 [ g8 a8 b8 ] a4 g4  | % 52
   e'4 r4 r2 | % 53
@@ -697,7 +719,7 @@ PorUnaCabezaTenor =  {
   r4 g4 \times 2/3 {
     g4 a4 bes4
   }
-  | \barNumberCheck #60
+  | %\barNumberCheck #60
   bes2 f2 | % 61
   r4 es4 \times 2/3 {
     es4 f4 g4
@@ -719,7 +741,7 @@ PorUnaCabezaTenor =  {
   r4 c'4 \times 2/3 {
     c'4 bes4 a4
   }
-  | \barNumberCheck #70
+  | %\barNumberCheck #70
   g4 g4 g8 [ a8 bes8 g8 ] \bar "||"
   \key g \major a4 a4 fis8 [ g8 a8 fis8 ] | % 72
   g2 r2 \bar "|."
@@ -749,9 +771,12 @@ PorUnaCabezaTenorLyrics =  \lyricmode {
   per -- der -- me Mil ve -- ces la vi -- da, pa -- ra que vi -- vir.
 }
 PorUnaCabezaBass =  {
-  \clef "bass" \key g \major \numericTimeSignature\time 4/4 R1*7 | % 8
+  \clef "bass" \key g \major \numericTimeSignature\time 4/4
+  R1*17
+  \bar "||" \key g \minor 
+  R1*7 | % 8
   r2 b,8^\mf [ c8 cis8 d8 ] | % 9
-  e8 [ d8 ] r4 cis8 [ d8 e8 fis8 ] | \barNumberCheck #10
+  e8 [ d8 ] r4 cis8 [ d8 e8 fis8 ] | %\barNumberCheck #10
   a8 [ g8 ] r4 b8 [ c'8 a8 b8 ] | % 11
   g8 [ a8 fis8 g8 ] fis4. d8 | % 12
   c8 r8 r4 r2 | % 13
@@ -761,7 +786,7 @@ PorUnaCabezaBass =  {
   b,8 r8 r4 g,8 [ a,8 ais,8 b,8 ] | % 17
   c8 [ b,8 ] r4 ais,8 [ b,8 c8 d8 ] | % 18
   c8 [ b,8 ] r4 b,8 [ c8 d8 e8 ] | % 19
-  f8 [ e8 f8 g8 ] f4. b,8 | \barNumberCheck #20
+  f8 [ e8 f8 g8 ] f4. b,8 | %\barNumberCheck #20
   c4 r4 a8 [ g8 e8 c8 ]  | % 21
   b,8 [ a,8 b,8 c8 ] es8 [ g8 f8 es8 ] | % 22
   g4 d4 g8 [ a8 b8 g8 ] | % 23
@@ -782,7 +807,7 @@ PorUnaCabezaBass =  {
   r4 es4 \times 2/3 {
     es4 f4 g4
   }
-   | \barNumberCheck #30
+   | %\barNumberCheck #30
   g4 g4 g8 [ a8 bes8 g8 ] | % 31
   a4 a4 g8 [ a8 bes8 g8 ] | % 32
   cis2 c2 | % 33
@@ -795,7 +820,7 @@ PorUnaCabezaBass =  {
   }
    | % 38
   g4 g4 g8 [ a8 bes8 g8 ] \bar "||"
-  \key g \major e2 d2 | \barNumberCheck #40
+  \key g \major e2 d2 | %\barNumberCheck #40
   g4 r4 b,8^\mf [ c8 cis8 d8 ] | % 41
   e8 [ d8 ] r4 cis8 [ d8 e8 fis8 ] | % 42
   a8 [ g8 ] r4 r2 | % 43
@@ -805,7 +830,7 @@ PorUnaCabezaBass =  {
   fis,8 r8 r4 r2 | % 47
   R1 | % 48
   r2 g,8 [ a,8 ais,8 b,8 ] | % 49
-  c8 [ b,8 ] r4 ais,8 [ b,8 c8 d8 ] | \barNumberCheck #50
+  c8 [ b,8 ] r4 ais,8 [ b,8 c8 d8 ] | %\barNumberCheck #50
   c8 [ b,8 ] r4 b,8 [ c8 d8 e8 ] | % 51
   f8 [ e8 f8 g8 ] f4 b,4  | % 52
   c4 r4 a8 [ g8 ~ ] \times 2/3 {
@@ -828,7 +853,7 @@ PorUnaCabezaBass =  {
   r4 es4 \times 2/3 {
     es4 f4 g4
   }
-  | \barNumberCheck #60
+  | %\barNumberCheck #60
   f2 d2 | % 61
   r4 c4 \times 2/3 {
     c4 d4 es4
@@ -850,7 +875,7 @@ PorUnaCabezaBass =  {
   r4 es4 \times 2/3 {
     es4 d4 c4
   }
-  | \barNumberCheck #70
+  | %\barNumberCheck #70
   d4 d4 bes,8 [ c8 d8 bes,8 ] \bar "||"
   \key g \major cis4 cis4 d8 [ e8 fis8 d8 ] | % 72
   g,2 r2 \bar "|."
@@ -887,13 +912,32 @@ PorUnaCabezaBassLyrics =  \lyricmode {
 }
 
 PorUnaCabezaViolinOne =  {
-    \clef "treble" \key g \minor \numericTimeSignature\time 4/4 r4 bes''4
-    ( \times 2/3 {
-        bes''4 c'''4 d'''4 \mf ) }
+    \clef "treble" \key g \major \numericTimeSignature\time 4/4
+    r2 \acciaccatura d'16 b'8^"solo"( [ c''8 ] ~ \tuplet 3/2{ c''8)[ cis''8 d''8] } | % 9
+    e''8( [ d''8 ]) r4 r2 | %\barNumberCheck #10
+    r4 r4 b''8( [ c'''8) a''8 b''8 ] | % 11
+    g''8 [ a''8 ] ~ \tuplet 3/2{ a''8 fis''8 g''8 } fis''4.^\prall( d''8 ) | % 12
+    c''8 r8 r4 c'''8( [ b''8) d'''8 c'''8 ] | % 13
+    a''8 r8 r4 a''8 [ gis''8 ] ~ \tuplet 3/2{ gis''8[ b''8 a''8 ] } | % 14
+    fis''8  r8 r4 fis''8( [ g''8) gis''8 a''8 ] | % 15
+    b''8( [ a''8) fis''8 d''8 ] dis''8( [ fis''8) e''8^\prall( c''8 ] ) | % 16
+    b'4 r4 b'8( [ c''8 ] ~ \tuplet 3/2{ c''8)[ cis''8 d''8] } | % 9
+    e''8( [ d''8 ]) r4 cis''8( d''8 ~ \tuplet 3/2{ d''8) [ e''8 fis''8] } | %\barNumberCheck #10
+    a''8( [ g''8 ]) r4 g''8( [ a''8) b''8 g''8 ] | % 19
+    a''8 [ g''8 ] ~ \tuplet 3/2{ g''[ a''8 b''8 ] } a''4..^\prall g''16( | %\barNumberCheck #20
+    e'''4) r4 \acciaccatura{ fis'16 a'16 c''16 fis''16 } a''8( [ g''8) e''8 c''8 ] | % 21
+    b'8( [ a'8 ] ~ \tuplet 3/2{ a'8[) b'8 c''8 ] } es''8( [ g''8 ] ~ \tuplet 3/2{ g''8[) f''8 es''8 ] } | % 22
+    g''8([ d''8 ]) r4 g'4 g'4 | % 23
+    a'4 r4 fis''8 [ g''8 ] ~ \tuplet 3/2{ g''8[ a''8 fis''8 ] } | % 24
+    g''4^> r4 r2 
+    \bar "||" \key g \minor 
+    r4 bes''4^"tutti"
+    \times 2/3 {
+        bes''4( c'''4 d'''4 \f ) }
     | % 2
     d'''2 a''2 | % 3
-    r4 g''4 ( \times 2/3 {
-        g''4 a''4 bes''4 ) }
+    r4 g''4 \times 2/3 {
+        g''4( a''4 bes''4 ) }
     | % 4
     bes''2 f''2 | % 5
     r4 es''4 ( \times 2/3 {
@@ -902,8 +946,7 @@ PorUnaCabezaViolinOne =  {
     g''2 g''8 ( [ a''8 bes''8 g''8 ) ] \bar "||"
     \key g \major a''4 a''4 fis''8 ( [ g''8 a''8 fis''8 ) ] | % 8
     g''2 b'8 ( [ c''8 cis''8 d''8 ]  | % 9
-    e''8 [ d''8 ) ] r4 cis''8 ( [ d''8 e''8 fis''8 ] | \barNumberCheck
-    #10
+    e''8 [ d''8 ) ] r4 cis''8 ( [ d''8 e''8 fis''8 ] | %\barNumberCheck #10
     a''8 [ g''8 ) ] r4 b''8 ( [ c'''8 a''8 b''8 ] | % 11
     g''8 [ a''8 fis''8 g''8 ) ] fis''4. d''8 | % 12
     c''8 r8 r4 c'''8 ( [ b''8 ~ ] b''16 [ d'''16 c'''8 ] | % 13
@@ -914,7 +957,7 @@ PorUnaCabezaViolinOne =  {
     b'8 ) r8 r4 b'8 ( [ c''8 cis''8 d''8 ] | % 17
     e''8 [ d''8 ) ] r4 cis''8 ( [ d''8 e''8 fis''8 ] | % 18
     a''8 [ g''8 ) ] r4 g''8 ( [ a''8 b''8 g''8 ] | % 19
-    a''8 [ g''8 a''8 b''8 ) ] a''4. g''8 | \barNumberCheck #20
+    a''8 [ g''8 a''8 b''8 ) ] a''4. g''8 | %\barNumberCheck #20
     e'''8. r16 r4 a''8 ( [ g''8 e''8 c''8 ] | % 21
     b'8 [ a'8 b'8 c''8 ) ] es''8 ( [ g''8 f''8 es''8 ) ]  | % 22
     g''4 d''4 g''8 ( [ a''8 b''8 g''8 ) ] | % 23
@@ -930,7 +973,7 @@ PorUnaCabezaViolinOne =  {
     bes''2 f''2 | % 29
     r4 es''4 ( \times 2/3 {
         es''4 f''4 g''4 ) }
-    | \barNumberCheck #30
+    | %\barNumberCheck #30
     g''4 g''4 g''8 ( [ a''8 bes''8 g''8 ) ] | % 31
     a''4 a''4 g''8 ( [ a''8 bes''8 g''8 ) ] | % 32
     bes''2 a''2 | % 33
@@ -947,7 +990,7 @@ PorUnaCabezaViolinOne =  {
     | % 38
     g''4 g''4 g''8 ( [ a''8 bes''8 g''8 ) ] \bar "||"
     \key g \major a''4 a''4 fis''8 ( [ g''8 a''8 fis''8 ] |
-    \barNumberCheck #40
+    %\barNumberCheck #40
     g''4 ) r4 g''8 ( [ fis''8 e''8 d''8 ) ] | % 41
     r4 \mf e''8 ( [ d''8 ] b'8 [ g'8 ) ] r4  | % 42
     d'4 r4 d''8 ( [ e''8 fis''8 g''8 ) ] | % 43
@@ -961,7 +1004,7 @@ PorUnaCabezaViolinOne =  {
     fis''4. e''8 c''4. b'8  | % 48
     d''8 [ cis''8 ] c''16 [ b'16 d''8 ~ ] d''8. r16 r4 | % 49
     b''8 [ d'''8 ~ ] d'''16 [ cis'''16 d'''8 ] e'''8 [ d'''8 ~ ] d'''16
-    [ b''16 a''8 ] | \barNumberCheck #50
+    [ b''16 a''8 ] | %\barNumberCheck #50
     g''8 [ b'8 ~ ] b'16 [ c''16 cis''8 ] d''8 [ d''8 ~ ] d''16 [ dis''16
     e''8 ] | % 51
     f''4 f'''4 ~ f'''8 [ b''8 ( c'''8 d'''8 ] | % 52
@@ -975,7 +1018,7 @@ PorUnaCabezaViolinOne =  {
     r4 a''4 ( \times 2/3 {
         a''4 g''4 f''4 \f ) }
      | % 59
-    g''1 | \barNumberCheck #60
+    g''1 | %\barNumberCheck #60
     r4 f''4 ( \times 2/3 {
         f''4 es''4 d''4 ) }
     | % 61
@@ -993,7 +1036,7 @@ PorUnaCabezaViolinOne =  {
     r4 f'''4 \times 2/3 {
         f'''4 es'''4 d'''4 }
     | % 69
-    es'''1 | \barNumberCheck #70
+    es'''1 | %\barNumberCheck #70
     d'''4 d''4 ( \times 2/3 {
         d''4 c''4 bes'4 ) }
     \bar "||"
@@ -1002,13 +1045,30 @@ PorUnaCabezaViolinOne =  {
     }
 
 PorUnaCabezaViolinTwo =  {
-    \clef "treble" \key g \minor \numericTimeSignature\time 4/4 r4 bes'4
-    ( \times 2/3 {
-        bes'4 c''4 d''4 \mf ) }
+    \clef "treble" \key g \major \numericTimeSignature\time 4/4
+    R1 r4 r4 cis''8^"solo"( d''8 ~ \tuplet 3/2{ d''8) [ e''8 fis''8] } | %\barNumberCheck #10
+    a''8( [ g''8 ]) r4 d''8( [ e''8) c''8 d''8 ] | % 11
+    b'8 [ c''8 ] ~ \tuplet 3/2{ c''8 d''8 e''8 } d''4.^\prall( b'8 ) | % 12
+    a'8 r8 r4 e''4 e''4 | % 13
+    fis''8 r8 r4 c''4 d''4 | % 14
+    a'8 r8 r4 d''8( [ e''8) eis''8 fis''8 ] | % 15
+    d''4 b'4 c''4 d''4 | 
+    b'4 r4 g'8( [ a'8 ] ~ \tuplet 3/2{ a'8)[ ais'8 b'8] } | % 9
+    c''8( [ b'8 ]) r4 ais'8( b'8 ~ \tuplet 3/2{ b'8) [ c''8 d''8] } | %\barNumberCheck #10
+    c''8( [ b'8 ]) r4 g''4 d''4 | % 19
+    f''8 [ e''8 ] ~ \tuplet 3/2{ e''[ f''8 g''8 ] } f''4..^\prall r16 | %\barNumberCheck #20
+    R1*2 | % 21
+    r4 r4 g''8( [ a''8) b''8 g''8 ] | % 23
+    a''4^\prall r4 fis'4 fis'4 | % 24
+    g'4^> r4 r2 
+    \bar "||" \key g \minor 
+    r4 bes'4^"tutti"
+    \times 2/3 {
+        bes'4( c''4 d''4 \f ) }
     | % 2
     d''2 f'2 | % 3
-    r4 g'4 ( \times 2/3 {
-        g'4 a'4 bes'4 ) }
+    r4 g'4 \times 2/3 {
+        g'4( a'4 bes'4 ) }
     | % 4
     bes'2 d'2 | % 5
     r4 c'4 ( \times 2/3 {
@@ -1017,7 +1077,7 @@ PorUnaCabezaViolinTwo =  {
     g'4 g'4 g'8 ( [ a'8 bes'8 g'8 ) ] \bar "||"
     \key g \major a'4 a'4 fis'8 ( [ g'8 a'8 fis'8 ) ] | % 8
     g'2 s2  | % 9
-    c''8 [ b'8 ] r4 ais'8 ( [ b'8 c''8 d''8 ] | \barNumberCheck #10
+    c''8 [ b'8 ] r4 ais'8 ( [ b'8 c''8 d''8 ] | %\barNumberCheck #10
     c''8 [ b'8 ) ] r4 d''8 ( [ e''8 c''8 d''8 ] | % 11
     b'8 [ c''8 a'8 b'8 ) ] d''4. b'8 | % 12
     a'8 r8 r4 e''8 ( [ d''8 ~ ] d''16 [ f''16 e''8 ] | % 13
@@ -1027,7 +1087,7 @@ PorUnaCabezaViolinTwo =  {
     g'8 ) r8 r4 g'8 ( [ a'8 ais'8 b'8 ] | % 17
     c''8 [ b'8 ) ] r4 ais'8 ( [ b'8 c''8 d''8 ] | % 18
     c''8 [ b'8 ) ] r4 b'8 ( [ c''8 d''8 e''8 ] | % 19
-    f''8 [ e''8 f''8 g''8 ) ] f''4. b'8 | \barNumberCheck #20
+    f''8 [ e''8 f''8 g''8 ) ] f''4. b'8 | %\barNumberCheck #20
     c''8. r16 r4 c''8 ( [ b'8 g'8 e'8 ] | % 21
     e'4 ) e'8 ( [ a'8 ] c''8 es''4 ) d''16 ( [ c''16 ]  | % 22
     b'4 ) b'4 b'8 ( [ c''8 d''8 b'8 ) ] | % 23
@@ -1040,7 +1100,7 @@ PorUnaCabezaViolinTwo =  {
         bes4 c'4 d'4 ) }
      | % 28
     d'8 ( [ es'8 f'8 g'8 ] a'8 [ bes'8 c''8 d''8 ) ] | % 29
-    es''2 es'2 | \barNumberCheck #30
+    es''2 es'2 | %\barNumberCheck #30
     d'2 d''2 | % 31
     cis''1 | % 32
     cis''2 c''2 | % 33
@@ -1050,7 +1110,7 @@ PorUnaCabezaViolinTwo =  {
     f''8 ) [ r8 f''8 ( g''8 ] a''8 [ bes''8 c'''8 d'''8 ] | % 37
     es'''2 ) es''2 | % 38
     d'''2 d''2 \bar "||"
-    \key g \major cis''2 c''2 | \barNumberCheck #40
+    \key g \major cis''2 c''2 | %\barNumberCheck #40
     b'4 r4 b8 ( [ c'8 cis'8 d'8 ] | % 41
     e'8 \mf [ d'8 ) ] r4 cis'8 ( [ d'8 e'8 fis'8 ]  | % 42
     a'8 [ g'8 ) ] r4 b'8 ( [ c''8 a'8 b'8 ] | % 43
@@ -1060,7 +1120,7 @@ PorUnaCabezaViolinTwo =  {
     a8 ) r8 r4 fis'8 ( [ g'8 ] gis'8. [ a'16 ] | % 47
     b'8 [ a'8 ) r8 e'8 ] dis'8. r16 r4  | % 48
     b8 r8 r4 b8 ( [ c'8 cis'8 d'8 ] | % 49
-    e'8 [ d'8 ) ] r4 cis'8 ( [ d'8 e'8 fis'8 ] | \barNumberCheck #50
+    e'8 [ d'8 ) ] r4 cis'8 ( [ d'8 e'8 fis'8 ] | %\barNumberCheck #50
     a'8 [ g'8 ) ] r4 g'8 ( [ a'8 b'8 g'8 ] | % 51
     a'8 [ g'8 a'8 b'8 ) ] a'4 g'4 | % 52
     c''8. r16 r4 r2  | % 53
@@ -1074,7 +1134,7 @@ PorUnaCabezaViolinTwo =  {
     d''2 <f' a'>2  | % 59
     r4 g'4 ( \times 2/3 {
         g'4 a'4 bes'4 ) }
-    | \barNumberCheck #60
+    | %\barNumberCheck #60
     bes'2 f'2 | % 61
     r4 es'4 ( \times 2/3 {
         es'4 f'4 g'4 ) }
@@ -1092,17 +1152,36 @@ PorUnaCabezaViolinTwo =  {
     bes'2 f'2 | % 69
     c''4 c''4 ( \times 2/3 {
         c''4 bes'4 a'4 ) }
-    | \barNumberCheck #70
+    | %\barNumberCheck #70
     g'2 g''8 ( [ a''8 bes''8 g''8 ) ] \bar "||"
     \key g \major a''4 a''4 fis''8 ( [ g''8 a''8 fis''8 ) ] | % 72
     g''2 r2 \bar "|."
     }
 
 PorUnaCabezaViola =  {
-    \clef "alto" \key g \minor \numericTimeSignature\time 4/4 R1*6 \bar
+    \clef "alto" \key g \major \numericTimeSignature\time 4/4
+    R1
+    g4 _.^"solo pizz." <b d'>4 ^. r2 | %\barNumberCheck #10
+    g4 _. <b d'>4 ^. r2 | % 11
+    g4 _. <a d'>4 ^. r2 | % 12
+    c'4 _. <c' e'>4 ^. r2 | % 13
+    a4 _. <e' c''>4 ^. r2 | % 14
+    d4 _. <a d'>4 _. r2 | % 15
+    d4 _. <a d'>4 _. r2  | % 16
+    g4 _. <b d'>4 ^. r2 | % 17
+    g4 _. <b d'>4 ^. r2 | % 18
+    g4 _. <b d'>4 ^. r2 | % 19
+    g4 _. <b d'>4 ^. r4 <g d'>4 _. | %\barNumberCheck #20
+    r4 <c' e'>4 ^. r2 | % 21
+    r4 <c' e'>4 ^. r4 <c' es'>4 ^.  | % 22
+    r4 <b d'>4 ^. r2 | % 23
+    r4 <e' a'>4 ^. r4 <e' c''>4 _. | % 24
+    <g b>4 r8 d'8 ^"tutti arco" ^> g'8 ^> [ r8 d'8 ^> ] r8
+    \bar "||" \key g \minor 
+    g4 ^"pizz."_> r4 r2 R1*5 \bar
     "||"
     \key g \major R1*2  | % 9
-    g4 _. <b d'>4 ^. r2 ^"pizz." \mf | \barNumberCheck #10
+    g4 _. <b d'>4 ^. r2 ^"pizz." \mf | %\barNumberCheck #10
     g4 _. <b d'>4 ^. r2 | % 11
     g4 _. <b d'>4 ^. r2 | % 12
     a4 _. <c' e'>4 ^. r2 | % 13
@@ -1112,19 +1191,19 @@ PorUnaCabezaViola =  {
     g4 _. <b d'>4 ^. r2 | % 17
     g4 _. <b d'>4 ^. r2 | % 18
     g4 _. <b d'>4 ^. r2 | % 19
-    g4 _. <b d'>4 ^. r4 <g d'>4 _. | \barNumberCheck #20
+    g4 _. <b d'>4 ^. r4 <g d'>4 _. | %\barNumberCheck #20
     r4 <c' e'>4 ^. r2 | % 21
     r4 <c' e'>4 ^. r4 <c' es'>4 ^.  | % 22
     r4 <b d'>4 ^. r2 | % 23
     <e' a'>4 ^. r4 <a d'>4 _. r4 | % 24
-    <b d'>4 r8 d'8 ^"arco" ^> g'8 ^> [ r8 d'8 ^> ] r8 \bar "||"
+    <b d'>4 r8 d'8 ^"arco" ^> g'8 ^> r8 d'8 ^> r8 \bar "||"
     \key g \minor g4 <bes d'>4 <bes d'>2 \f | % 26
     f8 [ g8 a8 bes8 ] c'8 [ d'8 es'8 f'8 ] | % 27
     <g g'>1  | % 28
     <f d'>2 <f d'>2 | % 29
     es'4 g'4 ( \times 2/3 {
         g'4 a'4 bes'4 ) }
-    | \barNumberCheck #30
+    | %\barNumberCheck #30
     bes'2 bes'2 | % 31
     g'1 | % 32
     g'2 fis'2 | % 33
@@ -1134,7 +1213,7 @@ PorUnaCabezaViola =  {
     <f d'>2 <f d'>2 | % 37
     <es c'>2 <es c'>2 | % 38
     <d bes>2 <d bes>2 \bar "||"
-    \key g \major e'2 d'2 | \barNumberCheck #40
+    \key g \major e'2 d'2 | %\barNumberCheck #40
     g4 r4 g8 ( [ a8 ais8 b8 ] | % 41
     c'8 \mf [ b8 ) ] r4 ais8 ( [ b8 c'8 d'8 ]  | % 42
     c'8 [ b8 ) ] r4 d'8 ( [ e'8 c'8 d'8 ] | % 43
@@ -1146,7 +1225,7 @@ PorUnaCabezaViola =  {
     fis'8 ) r8 r4 d'8 ( [ e'8 ] eis'8. [ fis'16 ] | % 47
     fis'4 ) r8 c'8 c'4. a8  | % 48
     g8 r8 r4 g8 ( [ a8 ais8 b8 ] | % 49
-    c'8 [ b8 ) ] r4 ais8 ( [ b8 c'8 d'8 ] | \barNumberCheck #50
+    c'8 [ b8 ) ] r4 ais8 ( [ b8 c'8 d'8 ] | %\barNumberCheck #50
     c'8 [ b8 ) ] r4 b8 ( [ c'8 d'8 e'8 ] | % 51
     f'8 [ e'8 f'8 g'8 ) ] f'4 b4 | % 52
     c'4 r4 a'8 ( [ g'8 ~ ] \times 2/3 {
@@ -1164,7 +1243,7 @@ PorUnaCabezaViola =  {
     a'2 d'2  | % 59
     r4 es'4 ( \times 2/3 {
         es'4 f'4 g'4 ) }
-    | \barNumberCheck #60
+    | %\barNumberCheck #60
     f'2 d'2 | % 61
     r4 c'4 ( \times 2/3 {
         c'4 d'4 es'4 ) }
@@ -1182,23 +1261,42 @@ PorUnaCabezaViola =  {
     f'2 d'2 | % 69
     es'4 es'4 ( \times 2/3 {
         es'4 d'4 c'4 ) }
-    | \barNumberCheck #70
+    | %\barNumberCheck #70
     d'4 r4 bes4 r4 \bar "||"
     \key g \major cis'4 r4 c'4 r4 | % 72
     b2 r2 \bar "|."
     }
 
 PorUnaCabezaCello =  {
-    \clef "bass" \key g \minor \numericTimeSignature\time 4/4 | % 1
-    g,4 ^"pizz." _> r8 d8 g8 \mp [ r8 d8 ] r8 | % 2
+    \clef "bass" \key g \major \numericTimeSignature\time 4/4
+    R1
+    g,4 _.^"solo pizz." <b, g>4 ^. r2 _. | %\barNumberCheck #10
+    g,4 _. <b, g>4 ^. r2 _. | % 11
+    g,4 _. <a, g>4 ^. r2 _. | % 12
+    c,4 _. e,4 ^. r4 e,4 _. | % 13
+    a,4 _. <a c >4 ^. r4 a,4 _. | % 14
+    d,4 _. <fis a>4 ^. r4 a,4 _. | % 15
+    d,4 _. <fis d>4 ^. r4 a,4 _.  | % 16
+    g,4 _. <b, g>4 ^. r4 d,4 _. | % 17
+    g,4 _. <b, g>4 ^. r4 d,4 _. | % 18
+    g,4 _. <b, g>4 ^. r4 d,4 _. | % 19
+    g,4 _. g4 ^. r4 b,4 _. | %\barNumberCheck #20
+    r4 _. c4 _. r4 g,4 _. | % 21
+    c,4 _. c,4 _. r4 c,4 _.  | % 22
+    d,4 _. d4 ^. r4 d,4 _. | % 23
+    e,4 _. e4 ^. d4 ^. d,4 _. | % 24
+    g,4 _. r8 d,8 ^"tutti arco" _> g,8 _> [ r8 d,8 _> ] r8 
+    \bar "||" \key g \minor 
+    | % 1
+    g,4 ^"pizz." _> r8 d8 g8 \f [ r8 d8 ] r8 | % 2
     f,4 r8 a,8 c8 [ r8 a,8 ] r8 | % 3
     es,4 r8 bes,8 es8 [ r8 bes,8 ] r8 | % 4
     d,4 r8 bes,8 d8 [ r8 d,8 ] r8 | % 5
     c,4 r8 g,8 es8 [ r8 a,8 ] r8 | % 6
     bes,4 r8 bes,8 d8 [ r8 g,8 ] r8 \bar "||"
-    \key g \major a,4 r8 a,8 cis8 [ r8 g,8 ] r8 | % 8
+    \key g \major a,4 r8 a,8 cis8 r8 g,8 r8 | % 8
     g,2 r2  | % 9
-    g,4 _. g4 ^. r4 \mf d,4 _. | \barNumberCheck #10
+    g,4 _. g4 ^. r4 \mf d,4 _. | %\barNumberCheck #10
     g,4 _. g4 ^. r4 d,4 _. | % 11
     g,4 _. g4 ^. r4 gis,4 _. | % 12
     a,4 _. a4 ^. r4 e,4 _. | % 13
@@ -1208,7 +1306,7 @@ PorUnaCabezaCello =  {
     g,4 _. g4 ^. r4 d,4 _. | % 17
     g,4 _. g4 ^. r4 d,4 _. | % 18
     g,4 _. g4 ^. r4 d,4 _. | % 19
-    g,4 _. g4 ^. r4 b,4 _. | \barNumberCheck #20
+    g,4 _. g4 ^. r4 b,4 _. | %\barNumberCheck #20
     c4 _. c4 _. r4 g,4 _. | % 21
     c,4 _. c,4 _. r4 c,4 _.  | % 22
     d,4 _. d4 ^. r4 d,4 _. | % 23
@@ -1218,7 +1316,7 @@ PorUnaCabezaCello =  {
     f,4 r8 a,8 c8 [ r8 a,8 ] r8 | % 27
     es,4 r8 bes,8 es8 [ r8 bes,8 ] r8  | % 28
     d,4 r8 bes,8 d8 [ r8 d,8 ] r8 | % 29
-    c,4 r8 g,8 c8 [ r8 a,8 ] r8 | \barNumberCheck #30
+    c,4 r8 g,8 c8 [ r8 a,8 ] r8 | %\barNumberCheck #30
     bes,4 r8 bes,8 d8 [ r8 g,8 ] r8 | % 31
     a,4 r8 a,8 cis8 [ g,8 ] r4 | % 32
     cis4 es,4 d4 d,4 | % 33
@@ -1228,7 +1326,7 @@ PorUnaCabezaCello =  {
     d,4 r8 bes,8 d8 [ r8 d,8 ] r8 | % 37
     c,4 r8 g,8 es8 [ r8 a,8 ] r8 | % 38
     bes,4 r8 g,8 d8 [ r8 g,8 ] r8 \bar "||"
-    \key g \major a,2 d,2 | \barNumberCheck #40
+    \key g \major a,2 d,2 | %\barNumberCheck #40
     g,4 _. g4 ^. r4 ^"pizz." d,4 _. | % 41
     g,4 _. g4 \mf ^. r4 d,4 _.  | % 42
     g,4 _. g4 ^. r4 gis,4 _. | % 43
@@ -1238,7 +1336,7 @@ PorUnaCabezaCello =  {
     d,4 _. fis4 ^. r4 a,4 _. | % 47
     g,4 _. g4 ^. r4 d,4 _.  | % 48
     g,4 _. g4 ^. r4 d,4 _. | % 49
-    g,4 _. g4 ^. r4 d,4 _. | \barNumberCheck #50
+    g,4 _. g4 ^. r4 d,4 _. | %\barNumberCheck #50
     g,4 _. g4 ^. r4 d,4 _. | % 51
     g,4 _. g4 ^. r4 b,4 _. | % 52
     c4 _. c4 _. r4 g,4 _.  | % 53
@@ -1248,7 +1346,7 @@ PorUnaCabezaCello =  {
     g,4 _. r8 d,8 ^"arco" _> g,8 _> [ r8 d,8 _> ] r8 \bar "||"
     \key g \minor g,4 _> r8 d8 g8 \f [ r8 d8 ] r8 | % 58
     f,4 r8 a,8 c8 [ r8 a,8 ] r8  | % 59
-    es,4 r8 bes,8 es8 [ r8 bes,8 ] r8 | \barNumberCheck #60
+    es,4 r8 bes,8 es8 [ r8 bes,8 ] r8 | %\barNumberCheck #60
     d,4 r8 bes,8 d8 [ r8 d,8 ] r8 | % 61
     c,4 r8 g,8 es8 [ r8 a,8 ] r8 | % 62
     bes,4 r8 bes,8 d8 [ r8 g,8 ] r8 | % 63
@@ -1258,16 +1356,19 @@ PorUnaCabezaCello =  {
     f,4 r8 a,8 c8 [ r8 a,8 ] r8 | % 67
     es,4 r8 bes,8 es8 [ r8 bes,8 ] r8 | % 68
     d,4 r8 bes,8 d8 [ r8 d,8 ] r8 | % 69
-    c,4 r8 g,8 es8 [ r8 a,8 ] r8 | \barNumberCheck #70
+    c,4 r8 g,8 es8 [ r8 a,8 ] r8 | %\barNumberCheck #70
     bes,4 r4 g,4 r4 \bar "||"
     \key g \major a,4 r4 d,4 r4 | % 72
     g,2 r2 \bar "|."
     }
 
 PorUnaCabezaDoubleBass =  {
-    \transposition c \clef "bass" \key g \minor
-    \numericTimeSignature\time 4/4 | % 1
-    g,4 ^"pizz." _> r8 d8 g8 \mp [ r8 d8 ] r8 | % 2
+    \transposition c \clef "bass" \key g \major
+    \numericTimeSignature\time 4/4
+    R1*17
+    \bar "||" \key g \minor 
+    | % 1
+    g,4 ^"pizz." _> r8 d8 g8 \f [ r8 d8 ] r8 | % 2
     f,4 r8 a,8 c8 [ r8 a,8 ] r8 | % 3
     es4 r8 bes,8 es8 [ r8 bes,8 ] r8 | % 4
     d4 r8 bes,8 d8 [ r8 d8 ] r8 | % 5
@@ -1275,7 +1376,7 @@ PorUnaCabezaDoubleBass =  {
     bes,4 r8 bes,8 d8 [ r8 g,8 ] r8 \bar "||"
     \key g \major a,4 r8 a,8 cis8 [ r8 g,8 ] r8 | % 8
     g,2 r2  | % 9
-    g,4 _. g4 ^. r4 \mf d4 ^. | \barNumberCheck #10
+    g,4 _. g4 ^. r4 \mf d4 ^. | %\barNumberCheck #10
     g,4 _. g4 ^. r4 d4 ^. | % 11
     g,4 _. g4 ^. r4 gis,4 _. | % 12
     a,4 _. a4 ^. r4 e,4 _. | % 13
@@ -1285,7 +1386,7 @@ PorUnaCabezaDoubleBass =  {
     g,4 _. g4 ^. r4 d4 ^. | % 17
     g,4 _. g4 ^. r4 d4 ^. | % 18
     g,4 _. g4 ^. r4 d4 ^. | % 19
-    g,4 _. g4 ^. r4 b,4 _. | \barNumberCheck #20
+    g,4 _. g4 ^. r4 b,4 _. | %\barNumberCheck #20
     c4 _. c4 _. r4 g,4 _. | % 21
     c4 _. c4 _. r4 c4 _.  | % 22
     d4 ^. d'4 ^. r4 d4 ^. | % 23
@@ -1295,7 +1396,7 @@ PorUnaCabezaDoubleBass =  {
     f,4 r8 a,8 c8 [ r8 a,8 ] r8 | % 27
     es4 r8 bes,8 es8 [ r8 bes,8 ] r8  | % 28
     d4 r8 bes8 d'8 [ r8 d8 ] r8 | % 29
-    c4 r8 g,8 c8 [ r8 a,8 ] r8 | \barNumberCheck #30
+    c4 r8 g,8 c8 [ r8 a,8 ] r8 | %\barNumberCheck #30
     bes,4 r8 bes,8 d8 [ r8 g,8 ] r8 | % 31
     a,4 r8 a,8 cis8 [ g,8 ] r4 | % 32
     cis'4 es4 d'4 d4 | % 33
@@ -1305,7 +1406,7 @@ PorUnaCabezaDoubleBass =  {
     d4 r8 bes8 d'8 [ r8 d8 ] r8 | % 37
     c4 r8 g8 es'8 [ r8 a8 ] r8 | % 38
     bes4 r8 g8 d'8 [ r8 g8 ] r8 \bar "||"
-    \key g \major a,2 d2 | \barNumberCheck #40
+    \key g \major a,2 d2 | %\barNumberCheck #40
     g,4 _. g4 ^. r4 ^"pizz." d4 ^. | % 41
     g,4 _. g4 \mf ^. r4 d4 ^.  | % 42
     g,4 _. g4 ^. r4 gis,4 _. | % 43
@@ -1315,7 +1416,7 @@ PorUnaCabezaDoubleBass =  {
     d4 ^. fis4 ^. r4 a,4 _. | % 47
     g,4 _. g4 ^. r4 d4 ^.  | % 48
     g,4 _. g4 ^. r4 d4 ^. | % 49
-    g,4 _. g4 ^. r4 d4 ^. | \barNumberCheck #50
+    g,4 _. g4 ^. r4 d4 ^. | %\barNumberCheck #50
     g,4 _. g4 ^. r4 d4 ^. | % 51
     g,4 _. g4 ^. r4 b,4 _. | % 52
     c4 _. c4 _. r4 g,4 _.  | % 53
@@ -1325,7 +1426,7 @@ PorUnaCabezaDoubleBass =  {
     g4 ^. r8 ^"arco" d8 ^> g8 ^> [ r8 d8 ^> ] r8 \bar "||"
     \key g \minor g,4 _> r8 d8 g8 \f [ r8 d8 ] r8 | % 58
     f,4 r8 a,8 c8 [ r8 a,8 ] r8  | % 59
-    es4 r8 bes,8 es8 [ r8 bes,8 ] r8 | \barNumberCheck #60
+    es4 r8 bes,8 es8 [ r8 bes,8 ] r8 | %\barNumberCheck #60
     d4 r8 bes,8 d8 [ r8 d8 ] r8 | % 61
     c4 r8 g,8 es8 [ r8 a,8 ] r8 | % 62
     bes,4 r8 bes,8 d8 [ r8 g,8 ] r8 | % 63
@@ -1335,19 +1436,22 @@ PorUnaCabezaDoubleBass =  {
     f,4 r8 a,8 c8 [ r8 a,8 ] r8 | % 67
     es4 r8 bes,8 es8 [ r8 bes,8 ] r8 | % 68
     d4 r8 bes8 d'8 [ r8 d8 ] r8 | % 69
-    c4 r8 g8 es'8 [ r8 a8 ] r8 | \barNumberCheck #70
+    c4 r8 g8 es'8 [ r8 a8 ] r8 | %\barNumberCheck #70
     bes4 r4 g4 r4 \bar "||"
     \key g \major a,4 r4 d4 r4 | % 72
     g,2 r2 \bar "|."
     }
     
     
-    PorUnaCabezaTrombone =  {
-  \clef "bass" \key g \minor \numericTimeSignature\time 4/4 R1*6 \bar
+PorUnaCabezaTrombone =  {
+  \clef "bass" \key g \major \numericTimeSignature\time 4/4
+  R1*17
+  \bar "||" \key g \minor 
+  R1*6 \bar
   "||"
   \key g \major R1 | % 8
   R1*9 | % 17
-  R1*3 | \barNumberCheck #20
+  R1*3 | %\barNumberCheck #20
   R1*5 \bar "||"
   | % 25
   \key g \minor r4 ^\markup{ \italic {rit.} } bes4 ( \times 2/3 {
@@ -1363,7 +1467,7 @@ PorUnaCabezaDoubleBass =  {
   r4 es4 ( \times 2/3 {
     es4 f4 g4 )
   }
-  | \barNumberCheck #30
+  | %\barNumberCheck #30
   g4 g4 g8 ( [ a8 bes8 g8 ) ] | % 31
   a4 a4 g8 ( [ a8 bes8 g8 ) ] | % 32
   bes2 a2 | % 33
@@ -1373,7 +1477,7 @@ PorUnaCabezaDoubleBass =  {
   d4 r8 bes8 d'8 [ r8 d8 ] r8 | % 37
   c4 r8 g8 es'8 [ r8 a8 ] r8 | % 38
   bes4 r8 g8 d'8 [ r8 g8 ] r8 \bar "||"
-  \key g \major e2 d2 | \barNumberCheck #40
+  \key g \major e2 d2 | %\barNumberCheck #40
   g,4 r4 r2 | % 41
   R1 | % 42
   R1*9 | % 51
@@ -1386,7 +1490,7 @@ PorUnaCabezaDoubleBass =  {
   r4 g4 ( \times 2/3 {
     g4 a4 bes4 )
   }
-  | \barNumberCheck #60
+  | %\barNumberCheck #60
   bes2 f2 | % 61
   r4 es4 ( \times 2/3 {
     es4 f4 g4 )
@@ -1399,18 +1503,21 @@ PorUnaCabezaDoubleBass =  {
   f,4 r8 a,8 c8 [ r8 a,8 ] r8 | % 67
   es4 r8 bes,8 es8 [ r8 bes,8 ] r8 | % 68
   d4 r8 bes8 d'8 [ r8 d8 ] r8 | % 69
-  c4 r8 g8 es'8 [ r8 a8 ] r8 | \barNumberCheck #70
+  c4 r8 g8 es'8 [ r8 a8 ] r8 | %\barNumberCheck #70
   bes4 r8 g8 d'8 [ r8 g8 ] r8 \bar "||"
   \key g \major e2 d2 | % 72
   g,2 r2 \bar "|."
 }
 
 PorUnaCabezaTrumpet =  {
-  \transposition bes \clef "treble" \key a \minor
-  \numericTimeSignature\time 4/4 R1*6 \bar "||"
+  \transposition bes \clef "treble" \key a \major
+  \numericTimeSignature\time 4/4
+  R1*17
+  \bar "||" \key a \minor 
+  R1*6 \bar "||"
   \key a \major R1*2 | % 9
   R1*9 | % 18
-  R1*2 | \barNumberCheck #20
+  R1*2 | %\barNumberCheck #20
   R1*5 \bar "||"
   | % 25
   \key a \minor a4 ^\markup{ \italic {rit.} } _> r8 e'8 a'8 \f [ r8 e'8
@@ -1418,7 +1525,7 @@ PorUnaCabezaTrumpet =  {
   g4 r8 b8 d'8 [ r8 b8 ] r8 | % 27
   f'4 r8 c''8 f''8 [ r8 c''8 ] r8 | % 28
   e'4 r8 c''8 e''8 [ r8 e'8 ] r8 | % 29
-  d'4 r8 a'8 d''8 [ r8 b'8 ] r8 | \barNumberCheck #30
+  d'4 r8 a'8 d''8 [ r8 b'8 ] r8 | %\barNumberCheck #30
   c''4 r8 c''8 e''8 [ r8 a'8 ] r8 | % 31
   b'4 r8 b'8 dis''8 [ a'8 ] r4 | % 32
   dis''4 f'4 e''4 e'4 | % 33
@@ -1437,15 +1544,14 @@ PorUnaCabezaTrumpet =  {
   }
   | % 38
   a'4 a'4 a'8 ( [ b'8 c''8 a'8 ) ] \bar "||"
-  \key a \major b'4 b'4 gis'8 ( [ a'8 b'8 gis'8 ] | \barNumberCheck
-  #40
+  \key a \major b'4 b'4 gis'8 ( [ a'8 b'8 gis'8 ] | %\barNumberCheck #40
   a'4 ) r4 r2 | % 41
   R1 | % 42
   R1*9 | % 51
   R1*6 \bar "||"
   \key a \minor a4 _> r8 e'8 a'8 \f [ r8 e'8 ] r8  | % 58
   g4 r8 b8 d'8 [ r8 b8 ] r8 | % 59
-  f'4 r8 c''8 f''8 [ r8 c''8 ] r8 | \barNumberCheck #60
+  f'4 r8 c''8 f''8 [ r8 c''8 ] r8 | %\barNumberCheck #60
   e'4 r8 c''8 e''8 [ r8 e'8 ] r8 | % 61
   d'4 r8 a'8 d''8 [ r8 b'8 ] r8 | % 62
   c''4 r8 c''8 e''8 [ r8 a'8 ] r8 | % 63
@@ -1464,18 +1570,21 @@ PorUnaCabezaTrumpet =  {
   r4 f'4 ( \times 2/3 {
     f'4 g'4 a'4 )
   }
-  | \barNumberCheck #70
+  | %\barNumberCheck #70
   a'4 a'4 a'8 ( [ b'8 c''8 a'8 ) ] \bar "||"
   \key a \major b'4 b'4 gis'8 ( [ a'8 b'8 gis'8 ] | % 72
   a'2 ) r2 \bar "|."
 }
 
 PorUnaCabezaHorn =  {
-  \transposition f \clef "treble" \key d \minor
-  \numericTimeSignature\time 4/4 R1*6 \bar "||"
+  \transposition f \clef "treble" \key d \major
+  \numericTimeSignature\time 4/4
+  R1*17
+  \bar "||" \key d \minor 
+  R1*6 \bar "||"
   \key d \major R1 | % 8
   R1*9 | % 17
-  R1*3 | \barNumberCheck #20
+  R1*3 | %\barNumberCheck #20
   R1*5 \bar "||"
   | % 25
   \key d \minor r4 ^\markup{ \italic {rit.} } f'4 ( \times 2/3 {
@@ -1491,7 +1600,7 @@ PorUnaCabezaHorn =  {
   r4 bes4 ( \times 2/3 {
     bes4 c'4 d'4 )
   }
-  | \barNumberCheck #30
+  | %\barNumberCheck #30
   d'4 d'4 d'8 ( [ e'8 f'8 d'8 ) ] | % 31
   e'4 e'4 d'8 ( [ e'8 f'8 d'8 ) ] | % 32
   f'2 e'2 | % 33
@@ -1510,8 +1619,7 @@ PorUnaCabezaHorn =  {
   }
   | % 38
   d'4 d'4 d'8 ( [ e'8 f'8 d'8 ) ] \bar "||"
-  \key d \major e'4 e'4 cis'8 ( [ d'8 e'8 cis'8 ] | \barNumberCheck
-  #40
+  \key d \major e'4 e'4 cis'8 ( [ d'8 e'8 cis'8 ] | %\barNumberCheck #40
   d'4 ) r4 r2 | % 41
   d'4 \p _. d''4 ^. r4 a'4 _. | % 42
   d'4 _. d''4 ^. r4 dis'4 _. | % 43
@@ -1521,7 +1629,7 @@ PorUnaCabezaHorn =  {
   a'4 _. cis''4 ^. r4 e'4 _. | % 47
   d'4 _. d''4 ^. r4 a'4 _. | % 48
   d'4 _. d''4 ^. r4 a'4 _. | % 49
-  d'4 _. d''4 ^. r4 a'4 _. | \barNumberCheck #50
+  d'4 _. d''4 ^. r4 a'4 _. | %\barNumberCheck #50
   d'4 _. d''4 ^. r4 a'4 _. | % 51
   d'4 _. d''4 ^. r4 fis'4 _. | % 52
   g4 _. g4 _. r4 d4 _. | % 53
@@ -1537,7 +1645,7 @@ PorUnaCabezaHorn =  {
   r4 d'4 ( \times 2/3 {
     d'4 e'4 f'4 )
   }
-  | \barNumberCheck #60
+  | %\barNumberCheck #60
   f'2 c'2 | % 61
   r4 bes4 ( \times 2/3 {
     bes4 c'4 d'4 )
@@ -1559,18 +1667,22 @@ PorUnaCabezaHorn =  {
   r4 bes4 ( \times 2/3 {
     bes4 c'4 d'4 )
   }
-  | \barNumberCheck #70
+  | %\barNumberCheck #70
   d'4 d'4 d'8 ( [ e'8 f'8 d'8 ) ] \bar "||"
   | % 71
   \key d \major e'4 e'4 cis'8 ( [ d'8 e'8 cis'8 ] | % 72
   d'2 ) r2 \bar "|."
 }
+
 PorUnaCabezaAltoSax =  {
-  \transposition es \clef "treble" \key e \minor
-  \numericTimeSignature\time 4/4 R1*6 \bar "||"
+  \transposition es \clef "treble" \key e \major
+  \numericTimeSignature\time 4/4
+  R1*17
+  \bar "||" \key e \minor 
+  R1*6 \bar "||"
   \transposition es \key e \major R1 | % 8
   R1*9 | % 17
-  R1*3 | \barNumberCheck #20
+  R1*3 | %\barNumberCheck #20
   R1*5 \bar "||"
   | % 25
   \transposition es \key e \minor r4 ^\markup{ \italic {rit.} } g''4 (
@@ -1587,7 +1699,7 @@ PorUnaCabezaAltoSax =  {
   r4 c''4 ( \times 2/3 {
     c''4 d''4 e''4 )
   }
-  | \barNumberCheck #30
+  | %\barNumberCheck #30
   e''4 e''4 e''8 ( [ fis''8 g''8 e''8 ) ] | % 31
   fis''4 fis''4 e''8 ( [ fis''8 g''8 e''8 ) ] | % 32
   ais''4 c''4 b''4 b'4 | % 33
@@ -1607,14 +1719,14 @@ PorUnaCabezaAltoSax =  {
   | % 38
   e''4 e''4 e''8 ( [ fis''8 g''8 e''8 ) ] \bar "||"
   \transposition es \key e \major fis''4 fis''4 dis''8 ( [ e''8 fis''8
-  dis''8 ] | \barNumberCheck #40
+  dis''8 ] | %\barNumberCheck #40
   e''4 ) r4 r2 | % 41
   cis''8 ^. [ b'8 ^. ] r4 r2 | % 42
   fis''8 ^. [ e''8 ^. ] r4 r2 | % 43
   r2 dis''4. b'8 ^. | % 44
   a'8 _. r8 r4 r2 | % 45
   R1*4 | % 49
-  cis''8 ^. [ b'8 ^. ] r4 r2 | \barNumberCheck #50
+  cis''8 ^. [ b'8 ^. ] r4 r2 | %\barNumberCheck #50
   fis''8 ^. [ e''8 ^. ] r4 r2 | % 51
   r2 fis''4. e''8 | % 52
   cis'''8 ^. r8 r4 r2 | % 53
@@ -1628,7 +1740,7 @@ PorUnaCabezaAltoSax =  {
   r4 e''4 ( \times 2/3 {
     e''4 fis''4 g''4 )
   }
-  | \barNumberCheck #60
+  | %\barNumberCheck #60
   g''2 d''2 | % 61
   r4 c''4 ( \times 2/3 {
     c''4 d''4 e''4 )
@@ -1650,7 +1762,7 @@ PorUnaCabezaAltoSax =  {
   r4 c''4 ( \times 2/3 {
     c''4 d''4 e''4 )
   }
-  | \barNumberCheck #70
+  | %\barNumberCheck #70
   e''4 e''4 e''8 ( [ fis''8 g''8 e''8 ) ] \bar "||"
   \transposition es \key e \major fis''4 fis''4 dis''8 ( [ e''8 fis''8
   dis''8 ] | % 72
@@ -1658,11 +1770,14 @@ PorUnaCabezaAltoSax =  {
 }
 
 PorUnaCabezaClarinet =  {
-  \transposition bes \clef "treble" \key a \minor
-  \numericTimeSignature\time 4/4 R1*6 \bar "||"
+  \transposition bes \clef "treble" \key a \major
+  \numericTimeSignature\time 4/4
+  R1*17
+  \bar "||" \key a \minor 
+  R1*6 \bar "||"
   \key a \major R1*2 | % 9
   R1*9 | % 18
-  R1*2 | \barNumberCheck #20
+  R1*2 | %\barNumberCheck #20
   R1*5 \bar "||"
   \key a \minor | % 25
   c'1 ^\markup{ \italic {rit.} } \f | % 26
@@ -1672,7 +1787,7 @@ PorUnaCabezaClarinet =  {
   }
   | % 28
   e'8 ( [ f'8 g'8 a'8 ] b'8 [ c''8 d''8 e''8 ) ] | % 29
-  f''2 f'2 | \barNumberCheck #30
+  f''2 f'2 | %\barNumberCheck #30
   e'2 e''2 | % 31
   dis''1 | % 32
   dis''2 d''2 | % 33
@@ -1683,7 +1798,7 @@ PorUnaCabezaClarinet =  {
   f'''2 ) f''2 | % 38
   e'''2 e''2 \bar "||"
   | % 39
-  \key a \major dis''2 d''2 | \barNumberCheck #40
+  \key a \major dis''2 d''2 | %\barNumberCheck #40
   cis''4 r4 r2 | % 41
   R1*3 | % 44
   r2 d''8 [ cis''8 ~ ] cis''16 [ e''8 d''16 ^. ] | % 45
@@ -1699,7 +1814,7 @@ PorUnaCabezaClarinet =  {
   a'4 c'4 ( \times 2/3 {
     c'4 d'4 e'4 )
   }
-  | \barNumberCheck #60
+  | %\barNumberCheck #60
   e'8 ( [ f'8 g'8 a'8 ] b'8 [ c''8 d''8 e''8 ) ] | % 61
   f''2 f'2 | % 62
   e'2 e''2 | % 63
@@ -1709,7 +1824,7 @@ PorUnaCabezaClarinet =  {
   b'8 [ r8 b'8 ( c''8 ] d''8 [ e''8 f''8 g''8 ] | % 67
   a''8 ) [ r8 a'8 ( b'8 ] c''8 [ d''8 e''8 f''8 ] | % 68
   g''8 ) [ r8 g''8 ( a''8 ] b''8 [ c'''8 d'''8 e'''8 ] | % 69
-  f'''2 ) f''2 | \barNumberCheck #70
+  f'''2 ) f''2 | %\barNumberCheck #70
   e'''2 e''2 \bar "||"
   | % 71
   \key a \major dis''2 d''2 | % 72
@@ -1718,12 +1833,15 @@ PorUnaCabezaClarinet =  {
 
 PorUnaCabezaTriangle =  {
   \clef "percussion" \stopStaff \override Staff.StaffSymbol
-  #'line-count = #1 \startStaff \key g \minor
-  \numericTimeSignature\time 4/4 R1*3 | % 4
+  #'line-count = #1 \startStaff \key g \major
+  \numericTimeSignature\time 4/4
+  R1*17
+  \bar "||" \key g \minor 
+  R1*3 | % 4
   R1*3 \bar "||"
   \key g \major R1 | % 8
   R1 | % 9
-  c''8 r8 r4 r2 | \barNumberCheck #10
+  c''8 r8 r4 r2 | %\barNumberCheck #10
   c''8 r8 r4 r2 | % 11
   R1 | % 12
   R1 | % 13
@@ -1733,7 +1851,7 @@ PorUnaCabezaTriangle =  {
   R1 | % 17
   c''8 r8 r4 r2 | % 18
   c''8 r8 r4 r2 | % 19
-  R1 | \barNumberCheck #20
+  R1 | %\barNumberCheck #20
   c''8 ^\markup{ \italic {rit.} } r8 r4 r2 | % 21
   R1*3 | % 24
   c''8 r8 r4 r2 \bar "||"
@@ -1741,7 +1859,7 @@ PorUnaCabezaTriangle =  {
   \key g \minor R1*2 | % 27
   c''8 r8 r4 r2 | % 28
   R1 | % 29
-  c''8 r8 r4 r2 | \barNumberCheck #30
+  c''8 r8 r4 r2 | %\barNumberCheck #30
   R1 | % 31
   c''8 r8 r4 r2 | % 32
   c''8 r8 r4 c''8 r8 r4 | % 33
@@ -1751,7 +1869,7 @@ PorUnaCabezaTriangle =  {
   R1 | % 37
   c''8 r8 r4 r2 | % 38
   R1 \bar "||"
-  \key g \major R1 | \barNumberCheck #40
+  \key g \major R1 | %\barNumberCheck #40
   c''8 r8 r4 r2 | % 41
   c''8 r8 r4 r2 | % 42
   c''8 r8 r4 r2 | % 43
@@ -1761,7 +1879,7 @@ PorUnaCabezaTriangle =  {
   c''8 r8 r4 r2 | % 47
   R1 | % 48
   c''8 r8 r4 r2 | % 49
-  c''8 r8 r4 r2 | \barNumberCheck #50
+  c''8 r8 r4 r2 | %\barNumberCheck #50
   c''8 r8 r4 r2 | % 51
   R1 | % 52
   c''8 r8 r4 r2 | % 53
@@ -1769,7 +1887,7 @@ PorUnaCabezaTriangle =  {
   R1*2 | % 56
   c''8 r8 r4 r2 \bar "||"
   \key g \minor R1*2 | % 59
-  c''8 r8 r4 r2 | \barNumberCheck #60
+  c''8 r8 r4 r2 | %\barNumberCheck #60
   R1 | % 61
   c''8 r8 r4 r2 | % 62
   R1 | % 63
@@ -1778,9 +1896,8 @@ PorUnaCabezaTriangle =  {
   R1*2 | % 67
   c''8 r8 r4 r2 | % 68
   R1 | % 69
-  c''8 r8 r4 r2 | \barNumberCheck #70
+  c''8 r8 r4 r2 | %\barNumberCheck #70
   R1 \bar "||"
   \key g \major R1 | % 72
   c''8 r8 r4 r2 \bar "|."
 }
-
