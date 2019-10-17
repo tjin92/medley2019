@@ -169,7 +169,7 @@ GodfatherViolinOne = \relative c''' {
   \key c \minor 
   <c' ef>2:32\pp <d f>: <ef g>1: <c ef>: <c f>2: r b, r
   c r8 c'\p^\solo( ef bf') af( g bf af) af( g) g--\> b--
-  c2\pp r8\fermata g,,,^\markup{\italic {sul G}} c ef
+  c2\pp r8\fermata g,,,\mf^\markup{\italic {sul G}} c ef
   d c ef c d c af bf \tuplet 6/4 { g16 c ef g c ef } \tuplet 6/4 { g c ef
     \ottava #1
   g c ef } g8\fermata \breathe g,[ c ef] d c ef c d c g fs f
@@ -182,6 +182,7 @@ GodfatherViolinOne = \relative c''' {
   d f bf f d' bf f' d bf' f d bf f' d bf d,
   c ef g a c ef g a ef'8\fermata c,,[ ef cs]
   d16 fs a d fs a d fs d'4\fermata d,32 a-+ fs d-+ a-+ fs d16-+
+  \bar "||"
 }
 
 GodfatherViolinTwo = \relative c'' {
