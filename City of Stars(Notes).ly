@@ -144,7 +144,7 @@ CityOfStarsViolinOne =  {
   <a' d''>8 r8 r4 <a' d''>8 r8 r4 | % 24
   <a' d''>4 r8 <c'' f''>4 <c'' e''>4 r8 | % 25
   <bes' d''>2. <bes' f''>8  <bes' e''>8  | % 26
-  <bes' e''>8*5 <c'' e''>8 r4 | % 27
+  <bes' e''>4 r4 <c'' e''>4 r4 | % 27
   <a' c''>4 r4 <a' c''>4 r4 | % 28
   <f' c''>4 r4 r2 | % 29
   <g' d''>8 r8 r4 r8 <g' d''>8 r4  | \barNumberCheck #30
@@ -193,7 +193,7 @@ CityOfStarsViolinTwo =  {
   <d' f'>8 r8 r4 <d' f'>8 r8 r4 | % 24
   <f' a'>4 r8 <a' c''>4 <a' c''>4 r8 | % 25
   <f' bes'>2. <g' bes'>8  <g' bes'>8  | % 26
-  <g' bes'>8*5 <e' g'>8 r4 | % 27
+  <g' bes'>4 r4 <e' g'>4 r4 | % 27
   <c' f'>4 r4 <c' f'>4 r4 | % 28
   <f' a'>4 r4 r2 | % 29
   <d' g'>8 r8 r4 r8 <d' g'>8 r4  | \barNumberCheck #30
@@ -242,7 +242,7 @@ CityOfStarsViola =  {
   <a d'>8 r8 r4 <a d'>8 r8 r4 | % 24
   <f a>4 r8 <a c'>4 <a c'>4 r8 | % 25
   <f bes>2. <g bes>8  <g bes>8  | % 26
-  <g bes>8*5 <g c'>8 r4 | % 27
+  <g bes>4 r4 <g c'>4 r4 | % 27
   <a c'>4 r4 <a c'>4 r4 | % 28
   <a f'>4 r4 r2 | % 29
   <bes d'>8 r8 r4 r8 <bes d'>8 r4  | \barNumberCheck #30
@@ -255,7 +255,7 @@ CityOfStarsViola =  {
   g'4 r8 g'8 g'8  f'8 g'8 g'8 ~   | % 37
   g'4 r8 g'8 g'8  f'8 g'8 a'8 ~  | % 38
   a'8  a'8 g'8 g'8  f'8  a'8 e''8 \rest a'8 \<  | % 39
-  bes'4 bes'4 bes'8  a'8 bes'8 c''8 \! ~  | \barNumberCheck #40
+  bes4 bes4 bes8  a8 bes8 c'8 \! ~  | \barNumberCheck #40
   c'4 r8 c'8 c'8  bes8 c'8 f'8 ~  | % 41
   f'4 e'4 \> d'4 c'4 \! | % 42
   d'1 | % 43
