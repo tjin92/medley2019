@@ -8,7 +8,7 @@ GodfatherFluteOne = \relative c'' {
   R1*5 R1\fermataMarkup
   \bar "||"
   \key c \minor
-  R1*4 r2 r8 f\p( af b) c2 r R1*2
+  R1*4 r2 r8 f\p( af b) c2 r R1 R\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -19,7 +19,7 @@ GodfatherFluteTwo = \relative c'' {
   R1*5 R1\fermataMarkup
   \bar "||"
   \key c \minor
-  R1*8
+  R1*7 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -31,7 +31,7 @@ GodfatherOboe = \relative c'' {
   R1*5 r2 r8 e'\mp( g e) d2~d8 d( f ds) e2 r\fermata
   \bar "||"
   \key c \minor
-  R1*8
+  R1*7 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -43,7 +43,7 @@ GodfatherClarinet = \relative c'' {
   R1*7 e2\mp g8\sfz\fermata r r4
   \bar "||"
   \key c \minor
-  R1*3 r2 r8 f\p( af b) d2 r R1*3
+  R1*3 r2 r8 f\p( af b) d2 r R1*2 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -56,7 +56,7 @@ GodfatherSax = \relative c' {
   \bar "||"
   \key c \minor
   d( c ef c) d( c af bf) g2 r8 g( c ef)
-  d( c ef c) d( c g fs) f2 r R1*4
+  d( c ef c) d( c g fs) f2 r R1*3 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -67,7 +67,7 @@ GodfatherBassClarinet = \relative c {
   R1*7 e2\mp g8\sfz\fermata r r4
   \bar "||"
   \key c \minor
-  R1*8
+  R1*7 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -78,7 +78,7 @@ GodfatherHornOne = \relative c' {
   R1*7 r2 g8\mf\fermata r8 r4
   \bar "||"
   \key c \minor
-  R1*8
+  R1*7 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -89,7 +89,7 @@ GodfatherHornTwo = \relative c {
   R1*7 r2 f'8\mf\fermata r8 r4
   \bar "||"
   \key c \minor
-  R1*8
+  R1*7 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -100,7 +100,7 @@ GodfatherTrumpetOne = \relative c'' {
   R1*3 R1\fermataMarkup
   \bar "||"
   \key c \minor
-  R1*8
+  R1*7 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -111,7 +111,7 @@ GodfatherTrumpetTwo = \relative c'' {
   R1*3 R1\fermataMarkup
   \bar "||"
   \key c \minor
-  R1*8
+  R1*7 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -122,7 +122,7 @@ GodfatherTromboneOne = \relative c' {
   R1*7 r2 d8\mf\fermata r8 r4
   \bar "||"
   \key c \minor
-  R1*8
+  R1*7 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -133,7 +133,7 @@ GodfatherTromboneTwo = \relative c {
   R1*7 r2 b'8\mf\fermata r8 r4
   \bar "||"
   \key c \minor
-  R1*8
+  R1*7 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -144,7 +144,8 @@ GodfatherPianoRH = \relative c'' {
   \bar "||"
   \key c \minor
   R1*4 <d f af b d>2\arpeggio\p r <ef g c ef>\arpeggio r
-  <g b d g>\arpeggio <b d f g b>\arpeggio <c ef g c>\arpeggio r
+  <g b d g>\arpeggio <b d f g b>\arpeggio <c ef g c>\arpeggio r\fermata
+  R1*12
   \bar "||"
 }
 
@@ -154,7 +155,7 @@ GodfatherPianoLH = \relative c' {
   R1*11 R1\fermataMarkup
   \bar "||"
   \key c \minor
-  R1*8
+  R1*7 R1\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -174,14 +175,14 @@ GodfatherViolinOne = \relative c''' {
     \ottava #1
   g c ef } g8\fermata \breathe g,[ c ef] d c ef c d c g fs f
   \ottava #0
-  \trip{ af16[ f d] } \tuplet 6/4 { c af f d c af } f8\fermata \breathe f[ af b]
+  \trip{ af16 f d } \tuplet 6/4 { c af f d c af } f8\fermata \breathe f[ af b]
   <af, f' d'>2 r8 f' af b <g, ef' c'>2 r8 c ef bf'
   << { af g bf af af g d ef } \\ { g,4 d' b g } >>
   c2 r8 g' g fs
   f16 a c a f' c a' f ef' c a f ef c a ef
   d f bf f d' bf f' d bf' f d bf f' d bf d,
-  c ef g a c ef g a ef'8\fermata c,,[ ef cs]
-  d16 fs a d fs a d fs d'4\fermata d,32 a-+ fs d-+ a-+ fs d16-+
+  c ef g a c ef g a ef'8\fermata \breathe c,,[ ef cs]
+  d16 fs a d fs a d fs d'4\fermata \breathe d,32 a-+ fs d-+ a-+ fs d16-+
   \bar "||"
 }
 
@@ -195,7 +196,7 @@ GodfatherViolinTwo = \relative c'' {
   \bar "||"
   \key c \minor
   <ef' g>2:32\pp <f af>: <g c>1: <ef g>1: <f af>2: r
-  f, r g r R1*2
+  f, r g r R1 R\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -209,7 +210,7 @@ GodfatherViola = \relative c'' {
   \bar "||"
   \key c \minor
   <g' c>2:32\pp <af c>: <g c>1: <g c>: <af c>2: r
-  d, r ef r R1*2
+  d, r ef r R1 R\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -223,7 +224,7 @@ GodfatherCello = \relative c' {
   \bar "||"
   \key c \minor
   <c g'>2:32\pp <c f>: <c g'>1: <c g'>: <c f>2: r
-  af r c r R1*2
+  af r c r R1 R\fermataMarkup R1*12
   \bar "||"
 }
 
@@ -235,6 +236,6 @@ GodfatherDoubleBass = \relative c, {
   g1\f c2\mf r f,1\mp e2 g8\sfz\fermata r r4
   \bar "||"
   \key c \minor
-  c1:32\pp c: c: c2: r d2 r c r R1*2
+  c1:32\pp c: c: c2: r d2 r c r R1 R\fermataMarkup R1*12
   \bar "||"
 }

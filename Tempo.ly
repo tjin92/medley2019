@@ -14,5 +14,8 @@ Tempo = {
   \bar "||"
   \time 4/4
   \tempo "Godfather Love Theme" 4 = 60
-  s1*20
+  s1*19
+  s2 s8 s4.^\markup{\italic {cadenza ad lib.}}
+  s1*12
+  \bar "||"
 }
