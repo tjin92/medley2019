@@ -2,14 +2,6 @@
 \version "2.18.2"
 % automatically converted by musicxml2ly from /Users/yuyanzhang/Desktop/GS - Arrangement/Lilypond/Kimi o nosete (SATB).xml
 
-\header {
-  encodingsoftware = "Finale 2014.5 for Mac"
-  encodingdate = "2019-09-09"
-  copyright = "©"
-  title = "Kimi o nosete"
-}
-
-
 
 KimiONoseteAlto =  {
   \clef "treble" \key g \minor \numericTimeSignature\time 4/4 | % 1
