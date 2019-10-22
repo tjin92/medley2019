@@ -76,9 +76,6 @@
         \PorUnaCabezaTrombone
       }
     >>
-    \new StaffGroup <<
- 
-    <<
     \new StaffGroup \with { \override SpanBar #'transparent = ##t }
     <<
       \new Staff <<
@@ -113,11 +110,6 @@
           \new Lyrics \lyricsto "PorUnaCabezaBass" \PorUnaCabezaBassLyrics
         >>
       >>
-
-    >>
-
-  >>
-
 
     >>
     
