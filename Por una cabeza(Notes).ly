@@ -192,7 +192,7 @@ PorUnaCabezaBassClarinet =  {
     a'4 r4 r2 | % 41
     R1  | % 42
     R1*2 | % 44
-    r2 d''8 [ cis''8 ~ ] cis''16 [ e''8 d''16 ^. ] | % 45
+    r2 d''8 [ cis''8 e''8 d''8 ] | % 45
     b'8 ^. r8 r4 b'8 [ ais'8 cis''8 b'8 ] | % 46
     b8 _. r8 r4 r2 | % 47
     gis'4. fis'8 _. d'4. cis'8 _.  | % 48
@@ -229,7 +229,7 @@ PorUnaCabezaPianoRH =  {
     e''8 [ d''8 ] r4 cis''8 ( [ d''8 e''8 fis''8 ] | %\barNumberCheck #10
     a''8 [ g''8 ) ] r4 b''8 ( [ c'''8 a''8 b''8 ] | % 11
     <b' g''>8 [ a''8 <a' fis''>8 g''8 ) ] <a' fis''>4. d''8 | % 12
-    c''8 r8 r4 c'''8 ( [ b''8 ~ ] b''16 [ d'''16 c'''8 ] | % 13
+    c''8 r8 r4 c'''8 ( [ b''8 d'''8 c'''8 ] | % 13
     <e'' a''>8 ) \arpeggio ^. \arpeggio r8 r4 a''8 ( [ gis''8 b''8 a''8
     ] | % 14
     <a' fis''>8 ) \arpeggio ^. \arpeggio r8 r4 fis''8 [ g''8 gis''8 a''8
@@ -242,7 +242,7 @@ PorUnaCabezaPianoRH =  {
     a''8 [ g''8 ) ] <d'' fis'' g'' d'''>4 \arpeggio ^. \arpeggio
     \arpeggio \arpeggio g''8 ( [ a''8 b''8 g''8 ] | % 19
     a''8 [ g''8 a''8 b''8 ) ] a''4. g''8 | %\barNumberCheck #20
-    <c'' g'' ais'' e'''>8. \arpeggio \arpeggio \arpeggio \arpeggio r16 r4
+    <c'' g'' ais'' e'''>4 \arpeggio \arpeggio \arpeggio \arpeggio r4
     a''8 [ g''8 e''8 c''8 ] | % 21
     b'8 [ a'8 b'8 c''8 ] es''8 [ g''8 f''8 es''8 ]  | % 22
     <b' g''>4 <b' d''>4 g''8 [ a''8 b''8 g''8 ] | % 23
@@ -285,7 +285,7 @@ PorUnaCabezaPianoRH =  {
     e''8 [ d''8 ] r4 cis''8 ( [ d''8 e''8 fis''8 ]  | % 42
     a''8 [ g''8 ) ] r4 b''8 ( [ c'''8 a''8 b''8 ] | % 43
     <b' g''>8 [ a''8 <a' fis''>8 g''8 ) ] <a' fis''>4. d''8 | % 44
-    c''8 r8 r4 c'''8 ( [ b''8 ~ ] b''16 [ d'''16 c'''8 ] | % 45
+    c''8 r8 r4 c'''8 ( [ b''8 d'''8 c'''8 ] | % 45
     <e'' a''>8 ) \arpeggio ^. \arpeggio r8 r4 a''8 ( [ gis''8 b''8 a''8
     ] | % 46
     <a' fis''>8 ) \arpeggio ^. \arpeggio r8 r4 fis''8 [ g''8 gis''8 a''8
@@ -359,7 +359,7 @@ PorUnaCabezaPianoLH =  {
     <a f'>4 ^. <d g b>4 ^. a4. \times 2/3 {
         g16 [ b16 d'16 ] }
     | %\barNumberCheck #20
-    <ais c' e'>4. r8 r2 | % 21
+    <ais c' e'>4 r4 r2 | % 21
     c4 <c' e'>4 ^. c,4 <c' es'>4 ^.  | % 22
     d4 <b d'>4 ^. d,4 <b d'>4 ^. | % 23
     <e' a'>4 r4 <a d'>4 r4 | % 24
@@ -941,7 +941,7 @@ PorUnaCabezaViolinOne =  {
     e''8 [ d''8 ) ] r4 cis''8 ( [ d''8 e''8 fis''8 ] | %\barNumberCheck #10
     a''8 [ g''8 ) ] r4 b''8 ( [ c'''8 a''8 b''8 ] | % 11
     g''8 [ a''8 fis''8 g''8 ) ] fis''4. d''8 | % 12
-    c''8 r8 r4 c'''8 ( [ b''8 ~ ] b''16 [ d'''16 c'''8 ] | % 13
+    c''8 r8 r4 c'''8 ( [ b''8 d'''8 c'''8 ] | % 13
     a''8 ) r8 r4 a''8 ( [ gis''8 b''8 a''8 ] | % 14
     fis''8 ) r8 r4 fis''8 ( [ g''8 gis''8 a''8 ] | % 15
     b''8 [ a''8 fis''8 d''8 ) ] dis''8 ( [ fis''8 e''8 c''8 ] 
@@ -950,7 +950,7 @@ PorUnaCabezaViolinOne =  {
     e''8 [ d''8 ) ] r4 cis''8 ( [ d''8 e''8 fis''8 ] | % 18
     a''8 [ g''8 ) ] r4 g''8 ( [ a''8 b''8 g''8 ] | % 19
     a''8 [ g''8 a''8 b''8 ) ] a''4. g''8 | %\barNumberCheck #20
-    e'''8. r16 r4 a''8 ( [ g''8 e''8 c''8 ] | % 21
+    e'''4 r4 a''8 ( [ g''8 e''8 c''8 ] | % 21
     b'8 [ a'8 b'8 c''8 ) ] es''8 ( [ g''8 f''8 es''8 ) ]  | % 22
     g''4 d''4 g''8 ( [ a''8 b''8 g''8 ) ] | % 23
     a''4 a''4 fis''8 ( [ g''8 a''8 fis''8 ] | % 24
@@ -986,15 +986,14 @@ PorUnaCabezaViolinOne =  {
     g''4 ) r4 g''8\mf ( [ fis''8 e''8 d''8 ) ] | % 41
     r4 e''8 ( [ d''8 ] b'8 [ g'8 ) ] r4  | % 42
     d'4 r4 d''8 ( [ e''8 fis''8 g''8 ) ] | % 43
-    b''8 [ fis''8 ~ ] fis''16 [ a''16 g''8 ] d''4. b'8 | % 44
+    b''8 [ fis''8 a''8 g''8 ] d''4. b'8 | % 44
     c''8 [ b'8 ] \times 2/3 {
         r8 c''8 [ d''8 ] }
     e''2 ~ | % 45
     e''8 [ dis''8 ~ ] dis''16 [ fis''8 e''16 ] c''2 ~ | % 46
-    c''8 [ b'8 ~ ] b'16 [ d''8 c''16 ] a'8 [ ais'8 ~ ] ais'16 [ b'8 c''16
-    ] | % 47
+    c''8 [ b'8 ~ ] b'16 [ d''8 c''16 ] a'8 [ ais'8 b'8 c''8 ] | % 47
     fis''4. e''8 c''4. b'8  | % 48
-    d''8 [ cis''8 ] c''16 [ b'16 d''8 ~ ] d''8. r16 r4 | % 49
+    d''8 [ cis''8 ] c''16 [ b'16 d''8 ~ ] d''8 r8 r4 | % 49
     b''8 [ d'''8 ~ ] d'''16 [ cis'''16 d'''8 ] e'''8 [ d'''8 ~ ] d'''16
     [ b''16 a''8 ] | %\barNumberCheck #50
     g''8 [ b'8 ~ ] b'16 [ c''16 cis''8 ] d''8 [ d''8 ~ ] d''16 [ dis''16
@@ -1007,8 +1006,8 @@ PorUnaCabezaViolinOne =  {
     e'''2 a'''2 | % 56
     g'''4 r4 r2
     \key g \minor R1 | % 58
-    r4 a''4 ( \times 2/3 {
-        a''4 g''4 f''4 \f ) }
+    r4 a''4\f ( \times 2/3 {
+        a''4 g''4 f''4 ) }
      | % 59
     g''1 | %\barNumberCheck #60
     r4 f''4 ( \times 2/3 {
@@ -1068,11 +1067,11 @@ PorUnaCabezaViolinTwo =  {
     | % 6
     g'4 g'4 g'8 ( [ a'8 bes'8 g'8 ) ]
     \key g \major a'4 a'4 fis'8 ( [ g'8 a'8 fis'8 ) ] | % 8
-    g'2 g'8\mf ( [ a''8 ais''8 b''8 ] | % 9
+    g'2 g'8\mf ( [ a'8 ais'8 b'8 ] | % 9
     c''8 [ b'8 ) ] r4 ais'8 ( [ b'8 c''8 d''8 ] | %\barNumberCheck #10
     c''8 [ b'8 ) ] r4 d''8 ( [ e''8 c''8 d''8 ] | % 11
     b'8 [ c''8 a'8 b'8 ) ] d''4. b'8 | % 12
-    a'8 r8 r4 e''8 ( [ d''8 ~ ] d''16 [ f''16 e''8 ] | % 13
+    a'8 r8 r4 e''8 ( [ d''8 f''8 e''8 ] | % 13
     c''8 ) r8 r4 c''4 c''4 | % 14
     c''8 r8 r4 d''8 ( [ e''8 f''8 fis''8 ] | % 15
     fis''4 d''8 [ c''8 ) ] c''4. ( a'8  | % 16
@@ -1080,7 +1079,7 @@ PorUnaCabezaViolinTwo =  {
     c''8 [ b'8 ) ] r4 ais'8 ( [ b'8 c''8 d''8 ] | % 18
     c''8 [ b'8 ) ] r4 b'8 ( [ c''8 d''8 e''8 ] | % 19
     f''8 [ e''8 f''8 g''8 ) ] f''4. b'8 | %\barNumberCheck #20
-    c''8. r16 r4 c''8 ( [ b'8 g'8 e'8 ] | % 21
+    c''4 r4 c''8 ( [ b'8 g'8 e'8 ] | % 21
     e'4 ) e'8 ( [ a'8 ] c''8 es''4 ) d''16 ( [ c''16 ]  | % 22
     b'4 ) b'4 b'8 ( [ c''8 d''8 b'8 ) ] | % 23
     cis''4 cis''4 a'8 ( [ b'8 c''8 a'8 ] | % 24
@@ -1107,10 +1106,10 @@ PorUnaCabezaViolinTwo =  {
     e'8 [ d'8 ) ] r4 cis'8 ( [ d'8 e'8 fis'8 ]  | % 42
     a'8 [ g'8 ) ] r4 b'8 ( [ c''8 a'8 b'8 ] | % 43
     g'8 [ a'8 fis'8 g'8 ) ] fis'4. d'8 | % 44
-    c'8 r8 r4 c''8 ( [ b'8 ~ ] b'16 [ d''8 c''16 ] | % 45
+    c'8 r8 r4 c''8 ( [ b'8 d''8 c''8 ] | % 45
     a'8 ) r8 r4 c'8 ( [ b8 d'8 c'8 ] | % 46
-    a8 ) r8 r4 fis'8 ( [ g'8 ] gis'8. [ a'16 ] | % 47
-    b'8 [ a'8 ) r8 e'8 ] dis'8. r16 r4  | % 48
+    a8 ) r8 r4 fis'8 ( [ g'8 gis'8 a'8 ] | % 47
+    b'8 [ a'8 ) r8 e'8 ] dis'4 r4  | % 48
     b8 r8 r4 b8 ( [ c'8 cis'8 d'8 ] | % 49
     e'8 [ d'8 ) ] r4 cis'8 ( [ d'8 e'8 fis'8 ] | %\barNumberCheck #50
     a'8 [ g'8 ) ] r4 g'8 ( [ a'8 b'8 g'8 ] | % 51
@@ -1118,10 +1117,12 @@ PorUnaCabezaViolinTwo =  {
     c''4 r4 r2  | % 53
     r2 c'8 es'4 d'16 [ c'16 ] | % 54
     b4 b4 b8 ( [ c'8 d'8 b8 ) ] | % 55
-    cis'4 cis'4 a8 [ b8 ~ ] b16 [ c'16 a8 ] | % 56
+    cis'4 cis'4 a8 [ b8 ~ ] \times 2/3 {
+      b8 [ c'8 a8 ] }
+    | % 56
     b8 r8 r4 r2
-    \key g \minor r4 bes'4 ( \times 2/3 {
-        bes'4 c''4 d''4 \f ) }
+    \key g \minor r4 bes'4\f ( \times 2/3 {
+        bes'4 c''4 d''4 ) }
     | % 58
     d''2 <f' a'>2  | % 59
     r4 g'4 ( \times 2/3 {
@@ -1210,11 +1211,9 @@ PorUnaCabezaViola =  {
     c'8 [ b8 ) ] r4 ais8 ( [ b8 c'8 d'8 ]  | % 42
     c'8 [ b8 ) ] r4 d'8 ( [ e'8 c'8 d'8 ] | % 43
     b8 [ c'8 a8 b8 ) ] d'4. b8 | % 44
-    a8 r8 r4 e'8 ( [ d'8 ~ ] \times 2/3 {
-        d'8 [ f'8 e'8 ] }
-    | % 45
+    a8 r8 r4 e'8 ( [ d'8 f'8 e'8 ] | % 45
     c'8 ) r8 r4 a'8 ( [ gis'8 b'8 a'8 ] | % 46
-    fis'8 ) r8 r4 d'8 ( [ e'8 ] eis'8. [ fis'16 ] | % 47
+    fis'8 ) r8 r4 d'8 ( [ e'8 eis'8 fis'8 ] | % 47
     fis'4 ) r8 c'8 c'4. a8  | % 48
     g8 r8 r4 g8 ( [ a8 ais8 b8 ] | % 49
     c'8 [ b8 ) ] r4 ais8 ( [ b8 c'8 d'8 ] | %\barNumberCheck #50
@@ -1228,7 +1227,7 @@ PorUnaCabezaViola =  {
     a'4 a'4 fis'8 [ g'8 ~ ] \times 2/3 {
         g'8 [ a'8 fis'8 ] }
     | % 56
-    g'4 ^. r8\f^\arco d'8 ^> g'8 ^> [ r8 d'8 ^> ] r8
+    g'4 r8\f^\arco d'8 ^> g'8 ^> [ r8 d'8 ^> ] r8
     \key g \minor g4 _> g'4 ( \times 2/3 {
         g'4 a'4 bes'4 ) }
     | % 58
@@ -1321,12 +1320,12 @@ PorUnaCabezaCello =  {
     \key g \major a,2 d,2 | %\barNumberCheck #40
     g,4 _. g4 ^. r4 d,4\mf^\pizz | % 41
     g,4 g4 r4 d,4  | % 42
+    g,4 g4 r4 d,4  | % 48
     g,4 g4 r4 gis,4 | % 43
     a,4 a4 r4 e,4 | % 44
     a,4 a4 r4 es,4 | % 45
     d,4 fis4 r4 a,4 | % 46
     d,4 fis4 r4 a,4 | % 47
-    g,4 g4 r4 d,4  | % 48
     g,4 g4 r4 d,4 | % 49
     g,4 g4 r4 d,4 | %\barNumberCheck #50
     g,4 g4 r4 d,4 | % 51
@@ -1401,12 +1400,12 @@ PorUnaCabezaDoubleBass =  {
     \key g \major a,2 d2 | %\barNumberCheck #40
     g,4 _. g4 ^. r4 d4\mf^\pizz | % 41
     g,4 g4 r4 d4  | % 42
+    g,4 g4 r4 d4  | % 48
     g,4 g4 r4 gis,4 | % 43
     a,4 a4 r4 e,4 | % 44
     a,4 a4 r4 es4 | % 45
     d4 fis4 r4 a,4 | % 46
     d4 fis4 r4 a,4 | % 47
-    g,4 g4 r4 d4  | % 48
     g,4 g4 r4 d4 | % 49
     g,4 g4 r4 d4 | %\barNumberCheck #50
     g,4 g4 r4 d4 | % 51
@@ -1792,7 +1791,7 @@ PorUnaCabezaClarinet =  {
   \key a \major dis''2 d''2 | %\barNumberCheck #40
   cis''4 r4 r2 | % 41
   R1*3 | % 44
-  r2 d''8 [ cis''8 ~ ] cis''16 [ e''8 d''16 ^. ] | % 45
+  r2 d''8 [ cis''8 e''8 d''8 ] | % 45
   b'8 ^. r8 r4 b'8 [ ais'8 cis''8 b'8 ] | % 46
   gis''8 ^. r8 r4 r2 | % 47
   gis''4. fis''8 ^. d''4. cis''8 ^. | % 48

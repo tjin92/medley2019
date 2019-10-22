@@ -142,9 +142,9 @@ CityOfStarsViolinOne =  {
   <a' c''>4 r4 <a' c''>4 r4 | % 28
   <f' c''>4 r4 r2 | % 29
   <g' d''>8 r8 r4 r8 <g' d''>8 r4  | \barNumberCheck #30
-  <g' c''>8 r4 r8 r8 <c'' e''>8 r8 r8 | % 31
+  <g' c''>8 r8 r4 r8 <c'' e''>8 r4 | % 31
   a'4 r8 a'8 a'4 bes'8  a'8  | % 32
-  r4 r8 <c'' a''>4 r8 r4 | % 33
+  r4 r8 <c'' a''>8 r2 | % 33
   R1 | % 34
   r2 r4 r8 cis''8 ^\arco | % 35
   d''4 d''4 d''8  c''8 d''8 e''8 ~  | % 36
@@ -193,7 +193,7 @@ CityOfStarsViolinTwo =  {
   <d' g'>8 r8 r4 r8 <d' g'>8 r4  | \barNumberCheck #30
   <e' g'>8 r8 r4 r8 <e' g'>8 r4 | % 31
   a'4 r8 a'8 a'4 bes'8  a'8  | % 32
-  r4 r8 <c'' es''>4 r8 r4 | % 33
+  r4 r8 <c'' es''>8 r2 | % 33
   R1 | % 34
   r2 r4 r8 cis'8 ^\arco | % 35
   d'4 d'4 d'8  c'8 d'8 e'8 ~  | % 36
@@ -225,14 +225,14 @@ CityOfStarsViola =  {
   bes8 r8 r4 r8 bes8 d'8 r8 | \barNumberCheck #10
   c'8 r8 r4 r8 c'8 r4 | % 11
   c'8 r8 r4 r8 c'8 r4 | % 12
-  c'8 r8 r4 r8 r8 c'4 | % 13
+  c'8 r8 r4 r4 c'4 | % 13
   <bes d'>4 ^> r4 r8 d'8 r4 | % 14
   c'8 r8 r4 e'8 r8 r4  | % 15
   f'4. f'8 f'4. f'8 | % 16
   a4 _> c'4 r2 | % 17
   R1*4 | % 21
   <d' bes'>8 r8 r4 <d' bes'>8 r8 r4 | % 22
-  <c' g'>8 r8 r8 r8 r8 d'8 r8 r8  | % 23
+  <c' g'>8 r8 r4 r8 d'8 r4  | % 23
   <a d'>8 r8 r4 <a d'>8 r8 r4 | % 24
   <f a>4 r8 <a c'>8 r8 <a c'>8 r4 | % 25
   <f bes>2 r4 <g bes>8  <g bes>8  | % 26
@@ -242,7 +242,7 @@ CityOfStarsViola =  {
   <bes d'>8 r8 r4 r8 <bes d'>8 r4  | \barNumberCheck #30
   <g c'>8 r8 r4 r8 <g c'>8 r4 | % 31
   <a c'>8 r8 r4 r8 <a c'>8 r4 | % 32
-  r4 r8 <c' a'>4 r8 r4 | % 33
+  r4 r8 <c' a'>8 r2 | % 33
   R1 | % 34
   r2 r4 r8 e'8 ^\arco | % 35
   f'4 f'4 f'8  e'8 f'8 g'8 ~  | % 36
@@ -366,7 +366,7 @@ CityOfStarsSoprano =  {
   | % 8
   R1*7  | % 15
   R1 | % 16
-  r2 r4 a''4 \mf | % 17
+  r2 r4 a''4 ^\mf | % 17
   g''4 r4 d''2 | % 18
   e''4 r8 a'8 \times 2/3 {
     a''4 g''4 f''4
@@ -398,27 +398,27 @@ CityOfStarsSoprano =  {
   d''4 d''4 d''8  c''8 d''8 e''8 ~  | \barNumberCheck #40
   e''4 r8 e''8 e''8  d''8 e''8 a'8 ~  | % 41
   a'2. r4 | % 42
-  r4 a'4 \< bes'4 c''4 \! | % 43
-  d''4 \f d''4 d''8  c''8 d''8 e''8 ~   | % 44
+  r4 a'4 ^\< bes'4 c''4 | % 43
+  d''4 ^\f d''4 d''8  c''8 d''8 e''8 ~   | % 44
   e''4 r8 e''8 e''8  d''8 e''8 e''8 ~  | % 45
   e''4 r8 e''8 e''8  d''8 e''8 f''8 ~  | % 46
   f''8  f''8 e''8 e''8  d''8  a'8 r8 a'8  | % 47
   d''4 d''4 d''8  cis''8 d''8 e''8 ~  | % 48
   e''2. r4 | % 49
-  r4 a'8 \<  e''8  \times 2/3 {
+  r4 a'8 ^\<  e''8  \times 2/3 {
     a''4 \! g''4 f''4
   }
   | \barNumberCheck #50
-  f''4 \> d''2. | % 51
+  f''4 ^\> d''2. | % 51
   R1\! | % 52
-  g'8 \! \mp  a'8 bes'8 d''8 ~  d''2 | % 53
+  g'8 ^\mp  a'8 bes'8 d''8 ~  d''2 | % 53
   r4 e''8  f''8  d''8  e''8 c''8 d''8  | % 54
   a'1 | % 55
   R1 | % 56
   g'8  a'8 bes'8 d''8 ~  d''2 | % 57
-  r8 cis''8 \< cis''8 e''8  a''4 g''4 | % 58
+  r8 cis''8 ^\< cis''8 e''8  a''4 g''4 | % 58
   f''2 d''2 ~ | % 59
-  d''1 \! \mf ~ | \barNumberCheck #60
+  d''1 \mf ~ | \barNumberCheck #60
   d''1 \fermata \bar "|."
 
 }
@@ -446,7 +446,7 @@ CityOfStarsAlto =  {
   | % 8
   R1*7  | % 15
   R1 | % 16
-  r2 r4 a'4 \mf | % 17
+  r2 r4 a'4 ^\mf | % 17
   g'4 r4 d'2 | % 18
   e'4 r8 a8 \times 2/3 {
     a'4 g'4 f'4
@@ -475,27 +475,27 @@ CityOfStarsAlto =  {
   e'4 r8 e'8 e'8  d'8 e'8 e'8 ~   | % 37
   e'4 r8 e'8 e'8  d'8 e'8 f'8 ~  | % 38
   f'8  f'8 e'8 e'8  d'8  c'8 r8 c'8  | % 39
-  d'4 \< d'4 d'8  c'8 d'8 e'8 ~  | \barNumberCheck #40
+  d'4 ^\< d'4 d'8  c'8 d'8 e'8 ~  | \barNumberCheck #40
   e'4 \! r8 e'8 e'8  d'8 e'8 d'8 ~  | % 41
   d'2. r4 | % 42
   d'4 a4 bes4 c'4 | % 43
-  bes4 \f bes4 bes8  a8 bes8 c'8 ~   | % 44
+  bes4 ^\f bes4 bes8  a8 bes8 c'8 ~   | % 44
   c'4 r8 c'8 c'8  c'8 c'8 cis'8 ~  | % 45
   cis'4 r8 cis'8 cis'8  b8 cis'8 d'8 ~  | % 46
   d'8  d'8 c'8 d'8  a8  a8 c'8 \rest a8  | % 47
   bes4 bes4 bes8  bes8 bes8 cis'8 ~ | % 48
   cis'2. r4 | % 49
-  r4 a8 \<  e'8  \times 2/3 {
+  r4 a8 ^\<  e'8  \times 2/3 {
     a'4 \! g'4 f'4
   }
   | \barNumberCheck #50
-  f'4 \> d'2. | % 51
+  f'4 ^\> d'2. | % 51
   R1\! | % 52
   R1*4 | % 56
-  g8 \!  a8 bes8 d'8 ~  d'2 | % 57
-  r8 cis'8 \<  cis'8 e'8  a'4 g'4 | % 58
+  g8  a8 bes8 d'8 ~  d'2 | % 57
+  r8 cis'8 ^\<  cis'8 e'8  a'4 g'4 | % 58
   f'2 d'2 ~ | % 59
-  d'1 \! \mf ~ | \barNumberCheck #60
+  d'1 ^\mf ~ | \barNumberCheck #60
   d'1 \fermata \bar "|."
 }
 
@@ -518,7 +518,7 @@ CityOfStarsTenor =  {
   \clef "treble_8" \key d \minor \numericTimeSignature\time 4/4 R1*7
   | % 8
   R1*4 | % 12
-  r2 r4 a4 \mf | % 13
+  r2 r4 a4 ^\mf | % 13
   g1 | % 14
   r8 d'8  c'8 d'8  c'8  d'8 c'8 d'8   | % 15
   a4. a8 a4. a8 | % 16
@@ -542,26 +542,26 @@ CityOfStarsTenor =  {
   g4 r8 g8 g8  f8 g8 g8 ~   | % 37
   g4 r8 g8 g8  f8 g8 a8 ~  | % 38
   a8  a8 g8 g8  f8  a8 e'8 \rest a8  | % 39
-  bes4 \< bes4 bes8  a8 bes8 c'8 ~  | \barNumberCheck #40
+  bes4 ^\< bes4 bes8  a8 bes8 c'8 ~  | \barNumberCheck #40
   c'4 \! r8 c'8 c'8  bes8 c'8 f'8 ~  | % 41
-  f'4 e'4 \> d'4 c'4 | % 42
-  d'1 \! | % 43
-  f4 \f f4 f8  f8 f8 g8 ~   | % 44
+  f'4 e'4 ^\> d'4 c'4 | % 42
+  d'1 | % 43
+  f4 ^\f f4 f8  f8 f8 g8 ~   | % 44
   g4 r8 g8 g8  g8 g8 g8 ~  | % 45
   g4 r8 g8 g8  g8 g8 a8 ~  | % 46
   a8  a8 g8 g8  f8  f8 r8 f8  | % 47
   f4 f4 f8  f8 f8 g8 ~  | % 48
   g2. r4 | % 49
-  r4 cis8 \<  e8  \times 2/3 {
+  r4 cis8 ^\<  e8  \times 2/3 {
     a4 \! g4 f4
   }
   | \barNumberCheck #50
-  f4 \> d2. | % 51
+  f4 ^\> d2. | % 51
   R1\! | % 52
   R1*4 | % 56
-  g8 \!  a8 bes8 d'8 ~  d'2 | % 57
-  r8 a'8 \<  a'8 g'8  e'4 cis'4 | % 58
-  d'2 a2 \! ~ | % 59
+  g8 a8 bes8 d'8 ~  d'2 | % 57
+  r8 a'8 ^\<  a'8 g'8  e'4 cis'4 | % 58
+  d'2 a2 ~ | % 59
   a1 \mf ~ | \barNumberCheck #60
   a1 \fermata \bar "|."
 }
@@ -584,7 +584,7 @@ CityOfStarsTenorLyricsOne =  \lyricmode {
 }
 CityOfStarsBass =  {
   \clef "bass" \key d \minor \numericTimeSignature\time 4/4 R1*4 | % 5
-  g,8 \mf a,8 bes,8 d8 ~  d2 | % 6
+  g,8 ^\mf a,8 bes,8 d8 ~  d2 | % 6
   r4 e8  f8  d8  e8 c8 d8  | % 7
   a,1 | % 8
   R1 | % 9
@@ -610,35 +610,35 @@ CityOfStarsBass =  {
   f4 r8 f8 e4 e8  es8~  | % 32
   es2 r4 r8 a8 | % 33
   g4 r4 r4 r8 d8 | % 34
-  cis4 r4 r4. e8 | % 35
+  cis4 r4 r4 r8 e8 | % 35
   f4 f4 f8  e8 f8 g8 ~  | % 36
   g4 r8 g8 g8  f8 g8 g8 ~   | % 37
   g4 r8 g8 g8  f8 g8 a8 ~  | % 38
   a8  a8 g8 g8  f8  c8 r8 c8  | % 39
-  f4 \< f4 f8  e8 f8 g8 ~  | \barNumberCheck #40
+  f4 ^\< f4 f8  e8 f8 g8 ~  | \barNumberCheck #40
   g4 \! r8 g8 g8  f8 g8 f8 ~  | % 41
-  f4 e4 \> d4 c4 | % 42
-  d4 \! c4 \< bes,4 a,4 \! | % 43
+  f4 e4 ^\> d4 c4 | % 42
+  d4 \! c4 ^\< bes,4 a,4 | % 43
   bes,4 \f bes,4 bes,8  bes,8 bes,8 c8 ~   | % 44
   c4 r8 c8 c8  c8 c8 a,8 ~  | % 45
   a,4 r8 a,8 a,8  a,8 a,8 d8 ~  | % 46
   d8  d8 d8 d8  d8  d8 r8 d8  | % 47
   bes,4 bes,4 bes,8  bes,8 bes,8 a,8 ~  | % 48
   a,2. r4 | % 49
-  r4 cis8 \<  e8  \times 2/3 {
+  r4 cis8 ^\<  e8  \times 2/3 {
     a4 \! g4 f4
   }
   | \barNumberCheck #50
-  f4 \> d2. | % 51
+  f4 ^\> d2. | % 51
   R1\! | % 52
-  g,8 \! \mp  a,8 bes,8 d8 ~  d2 | % 53
+  g,8 ^\mp  a,8 bes,8 d8 ~  d2 | % 53
   r4 e8  f8  d8  e8 c8 d8  | % 54
   a,1 | % 55
   R1 | % 56
   g,8  a,8 bes,8 d8 ~  d2 | % 57
-  r8 a8 \<  a8 g8  e4 cis4 | % 58
-  d2 f2 \! ~ | % 59
-  f1 \mf ~ | \barNumberCheck #60
+  r8 a8 ^\<  a8 g8  e4 cis4 | % 58
+  d2 f2 ~ | % 59
+  f1 ^\mf ~ | \barNumberCheck #60
   f1 \fermata \bar "|."
 }
 
@@ -745,7 +745,7 @@ CityOfStarsPianoRH =  {
 
 CityOfStarsPianoLH =  {
   \clef "bass" \key d \minor \numericTimeSignature\time 4/4 | % 1
-  g,8 \mf \sustainOn  bes,8 d8 g8 ~  g8  g8 f8 d8  | % 2
+  g,8 ^\mf \sustainOn  bes,8 d8 g8 ~  g8  g8 f8 d8  | % 2
   g,8  bes,8 d8 g8 ~  g8  g8 f8 d8  | % 3
   g,8  bes,8 d8 g8 ~  g8  g8 f8 d8  | % 4
   g,8  bes,8 d8 g8 ~  g8  g8 f8 d8  | % 5
@@ -785,17 +785,17 @@ CityOfStarsPianoLH =  {
   a,,4 a,,4 b,,4 cis,4 | % 38
   d,4 e,4 f,4 d,4 | % 39
   bes,,4 bes,,4 d,4 bes,,4 | \barNumberCheck #40
-  c4 \! c,4 d,4 e,4 | % 41
+  c4 c,4 d,4 e,4 | % 41
   d,4 e,4 f,4 d,4 | % 42
   d4 d,4 d4 d,4 | % 43
-  bes,,4 \f bes,,4 bes,4 bes,,4  | % 44
+  bes,,4 bes,,4 bes,4 bes,,4  | % 44
   c,4 d,4 e,4 c,4 | % 45
   a,4 a,,4 b,,4 cis,4 | % 46
   d,4 d4 d,4 d4 | % 47
   bes,4 bes,,4 bes,4 bes,8  <a,, a,>8 ~  ~ | % 48
   <a,, a,>1 ~ ~ | % 49
   <a,, a,>1 | \barNumberCheck #50
-  d8 \mf  f8 a8 d'8 ~  d'8  d'8 c'8 a8  | % 51
+  d8 ^\mf  f8 a8 d'8 ~  d'8  d'8 c'8 a8  | % 51
   c8  f8 a8 d'8 ~  d'8  d'8 c'8 a8  | % 52
   g,8  bes,8 d8 g8 ~  g4 f8  d8  | % 53
   c8  e8 g8 c'8 ~  c'2 | % 54
@@ -926,7 +926,7 @@ CityOfStarsAltoSax =  {
   R1*8 | % 9
   R1*9 | % 18
   R1*3 | % 21
-  e''8 ^\markup{ \bold {Moderato} } \mf  fis''8 g''8 b''8 ~  b''2 | % 22
+  e''8 \mf  fis''8 g''8 b''8 ~  b''2 | % 22
   r8 d'''8 (  cis'''8 d'''8  b''8  cis'''8 a''8 b''8  | % 23
   fis''2 ) r2 | % 24
   R1 | % 25
