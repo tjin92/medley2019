@@ -1,11 +1,13 @@
 \version "2.18.2"
 \include "header.ly"
 \include "Tempo.ly"
-\include "RememberMeNotes.ly"
-\include "MerryGoRoundNotes.ly"
-\include "GodfatherNotes.ly"
+\include "Notes.ly"
 
 #(set-default-paper-size "letter")
+
+\paper {
+  page-count = #1
+}
 
 \header {
   instrument = "Trumpet I"
@@ -18,12 +20,14 @@
     \compressFullBarRests
     \accidentalStyle modern-cautionary
     <<
+      \Tempo
       \transpose bf c' \removeWithTag #'single {
         \RememberMeTrumpetOne
         \MerryGoRoundTrumpetOne
         \GodfatherTrumpetOne
+        \PorUnaCabezaTrumpet
+        \CityOfStarsTrumpet
       }
-      \Tempo
     >>
   }
 }

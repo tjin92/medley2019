@@ -1,9 +1,7 @@
 \version "2.18.2"
 \include "header.ly"
 \include "Tempo.ly"
-\include "RememberMeNotes.ly"
-\include "MerryGoRoundNotes.ly"
-\include "GodfatherNotes.ly"
+\include "Notes.ly"
 
 #(set! paper-alist (cons '("my size" . (cons (* 11 in) (* 14 in))) paper-alist))
 #(set-default-paper-size "my size")
@@ -13,11 +11,6 @@
 }
 
 \score {
-  \layout{
-    \context{
-      \Staff \RemoveEmptyStaves
-    }
-  }
   <<
     \new StaffGroup <<
       \new Staff \with { instrumentName = #"Flutes" shortInstrumentName = #"Fl" } {
@@ -26,18 +19,22 @@
         \accidentalStyle modern-cautionary
         \compressFullBarRests
         <<
+          \Tempo
           \partcombine
           \removeWithTag #'single {
             \RememberMeFluteOne
             \MerryGoRoundFluteOne
             \GodfatherFluteOne
+            \PorUnaCabezaFlute
+            \CityOfStarsFlute
           }
           \removeWithTag #'single {
             \RememberMeFluteTwo
             \MerryGoRoundFluteTwo
             \GodfatherFluteTwo
+            \PorUnaCabezaFlute
+            \CityOfStarsFlute
           }
-          \Tempo
         >>
       }
       \new Staff \with { instrumentName = #"Oboe" shortInstrumentName = #"Ob" } {
@@ -49,6 +46,8 @@
           \RememberMeOboe
           \MerryGoRoundOboe
           \GodfatherOboe
+          \PorUnaCabezaOboe
+          \CityOfStarsOboe
         }
       }
       \new Staff \with { instrumentName = #"Clarinet" shortInstrumentName = #"Cl" } {
@@ -60,6 +59,8 @@
           \RememberMeClarinet
           \MerryGoRoundClarinet
           \GodfatherClarinet
+          \PorUnaCabezaClarinet
+          \CityOfStarsClarinet
         }
       }
       \new Staff \with { instrumentName = #"Alto sax" shortInstrumentName = #"Sax" } {
@@ -71,6 +72,8 @@
           \RememberMeSax
           \MerryGoRoundSax
           \GodfatherSax
+          \PorUnaCabezaAltoSax
+          \CityOfStarsAltoSax
         }
       }
       \new Staff \with { instrumentName = #"Bass clarinet" shortInstrumentName = #"Bcl" } {
@@ -82,6 +85,8 @@
           \RememberMeBassClarinet
           \MerryGoRoundBassClarinet
           \GodfatherBassClarinet
+          \PorUnaCabezaBassClarinet
+          \CityOfStarsBassClarinet
         }
       }
     >>
@@ -96,11 +101,15 @@
           \RememberMeHornOne
           \MerryGoRoundHornOne
           \GodfatherHornOne
+          \PorUnaCabezaHorn
+          \CityOfStarsHorn
         }
         \removeWithTag #'single {
           \RememberMeHornTwo
           \MerryGoRoundHornTwo
           \GodfatherHornTwo
+          \PorUnaCabezaHorn
+          \CityOfStarsHorn
         }
       }
       \new Staff \with { instrumentName = #"Trumpets" shortInstrumentName = #"Tpt" } {
@@ -113,11 +122,15 @@
           \RememberMeTrumpetOne
           \MerryGoRoundTrumpetOne
           \GodfatherTrumpetOne
+          \PorUnaCabezaTrumpet
+          \CityOfStarsTrumpet
         }
         \removeWithTag #'single {
           \RememberMeTrumpetTwo
           \MerryGoRoundTrumpetTwo
           \GodfatherTrumpetTwo
+          \PorUnaCabezaTrumpet
+          \CityOfStarsTrumpet
         }
       }
       \new Staff \with { instrumentName = #"Trombone" shortInstrumentName = #"Tbn" } {
@@ -130,37 +143,91 @@
           \RememberMeTromboneOne
           \MerryGoRoundTromboneOne
           \GodfatherTromboneOne
+          \PorUnaCabezaTrombone
+          \CityOfStarsTrombone
         }
         \removeWithTag #'single {
           \RememberMeTromboneTwo
           \MerryGoRoundTromboneTwo
           \GodfatherTromboneTwo
+          \PorUnaCabezaTrombone
+          \CityOfStarsTrombone
         }
       }
     >>
-    \new StaffGroup <<
-      \new Staff \with { instrumentName = \markup{ \center-column{ "Soprano" \line { "Alto" } } } shortInstrumentName = #"SA" } {
+    \new ChoirStaff <<
+      \new Staff \with { instrumentName = #"Soprano" shortInstrumentName = #"S" } {
         \clef treble
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        <<
-          \new Voice \partcombine \RememberMeSoprano \RememberMeAlto
-          \new NullVoice = "alignerSA" \RememberMeSoprano
-        >>
+        \new Voice = "soprano" \removeWithTag #'single {
+          \RememberMeSoprano
+          \MerryGoRoundTacet
+          \GodfatherTacet
+          \PorUnaCabezaSoprano
+          \CityOfStarsSoprano
+        }
       }
-      \new Lyrics \lyricsto "alignerSA" \RememberMeSALyrics
-      \new Staff \with { instrumentName = \markup{ \center-column{ "Tenor" \line { "Bass" } } } shortInstrumentName = #"TB" } {
+      \new Lyrics \lyricsto "soprano" {
+        \RememberMeSALyrics
+        \PorUnaCabezaSopranoLyrics
+        \CityOfStarsSopranoLyrics
+      }
+      \new Staff \with { instrumentName = #"Alto" shortInstrumentName = #"A" } {
+        \clef treble
+        \numericTimeSignature
+        \accidentalStyle modern-cautionary
+        \compressFullBarRests
+        \new Voice = "alto" \removeWithTag #'single {
+          \RememberMeAlto
+          \MerryGoRoundTacet
+          \GodfatherTacet
+          \PorUnaCabezaAlto
+          \CityOfStarsAlto
+        }
+      }
+      \new Lyrics \lyricsto "alto" {
+        \RememberMeSALyrics
+        \PorUnaCabezaAltoLyrics
+        \CityOfStarsAltoLyrics
+      }
+      \new Staff \with { instrumentName = #"Tenor" shortInstrumentName = #"T" } {
+        \clef "treble_8"
+        \numericTimeSignature
+        \accidentalStyle modern-cautionary
+        \compressFullBarRests
+        \new Voice = "tenor" \removeWithTag #'single {
+          \RememberMeTenor
+          \MerryGoRoundTacet
+          \GodfatherTacet
+          \PorUnaCabezaTenor
+          \CityOfStarsTenor
+        }
+      }
+      \new Lyrics \lyricsto "tenor" {
+        \RememberMeTBLyrics
+        \PorUnaCabezaTenorLyrics
+        \CityOfStarsTenorLyrics
+      }
+      \new Staff \with { instrumentName = #"Bass" shortInstrumentName = #"B" } {
         \clef bass
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        <<
-          \new Voice \partcombine \RememberMeTenor \RememberMeBass
-          \new NullVoice = "alignerTB" \RememberMeTenor
-        >>
+        \new Voice = "bass" \removeWithTag #'single {
+          \RememberMeBass
+          \MerryGoRoundTacet
+          \GodfatherTacet
+          \PorUnaCabezaBass
+          \CityOfStarsBass
+        }
       }
-      \new Lyrics \lyricsto "alignerTB" \RememberMeTBLyrics
+      \new Lyrics \lyricsto "bass" {
+        \RememberMeTBLyrics
+        \PorUnaCabezaBassLyrics
+        \CityOfStarsBassLyrics
+      }
     >>
     \new PianoStaff \with { instrumentName = #"Piano" shortInstrumentName = #"Pf" } <<
       \new Staff  {
@@ -172,6 +239,8 @@
           \RememberMePianoRH
           \MerryGoRoundPianoRH
           \GodfatherPianoRH
+          \PorUnaCabezaPianoRH
+          \CityOfStarsPianoRH
         }
       }
       \new Staff {
@@ -183,6 +252,8 @@
           \RememberMePianoLH
           \MerryGoRoundPianoLH
           \GodfatherPianoLH
+          \PorUnaCabezaPianoLH
+          \CityOfStarsPianoLH
         }
       }
     >>
@@ -196,6 +267,8 @@
           \RememberMeViolinOne
           \MerryGoRoundViolinOne
           \GodfatherViolinOne
+          \PorUnaCabezaViolinOne
+          \CityOfStarsViolinOne
         }
       }
       \new Staff \with { instrumentName = #"Violin 2" shortInstrumentName = #"Vn2" } {
@@ -207,6 +280,8 @@
           \RememberMeViolinTwo
           \MerryGoRoundViolinTwo
           \GodfatherViolinTwo
+          \PorUnaCabezaViolinTwo
+          \CityOfStarsViolinTwo
         }
       }
       \new Staff \with { instrumentName = #"Viola" shortInstrumentName = #"Va" } {
@@ -218,6 +293,8 @@
           \RememberMeViola
           \MerryGoRoundViola
           \GodfatherViola
+          \PorUnaCabezaViola
+          \CityOfStarsViola
         }
       }
       \new Staff \with { instrumentName = #"Cello" shortInstrumentName = #"Vc" } {
@@ -229,6 +306,8 @@
           \RememberMeCello
           \MerryGoRoundCello
           \GodfatherCello
+          \PorUnaCabezaCello
+          \CityOfStarsCello
         }
       }
       \new Staff \with { instrumentName = #"Double bass" shortInstrumentName = #"Db" } {
@@ -240,6 +319,8 @@
           \RememberMeDoubleBass
           \MerryGoRoundDoubleBass
           \GodfatherDoubleBass
+          \PorUnaCabezaDoubleBass
+          \CityOfStarsDoubleBass
         }
       }
     >>
