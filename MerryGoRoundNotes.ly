@@ -369,3 +369,8 @@ MerryGoRoundDoubleBass = \relative c {
   ds8\ff gs b e,,4.:32\fermata\sfz R4.
   \bar "||"
 }
+
+MerryGoRoundTacet = {
+  R4.*74
+  \bar "||"
+}
