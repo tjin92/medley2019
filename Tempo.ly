@@ -16,6 +16,23 @@ Tempo = {
   \tempo "Godfather Love Theme" 4 = 60
   s1*19
   s2 s8 s4.^\markup{\italic {cadenza ad lib.}}
-  s1*12
+  s1*13
   \bar "||"
+  \time 4/4
+  \tempo "Por Una Cabeza" 4 = 120
+  s1*17
+  \bar "||"
+  s1*8
+  \bar "||"
+  s1*16
+  \bar "||"
+  s1*16
+  \bar "||"
+  s1*16
+  \bar "||"
+  s1*15
+  \bar "||"
+  \tempo "City of Stars" 4 = 108
+  s1*60^\markup{\italic {with swing}}
+  \bar "|."
 }
