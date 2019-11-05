@@ -3,3 +3,4 @@
 \include "GodfatherNotes.ly"
 \include "PorUnaCabezaNotes.ly"
 \include "CityOfStarsNotes.ly"
+\include "KimiONoseteNotes.ly"

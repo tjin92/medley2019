@@ -3,9 +3,11 @@
 
 KimiONoseteFlute = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
-  r2 r4 g''8 \mf  a''8  | \barNumberCheck #10
+  R1*7 | % 9
+  r2 r4 g''8 \mf  a''8  | %\barNumberCheck #10
   bf''4. a''8 bf''4 d'''4 | % 11
   a''2. d''8  d''8  | % 12
   g''4. f''8 g''4 bf''4 | % 13
@@ -15,7 +17,7 @@ KimiONoseteFlute = {
   d'''8  c'''8 bf''8 bf''8  c'''4 a''4 | % 17
   g''2 r4 bf''8 \mf c'''8  | % 18
   d'''4. c'''8 d'''4 f'''4 | % 19
-  c'''2. f''8  f''8  | \barNumberCheck #20
+  c'''2. f''8  f''8  | %\barNumberCheck #20
   bf''4. a''8 bf''4 d'''4 | % 21
   d'''1 | % 22
   g''8  a''8  bf''4 a''8  bf''8 c'''8 c'''8  | % 23
@@ -24,7 +26,7 @@ KimiONoseteFlute = {
   d'''1 \f ~ | % 26
   d'''2. r4 | % 27
   R1 | % 28
-  R1*2 | \barNumberCheck #30
+  R1*2 | %\barNumberCheck #30
   r2 r4 d'''4 | % 31
   d'''2 f'''2 | % 32
   d'''4 f'''4 d'''8  c'''8  bf''4 | % 33
@@ -38,7 +40,7 @@ KimiONoseteFlute = {
   a''2. f'''4 | % 47
   g'''1 \startTrillSpan | % 48
   a'''1 \startTrillSpan| % 49
-  d'''2. \stopTrillSpan fs'''4 | \barNumberCheck #50
+  d'''2. \stopTrillSpan fs'''4 | %\barNumberCheck #50
   g'''2. g''8 \f  a''8  | % 51
   bf''4. a''8 bf''4 d'''4 | % 52
   c'''4 \< d'''4 f'''4 g'''4 ~ | % 53
@@ -52,9 +54,11 @@ KimiONoseteFlute = {
 
 KimiONoseteOboe = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
-  R1 | \barNumberCheck #10
+  R1*7 | % 9
+  R1 | %\barNumberCheck #10
   g'1 \p | % 11
   f'1 | % 12
   ef'1 | % 13
@@ -64,7 +68,7 @@ KimiONoseteOboe = {
   bf'8  a'8 g'8 g'8  a'4 fs'4 | % 17
   g'2 r4 g'8 \mf a'8  | % 18
   bf'4. a'8 bf'4 d''4 | % 19
-  a'4 bf'4 a'4 d'8  d'8  | \barNumberCheck #20
+  a'4 bf'4 a'4 d'8  d'8  | %\barNumberCheck #20
   g'4. f'8 g'4 bf'4 | % 21
   d''1 | % 22
   g'8  a'8  bf'4 a'8  bf'8 c''8 c''8  | % 23
@@ -73,7 +77,7 @@ KimiONoseteOboe = {
   a'1 \f ~ | % 26
   a'2. r4 | % 27
   R1*2 | % 29
-  R1 | \barNumberCheck #30
+  R1 | %\barNumberCheck #30
   r2 r4 d'4 | % 31
   g''2 d''2 | % 32
   f''2 d''2 | % 33
@@ -88,7 +92,7 @@ KimiONoseteOboe = {
   f'2. d'4 | % 47
   ef'4 bf'8 a'8~a'4 bf'4 | % 48
   c''4 d''8 bf'8~bf'4 r4 | % 49
-  bf'8  a'8 g'8 g'8  a'4 fs'4 | \barNumberCheck #50
+  bf'8  a'8 g'8 g'8  a'4 fs'4 | %\barNumberCheck #50
   g'2. g'8 \f  a'8  | % 51
   bf'4. a'8 bf'4 d''4 | % 52
   a'2 ~ a'8  d'8 \< ef'8 f'8  | % 53
@@ -103,12 +107,14 @@ KimiONoseteOboe = {
 
 KimiONoseteClarinet = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*8 | % 17
   r2 r4 g'8 \mf a'8  | % 18
   bf'4. c''8 bf'4 g'4 | % 19
-  a'4 g'4 f'4 d'8  d'8  | \barNumberCheck #20
+  a'4 g'4 f'4 d'8  d'8  | %\barNumberCheck #20
   ef'4. d'8 bf'4 g'4 | % 21
   a'1 | % 22
   bf'8  c''8  d''4 c''8  bf'8 a'8 g'8  | % 23
@@ -118,7 +124,7 @@ KimiONoseteClarinet = {
   d''2. \! bf4 \f | % 27
   g'2 f'4. f'8 | % 28
   d'8  c'8  bf2 r8 bf8 | % 29
-  c'4 bf8 c'8~c'8 f'4 d'8 ~ | \barNumberCheck #30
+  c'4 bf8 c'8~c'8 f'4 d'8 ~ | %\barNumberCheck #30
   d'2. d'4 | % 31
   g'2 f'2 | % 32
   d'8  c'8  bf2 r8 bf8 | % 33
@@ -133,7 +139,7 @@ KimiONoseteClarinet = {
   f'2. d'4 | % 47
   ef'4 bf'8 a'8~a'4 bf'4 | % 48
   c''4 d''8 bf'8~bf'4 r4 | % 49
-  bf'8  a'8 g'8 g'8  a'4 c''4 | \barNumberCheck #50
+  bf'8  a'8 g'8 g'8  a'4 c''4 | %\barNumberCheck #50
   bf'2. g'8 \f  a'8  | % 51
   bf'4. c''8 d''4 f''4 | % 52
   d''8 \<  ef''8 f''8 g''8 ~  g''2 | % 53
@@ -148,12 +154,14 @@ KimiONoseteClarinet = {
 
 KimiONoseteAltoSax = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*8 | % 17
   r2 r4 g'8 \mf a'8  | % 18
   bf'4. a'8 bf'4 d''4 | % 19
-  a'4 bf'4 a'4 d'8  d'8  | \barNumberCheck #20
+  a'4 bf'4 a'4 d'8  d'8  | %\barNumberCheck #20
   g'4. f'8 g'4 bf'4 | % 21
   d''1 | % 22
   g'8  a'8  bf'4 a'8  bf'8 c''8 c''8  | % 23
@@ -161,7 +169,7 @@ KimiONoseteAltoSax = {
   ef''4 \< d''4 c''4 bf'4 \! | % 25
   a'1 \f | % 26
   fs'2. r4 | % 27
-  R1*3 | \barNumberCheck #30
+  R1*3 | %\barNumberCheck #30
   r2 r4 d'4 | % 31
   g'2 d'2 | % 32
   f'2 d'2 | % 33
@@ -176,7 +184,7 @@ KimiONoseteAltoSax = {
   f'2. d'4 | % 47
   ef'4 bf'8 a'8~a'4 bf'4 | % 48
   c''4 d''8 bf'8~bf'4 r4 | % 49
-  bf'8  a'8 g'8 g'8  a'4 fs'4 | \barNumberCheck #50
+  bf'8  a'8 g'8 g'8  a'4 fs'4 | %\barNumberCheck #50
   g'2. g8 \f  a8  | % 51
   bf4. a8 bf4 d'4 | % 52
   a2 ~ a8  d8 \< ef8 f8  | % 53
@@ -191,11 +199,13 @@ KimiONoseteAltoSax = {
 
 KimiONoseteBassClarinet = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*9 | % 18
   bf,2 d2 | % 19
-  f1 | \barNumberCheck #20
+  f1 | %\barNumberCheck #20
   g1 | % 21
   fs1 | % 22
   g2 ef2 | % 23
@@ -205,13 +215,13 @@ KimiONoseteBassClarinet = {
   d2. \! d4 \f | % 27
   g2 f4. f8 | % 28
   d8  c8  bf,2 r8 bf,8 | % 29
-  c4 bf,8 c8~c8 f4 d8 ~ | \barNumberCheck #30
+  c4 bf,8 c8~c8 f4 d8 ~ | %\barNumberCheck #30
   d2. d4 | % 31
   g2 f2 | % 32
   d8  c8  bf,2 r8 bf,8 | % 33
   c4 \> bf,8 c8~c4 a,4 | % 34
   g,2. \! r4 | % 35
-  R1*5 | \barNumberCheck #40
+  R1*5 | %\barNumberCheck #40
   R1*3 | % 43
   d1 \mf | % 44
   c4 d4 f4 g4 | % 45
@@ -219,7 +229,7 @@ KimiONoseteBassClarinet = {
   bf,4 c4 d4 f4 | % 47
   g1 | % 48
   a1 | % 49
-  ef2. d4 | \barNumberCheck #50
+  ef2. d4 | %\barNumberCheck #50
   g,2. g,8 \f  a,8  | % 51
   bf,4. a,8 bf,4 d4 | % 52
   a,2 ~ a,8  d8 \< ef8 f8 \!  | % 53
@@ -234,8 +244,10 @@ KimiONoseteBassClarinet = {
 
 KimiONoseteTrombone = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*9 | % 18
   R1*6 | % 24
   c4 \< d4 ef4 g4 \! | % 25
@@ -243,7 +255,7 @@ KimiONoseteTrombone = {
   d'2. \! r4 | % 27
   R1*8 | % 35
   R1*9 | % 44
-  R1*6 | \barNumberCheck #50
+  R1*6 | %\barNumberCheck #50
   r2 r4 g,8 \f a,8 | % 51
   bf,4. c8 d4 f4 | % 52
   a1 \< | % 53
@@ -258,8 +270,10 @@ KimiONoseteTrombone = {
 
 KimiONoseteHorn = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*9 | % 18
   R1*6 | % 24
   ef'4 \< d'4 c'4 bf4 \! | % 25
@@ -267,15 +281,15 @@ KimiONoseteHorn = {
   fs'2. r4 | % 27
   d'2 f'2 | % 28
   d'4 f'4 d'8  c'8 bf8 bf8  | % 29
-  c'4 bf8 c'8~c'8 f'4 d'8 ~ | \barNumberCheck #30
+  c'4 bf8 c'8~c'8 f'4 d'8 ~ | %\barNumberCheck #30
   d'2. d'4 \f | % 31
   d'2 f'2 | % 32
   d'4 f'4 d'8  c'8  bf4 | % 33
   c'4 \> bf8 c'8~c'4 a4 | % 34
   g2. \! r4 | % 35
-  R1*5 | \barNumberCheck #40
+  R1*5 | %\barNumberCheck #40
   R1*9 | % 49
-  R1 | \barNumberCheck #50
+  R1 | %\barNumberCheck #50
   r2 r4 g8 \f  a8  | % 51
   bf4. a8 bf4 d'4 | % 52
   c'4 \< d'4 f'4 g'4 ~ | % 53
@@ -290,8 +304,10 @@ KimiONoseteHorn = {
 
 KimiONoseteTrumpetOne = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*9 | % 18
   R1*6 | % 24
   ef''4 \< d''4 c''4 bf'4 \! | % 25
@@ -299,14 +315,14 @@ KimiONoseteTrumpetOne = {
   d''2. d'4 | % 27
   g'2 f'4. f'8 | % 28
   d'8 c'8 bf2 r8 bf8 | % 29
-  c'4 bf8 c'8~c'8 f'4 d'8 ~ | \barNumberCheck #30
+  c'4 bf8 c'8~c'8 f'4 d'8 ~ | %\barNumberCheck #30
   d'2. d'4 | % 31
   g'2 f'2 | % 32
   d'8  c'8  bf2 r8 bf8 | % 33
   c'4 \> bf8 c'8~c'4 a4 | % 34
   bf2. \! r4 | % 35
   R1*6 | % 41
-  R1*9 | \barNumberCheck #50
+  R1*9 | %\barNumberCheck #50
   r2 r4 g'8 \f  a'8  | % 51
   bf'4. a'8 bf'4 d''4 | % 52
   a'2 ~ a'8  d'8 \< ef'8 f'8  | % 53
@@ -321,8 +337,10 @@ KimiONoseteTrumpetOne = {
 
 KimiONoseteTrumpetTwo = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*9 | % 18
   R1*6 | % 24
   ef''4 \< d''4 c''4 bf'4 \! | % 25
@@ -330,14 +348,14 @@ KimiONoseteTrumpetTwo = {
   a'2. d'4 | % 27
   g'2 f'4. f'8 | % 28
   d'8 c'8 bf2 r8 bf8 | % 29
-  c'4 bf8 c'8~c'8 f'4 d'8 ~ | \barNumberCheck #30
+  c'4 bf8 c'8~c'8 f'4 d'8 ~ | %\barNumberCheck #30
   d'2. d'4 | % 31
   g'2 f'2 | % 32
   d'8  c'8  bf2 r8 bf8 | % 33
   c'4 \> bf8 c'8~c'4 a4 | % 34
   bf2. \! r4 | % 35
   R1*6 | % 41
-  R1*9 | \barNumberCheck #50
+  R1*9 | %\barNumberCheck #50
   r2 r4 g'8 \f  a'8  | % 51
   bf'4. a'8 bf'4 d''4 | % 52
   a'2 ~ a'8  d'8 \< ef'8 f'8  | % 53
@@ -352,8 +370,9 @@ KimiONoseteTrumpetTwo = {
 
 KimiONoseteSoprano = {
   \tag #' single \time 4/4
+  R1\fermataMarkup | % 2
+  \bar "||"
   \key g \minor
-  R1 | % 2
   g''1 ^\p | % 3
   f''1 | % 4
   ef''1 | % 5
@@ -361,7 +380,7 @@ KimiONoseteSoprano = {
   c''1 | % 7
   d''1 | % 8
   a'4 ^\< d''4 e''4 f''4 | % 9
-  e''2. \! g'8 ^\mf  a'8  | \barNumberCheck #10
+  e''2. \! g'8 ^\mf  a'8  | %\barNumberCheck #10
   bf'4. a'8 bf'4 d''4 | % 11
   a'2. d'8  d'8  | % 12
   g'4. f'8 g'4 bf'4 | % 13
@@ -371,7 +390,7 @@ KimiONoseteSoprano = {
   d''8  c''8 bf'8 bf'8  c''4 a'4 | % 17
   g'2 r4 bf'8 ^\mf c''8  | % 18
   d''4. c''8 d''4 f''4 | % 19
-  c''2. f'8  f'8  | \barNumberCheck #20
+  c''2. f'8  f'8  | %\barNumberCheck #20
   bf'4. a'8 bf'4 d''4 | % 21
   d''1 | % 22
   g'8  a'8  bf'4 a'8  bf'8 c''8 c''8  | % 23
@@ -381,7 +400,7 @@ KimiONoseteSoprano = {
   d''2. r4 | % 27
   d''2 ^\mf f''2 | % 28
   d''4 f''4 d''8  c''8 bf'8 bf'8  | % 29
-  c''4 bf'8 c''8~c''8 f''4 d''8 ~ | \barNumberCheck #30
+  c''4 bf'8 c''8~c''8 f''4 d''8 ~ | %\barNumberCheck #30
   d''2. d''4 ^\f | % 31
   d''2 f''2 | % 32
   d''4 f''4 d''8  c''8 bf'8 bf'8 | % 33
@@ -391,7 +410,7 @@ KimiONoseteSoprano = {
   a'2. d'8  d'8  | % 37
   g'4. f'8 g'4 bf'4 | % 38
   f'2. d'8  d'8  | % 39
-  ef'4. d'8 ef'8 bf'4. | \barNumberCheck #40
+  ef'4. d'8 ef'8 bf'4. | %\barNumberCheck #40
   d'2 r8 bf'8  bf'8 bf'8  | % 41
   a'4. e'8 e'4 a'4 | % 42
   a'2. g'8  a'8  | % 43
@@ -401,7 +420,7 @@ KimiONoseteSoprano = {
   a'2. f''4 | % 47
   g''1 | % 48
   a''2 f''4 r4  | % 49
-  d''2. fs''4 | \barNumberCheck #50
+  d''2. fs''4 | %\barNumberCheck #50
   g''2. g'8 ^\f a'8  | % 51
   bf'4. a'8 bf'4 d''4  | % 52
   c''4 ^\< d''4 f''4 g''4 ~ | % 53
@@ -434,8 +453,9 @@ KimiONoseteSopranoLyrics = \lyricmode {
 
 KimiONoseteAlto = {
   \tag #' single \time 4/4
+  r2 r4\fermata g'8 ^\mp a'8 | % 2
+  \bar "||"
   \key g \minor
-  r2 r4 g'8 ^\mp  a'8  | % 2
   bf'4. a'8 bf'4 d''4 | % 3
   a'2. d'4 | % 4
   g'4. f'8 g'4 bf'4 | % 5
@@ -443,7 +463,7 @@ KimiONoseteAlto = {
   ef'4. d'8 ef'8 bf'4. | % 7
   d'2 r8 bf'8  bf'8 bf'8  | % 8
   a'4. e'8 e'4 a'4 | % 9
-  a'2. r4 | \barNumberCheck #10
+  a'2. r4 | %\barNumberCheck #10
   g'1 ^\p | % 11
   f'1 | % 12
   ef'1 | % 13
@@ -453,7 +473,7 @@ KimiONoseteAlto = {
   bf'8  a'8 g'8 g'8  a'4 fs'4 | % 17
   g'2 r4 g'8 ^\mf a'8  | % 18
   bf'4. a'8 bf'4 d''4 | % 19
-  a'4 bf'4 a'4 d'8  d'8  | \barNumberCheck #20
+  a'4 bf'4 a'4 d'8  d'8  | %\barNumberCheck #20
   g'4. f'8 g'4 bf'4 | % 21
   d''1 | % 22
   g'8  a'8  bf'4 a'8  bf'8 c''8 c''8  | % 23
@@ -463,7 +483,7 @@ KimiONoseteAlto = {
   <fs' a'>2. r4 | % 27
   d'2 ^\mf bf2 | % 28
   f'2 d'4. d'8 | % 29
-  ef'4 d'8 ef'8~ef'8 a'4 bf'8 ~ | \barNumberCheck #30
+  ef'4 d'8 ef'8~ef'8 a'4 bf'8 ~ | %\barNumberCheck #30
   bf'2. d'4 ^\f | % 31
   g'2 d'2 | % 32
   f'2 d'4. d'8 | % 33
@@ -473,7 +493,7 @@ KimiONoseteAlto = {
   a'2. d'8  d'8  | % 37
   g'4. f'8 g'4 bf'4 | % 38
   f'2. d'8  d'8  | % 39
-  ef'4. d'8 ef'8 bf'4. | \barNumberCheck #40
+  ef'4. d'8 ef'8 bf'4. | %\barNumberCheck #40
   d'2 r8 g'8  g'8 g'8  | % 41
   e'4. cs'8 cs'4 f'4 | % 42
   a'2. g'8  a'8  | % 43
@@ -483,7 +503,7 @@ KimiONoseteAlto = {
   f'2. d'4 | % 47
   ef'4 bf'8 a'8~a'4 bf'4 | % 48
   c''4 d''8 bf'8~bf'4 r4 | % 49
-  bf'8  a'8 g'8 g'8  a'4 fs'4  | \barNumberCheck #50
+  bf'8  a'8 g'8 g'8  a'4 fs'4  | %\barNumberCheck #50
   g'2. g'8 ^\f  a'8  | % 51
   bf'4. a'8 bf'4 d''4 | % 52
   a'2 ~ a'8  d'8 ^\< ef'8 f'8  | % 53
@@ -518,12 +538,14 @@ KimiONoseteAltoLyrics = \lyricmode {
 
 KimiONoseteTenor = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*8 | % 17
   r2 r4 g8 ^\mf a8  | % 18
   bf4. c'8 bf4 g4 | % 19
-  a4 g4 f4 d8  d8  | \barNumberCheck #20
+  a4 g4 f4 d8  d8  | %\barNumberCheck #20
   ef4. d8 bf4 g4 | % 21
   a1 | % 22
   bf8  c'8  d'4 c'8  bf8 a8 g8  | % 23
@@ -533,7 +555,7 @@ KimiONoseteTenor = {
   d'2. \! d'4 ^\f | % 27
   g'2 f'4. f'8 | % 28
   d'8  c'8  bf2 r8 bf8 | % 29
-  c'4 bf8 c'8~c'8 f'4 d'8 ~ | \barNumberCheck #30
+  c'4 bf8 c'8~c'8 f'4 d'8 ~ | %\barNumberCheck #30
   d'2. d'4 | % 31
   g'2 f'2 | % 32
   d'8  c'8  bf2 r8 bf8 | % 33
@@ -543,7 +565,7 @@ KimiONoseteTenor = {
   f1 | % 37
   ef1 | % 38
   d1 | % 39
-  ef1 | \barNumberCheck #40
+  ef1 | %\barNumberCheck #40
   f2 r8 bf8 bf8  bf8  | % 41
   a4. e8 e4 a4 | % 42
   a2. g8  a8  | % 43
@@ -553,7 +575,7 @@ KimiONoseteTenor = {
   f2. d4 | % 47
   ef4 bf8 a8~a4 bf4 | % 48
   c'4 d'8 bf8~bf4 r4 | % 49
-  bf8  a8 g8 g8  a4 c'4 | \barNumberCheck #50
+  bf8  a8 g8 g8  a4 c'4 | %\barNumberCheck #50
   bf2. g8 ^\f  a8  | % 51
   bf4. c'8 d'4 f'4 | % 52
   d'8 ^\<  ef'8 f'8 g'8 ~  g'2 | % 53
@@ -582,11 +604,13 @@ KimiONoseteTenorLyrics = \lyricmode {
 
 KimiONoseteBass = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*9 | % 18
   bf,2 ^\mf d2 | % 19
-  f1 | \barNumberCheck #20
+  f1 | %\barNumberCheck #20
   g1 | % 21
   fs1 | % 22
   g2 ef2 | % 23
@@ -596,7 +620,7 @@ KimiONoseteBass = {
   d2. \! d4 ^\f | % 27
   d2 f4. f8 | % 28
   d8  c8  bf,2 r8 bf,8 | % 29
-  c4 bf,8 c8~c8 f4 d8 ~ | \barNumberCheck #30
+  c4 bf,8 c8~c8 f4 d8 ~ | %\barNumberCheck #30
   d2. d4 | % 31
   g2 f2 | % 32
   d8  c8  bf,2 r8 bf,8 | % 33
@@ -606,7 +630,7 @@ KimiONoseteBass = {
   a,1 | % 37
   bf,1 | % 38
   d1 | % 39
-  c1 | \barNumberCheck #40
+  c1 | %\barNumberCheck #40
   bf,1 | % 41
   cs2 cs4 d4 | % 42
   e2. r4 | % 43
@@ -616,7 +640,7 @@ KimiONoseteBass = {
   bf,4 c4 d4 f4 | % 47
   g1 | % 48
   a2 d4 r4 | % 49
-  ef2. d4 | \barNumberCheck #50
+  ef2. d4 | %\barNumberCheck #50
   g,2. g,8 ^\f  a,8  | % 51
   bf,4. a,8 bf,4 d4 | % 52
   a,2 ~ a,8  d8 ^\< ef8 f8 \!  | % 53
@@ -642,14 +666,18 @@ KimiONoseteBassLyrics = \lyricmode {
 
 KimiONosetePianoRH = {
   \tag #' single \time 4/4
+  r4 r8 <fs'' a'' c''' d'''>8 \arpeggio ~ <fs'' a'' c''' d'''>4 \fermata r4
+  \bar "||"
   \key g \minor
-  R1*56^"Timpani"
+  R1*55^"Timpani"
 }
 
 KimiONosetePianoLH = {
   \tag #' single \time 4/4
+  d8 fs8 a8 d'8 ~ d'4 \fermata r4
+  \bar "||"
   \key g \minor
-  R1*23
+  R1*22
   a,1:32^\p^\< d1:32^\sfp^\< d2.:32^\f r4
   g,4^\mf r4 r2 bf,4 r4 r2 a,4 r4 a,4 r4 bf,4 r4 a,4 r4
   g,4^\f r4 r2 bf,4 r4 r2 a,4^\> r4 a,4 r4 g,4\! r4 r2
@@ -664,12 +692,14 @@ KimiONosetePianoLH = {
 
 KimiONoseteViolinOne = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*8 | % 17
   r2 r4 bf''8 \mf c'''8  | % 18
   d'''4. c'''8 d'''4 f'''4 | % 19
-  c'''2. f''8  f''8  | \barNumberCheck #20
+  c'''2. f''8  f''8  | %\barNumberCheck #20
   bf''4. a''8 bf''4 d'''4 | % 21
   d'''1 | % 22
   g''8  a''8  bf''4 a''8  bf''8 c'''8 c'''8  | % 23
@@ -679,7 +709,7 @@ KimiONoseteViolinOne = {
   d'''2. r4 | % 27
   d'''2\mf f'''2 | % 28
   d'''4 f'''4 d'''8  c'''8 bf''8 bf''8  | % 29
-  c'''4 bf''8 c'''8~c'''8 f'''4 d'''8 ~ | \barNumberCheck #30
+  c'''4 bf''8 c'''8~c'''8 f'''4 d'''8 ~ | %\barNumberCheck #30
   d'''2. d'''4 \f | % 31
   d'''2 f'''2 | % 32
   d'''4 f'''4 d'''8  c'''8  bf''4 | % 33
@@ -689,7 +719,7 @@ KimiONoseteViolinOne = {
   a''2. d''8  d''8  | % 37
   g''4. f''8 g''4 bf''4 | % 38
   f''2. d''8  d''8  | % 39
-  ef''4. d''8 ef''8 bf''4. | \barNumberCheck #40
+  ef''4. d''8 ef''8 bf''4. | %\barNumberCheck #40
   d''2 r8 bf''8  bf''8 bf''8  | % 41
   a''4. e''8 e''4 a''4 | % 42
   a''2. r4 | % 43
@@ -699,7 +729,7 @@ KimiONoseteViolinOne = {
   a''2. f'''4 | % 47
   g'''1 \startTrillSpan | % 48
   a'''1 \startTrillSpan | % 49
-  d'''2. \stopTrillSpan fs'''4 | \barNumberCheck #50
+  d'''2. \stopTrillSpan fs'''4 | %\barNumberCheck #50
   g'''2. g''8 \f  a''8 | % 51
   bf''4. a''8 bf''4 d'''4 | % 52
   c'''4 \< d'''4 f'''4 g'''4 ~ | % 53
@@ -714,12 +744,14 @@ KimiONoseteViolinOne = {
 
 KimiONoseteViolinTwo = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*8 | % 17
   r2 r4 bf'8 \mf c''8  | % 18
   d''4. c''8 d''4 f''4 | % 19
-  c''2. f'8  f'8  | \barNumberCheck #20
+  c''2. f'8  f'8  | %\barNumberCheck #20
   bf'4. a'8 bf'4 d''4 | % 21
   d''1 | % 22
   g'8  a'8  bf'4 a'8  bf'8 c''8 c''8  | % 23
@@ -729,7 +761,7 @@ KimiONoseteViolinTwo = {
   d''2. r4 | % 27
   d''2\mf bf'2 | % 28
   f''2 d''2 | % 29
-  ef''4 d''8 ef''8~ef''8 a''4 bf''8 ~ | \barNumberCheck #30
+  ef''4 d''8 ef''8~ef''8 a''4 bf''8 ~ | %\barNumberCheck #30
   bf''2. d''4 \f | % 31
   g''2 d''2 | % 32
   f''2 d''2 | % 33
@@ -739,7 +771,7 @@ KimiONoseteViolinTwo = {
   a'2. d'8  d'8  | % 37
   g'4. f'8 g'4 bf'4 | % 38
   f'2. d'8  d'8  | % 39
-  ef'4. d'8 ef'8 bf'4. | \barNumberCheck #40
+  ef'4. d'8 ef'8 bf'4. | %\barNumberCheck #40
   d'2 r8 g'8  g'8 g'8  | % 41
   e'4. cs'8 cs'4 f'4 | % 42
   a'2. g'8  a'8  | % 43
@@ -749,7 +781,7 @@ KimiONoseteViolinTwo = {
   f'2. d'4 | % 47
   ef'4 bf'8 a'8~a'4 bf'4 | % 48
   c''4 d''8 bf'8~bf'4 r4 | % 49
-  bf'8  a'8 g'8 g'8  a'4 fs'4 | \barNumberCheck #50
+  bf'8  a'8 g'8 g'8  a'4 fs'4 | %\barNumberCheck #50
   g'2. g'8 \f  a'8  | % 51
   bf'4. a'8 bf'4 d''4 | % 52
   a'2 ~ a'8  d'8 \< ef'8 f'8  | % 53
@@ -764,11 +796,13 @@ KimiONoseteViolinTwo = {
 
 KimiONoseteViola = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*16 | % 17
+  R1*15 | % 17
   r2 r4 g'8 \mf a'8  | % 18
   bf'4. a'8 bf'4 d''4 | % 19
-  a'4 bf'4 a'4 d'8  d'8  | \barNumberCheck #20
+  a'4 bf'4 a'4 d'8  d'8  | %\barNumberCheck #20
   g'4. f'8 g'4 bf'4 | % 21
   d''1 | % 22
   g'8  a'8  bf'4 a'8  bf'8 c''8 c''8  | % 23
@@ -778,7 +812,7 @@ KimiONoseteViola = {
   a'2. bf4 \mf | % 27
   g'2 f'4. f'8 | % 28
   d'8  c'8  bf2 r8 bf8 | % 29
-  c'4 bf8 c'8~c'8 f'4 d'8 ~ | \barNumberCheck #30
+  c'4 bf8 c'8~c'8 f'4 d'8 ~ | %\barNumberCheck #30
   d'2. d'4\f | % 31
   g'2 f'2 | % 32
   d'8  c'8  bf2 r8 bf8 | % 33
@@ -788,7 +822,7 @@ KimiONoseteViola = {
   a'2. d'8  d'8  | % 37
   g'4. f'8 g'4 bf'4 | % 38
   f'2. d'8  d'8  | % 39
-  ef'4. d'8 ef'8 bf'4. | \barNumberCheck #40
+  ef'4. d'8 ef'8 bf'4. | %\barNumberCheck #40
   d'2 r8 g'8  g'8 g'8  | % 41
   cs'2 cs'4 d'4 | % 42
   cs'2. g8  a8  | % 43
@@ -798,7 +832,7 @@ KimiONoseteViola = {
   f2. d4 | % 47
   ef4 bf8 a8~a4 bf4 | % 48
   c'4 d'8 bf8~bf4 r4 | % 49
-  bf8  a8 g8 g8  a4 c'4 | \barNumberCheck #50
+  bf8  a8 g8 g8  a4 c'4 | %\barNumberCheck #50
   bf2. g8 \f  a8  | % 51
   bf4. c'8 d'4 f'4 | % 52
   d'8 \<  ef'8 f'8 g'8 ~  g'2 | % 53
@@ -813,12 +847,14 @@ KimiONoseteViola = {
 
 KimiONoseteCello = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*8 | % 17
   r2 r4 g8 \mf a8  | % 18
   bf4. c'8 bf4 g4 | % 19
-  a4 g4 f4 d8  d8  | \barNumberCheck #20
+  a4 g4 f4 d8  d8  | %\barNumberCheck #20
   ef4. d8 bf4 g4 | % 21
   a1 | % 22
   bf8  c'8  d'4 c'8  bf8 a8 g8  | % 23
@@ -828,7 +864,7 @@ KimiONoseteCello = {
   d'2. \! d4 \mf | % 27
   g2 f4. f8 | % 28
   d8  c8  bf,2 r8 bf,8 | % 29
-  c4 bf,8 c8~c8 f4 d8 ~ | \barNumberCheck #30
+  c4 bf,8 c8~c8 f4 d8 ~ | %\barNumberCheck #30
   d2. d4\f | % 31
   g2 f2 | % 32
   d8  c8  bf,2 r8 bf,8 | % 33
@@ -838,7 +874,7 @@ KimiONoseteCello = {
   f1 | % 37
   ef1 | % 38
   d1 | % 39
-  ef1 | \barNumberCheck #40
+  ef1 | %\barNumberCheck #40
   f2 r8 bf,8 bf,8  bf,8  | % 41
   cs2 cs4 d4 | % 42
   e2. r4 | % 43
@@ -848,7 +884,7 @@ KimiONoseteCello = {
   bf,4 c4 d4 f4 | % 47
   g1 | % 48
   a1 | % 49
-  ef2. d4 | \barNumberCheck #50
+  ef2. d4 | %\barNumberCheck #50
   g,2. g,8 \f  a,8  | % 51
   bf,4. a,8 bf,4 d4 | % 52
   a,2 ~ a,8  d8 \< ef8 f8 \!  | % 53
@@ -863,11 +899,13 @@ KimiONoseteCello = {
 
 KimiONoseteDoubleBass = {
   \tag #' single \time 4/4
+  R1\fermataMarkup
+  \bar "||"
   \key g \minor
-  R1*8 | % 9
+  R1*7 | % 9
   R1*9 | % 18
   bf,,2 \mf d,2 | % 19
-  f,1 | \barNumberCheck #20
+  f,1 | %\barNumberCheck #20
   g,1 | % 21
   fs,1 | % 22
   g,2 ef,2 | % 23
@@ -877,7 +915,7 @@ KimiONoseteDoubleBass = {
   d,2. \! r4 | % 27
   g,1 \mf | % 28
   f,1 | % 29
-  ef,1 | \barNumberCheck #30
+  ef,1 | %\barNumberCheck #30
   d,1 | % 31
   g,1\f | % 32
   f,1 | % 33
@@ -887,7 +925,7 @@ KimiONoseteDoubleBass = {
   a,,1 | % 37
   bf,,1 | % 38
   d,1 | % 39
-  c,1 | \barNumberCheck #40
+  c,1 | %\barNumberCheck #40
   bf,,1 | % 41
   a,,1 | % 42
   cs,1 | % 43
@@ -897,7 +935,7 @@ KimiONoseteDoubleBass = {
   bf,,4 c,4 d,4 f,4 | % 47
   g,1 | % 48
   a,1 | % 49
-  ef,2. d,4 | \barNumberCheck #50
+  ef,2. d,4 | %\barNumberCheck #50
   g,,2. g,,8 \f  a,,8  | % 51
   bf,,4. a,,8 bf,,4 d,4 | % 52
   a,,2 ~ a,,8  d,8 \< ef,8 f,8 \!  | % 53
@@ -912,7 +950,9 @@ KimiONoseteDoubleBass = {
 
 KimiONoseteCymbal = {
   \tag #' single \time 4/4
-  R1*23
+  R1\fermataMarkup
+  \bar "||"
+  R1*22
   c4\mp\< r4 c4 s4 | % 25
   c4\mf r4 r2 | % 26
   c4 r4 r2 | % 27

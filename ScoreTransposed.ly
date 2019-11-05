@@ -27,6 +27,7 @@
             \GodfatherFluteOne
             \PorUnaCabezaFlute
             \CityOfStarsFlute
+            \KimiONoseteFlute
           }
           \removeWithTag #'single {
             \RememberMeFluteTwo
@@ -34,6 +35,7 @@
             \GodfatherFluteTwo
             \PorUnaCabezaFlute
             \CityOfStarsFlute
+            \KimiONoseteFlute
           }
         >>
       }
@@ -48,6 +50,7 @@
           \GodfatherOboe
           \PorUnaCabezaOboe
           \CityOfStarsOboe
+          \KimiONoseteOboe
         }
       }
       \new Staff \with { instrumentName = #"Clarinet" shortInstrumentName = #"Cl" } {
@@ -61,6 +64,7 @@
           \GodfatherClarinet
           \PorUnaCabezaClarinet
           \CityOfStarsClarinet
+          \KimiONoseteClarinet
         }
       }
       \new Staff \with { instrumentName = #"Alto sax" shortInstrumentName = #"Sax" } {
@@ -74,6 +78,7 @@
           \GodfatherSax
           \PorUnaCabezaAltoSax
           \CityOfStarsAltoSax
+          \KimiONoseteAltoSax
         }
       }
       \new Staff \with { instrumentName = #"Bass clarinet" shortInstrumentName = #"Bcl" } {
@@ -87,6 +92,7 @@
           \GodfatherBassClarinet
           \PorUnaCabezaBassClarinet
           \CityOfStarsBassClarinet
+          \KimiONoseteBassClarinet
         }
       }
     >>
@@ -103,6 +109,7 @@
           \GodfatherHornOne
           \PorUnaCabezaHorn
           \CityOfStarsHorn
+          \KimiONoseteHorn
         }
         \removeWithTag #'single {
           \RememberMeHornTwo
@@ -110,6 +117,7 @@
           \GodfatherHornTwo
           \PorUnaCabezaHorn
           \CityOfStarsHorn
+          \KimiONoseteHorn
         }
       }
       \new Staff \with { instrumentName = #"Trumpets" shortInstrumentName = #"Tpt" } {
@@ -124,6 +132,7 @@
           \GodfatherTrumpetOne
           \PorUnaCabezaTrumpet
           \CityOfStarsTrumpet
+          \KimiONoseteTrumpetOne
         }
         \removeWithTag #'single {
           \RememberMeTrumpetTwo
@@ -131,6 +140,7 @@
           \GodfatherTrumpetTwo
           \PorUnaCabezaTrumpet
           \CityOfStarsTrumpet
+          \KimiONoseteTrumpetTwo
         }
       }
       \new Staff \with { instrumentName = #"Trombone" shortInstrumentName = #"Tbn" } {
@@ -145,6 +155,7 @@
           \GodfatherTromboneOne
           \PorUnaCabezaTrombone
           \CityOfStarsTrombone
+          \KimiONoseteTrombone
         }
         \removeWithTag #'single {
           \RememberMeTromboneTwo
@@ -152,6 +163,7 @@
           \GodfatherTromboneTwo
           \PorUnaCabezaTrombone
           \CityOfStarsTrombone
+          \KimiONoseteTrombone
         }
       }
     >>
@@ -167,12 +179,14 @@
           \GodfatherTacet
           \PorUnaCabezaSoprano
           \CityOfStarsSoprano
+          \KimiONoseteSoprano
         }
       }
       \new Lyrics \lyricsto "soprano" {
         \RememberMeSALyrics
         \PorUnaCabezaSopranoLyrics
         \CityOfStarsSopranoLyrics
+        \KimiONoseteSopranoLyrics
       }
       \new Staff \with { instrumentName = #"Alto" shortInstrumentName = #"A" } {
         \clef treble
@@ -185,12 +199,14 @@
           \GodfatherTacet
           \PorUnaCabezaAlto
           \CityOfStarsAlto
+          \KimiONoseteAlto
         }
       }
       \new Lyrics \lyricsto "alto" {
         \RememberMeSALyrics
         \PorUnaCabezaAltoLyrics
         \CityOfStarsAltoLyrics
+        \KimiONoseteAltoLyrics
       }
       \new Staff \with { instrumentName = #"Tenor" shortInstrumentName = #"T" } {
         \clef "treble_8"
@@ -203,12 +219,14 @@
           \GodfatherTacet
           \PorUnaCabezaTenor
           \CityOfStarsTenor
+          \KimiONoseteTenor
         }
       }
       \new Lyrics \lyricsto "tenor" {
         \RememberMeTBLyrics
         \PorUnaCabezaTenorLyrics
         \CityOfStarsTenorLyrics
+        \KimiONoseteTenorLyrics
       }
       \new Staff \with { instrumentName = #"Bass" shortInstrumentName = #"B" } {
         \clef bass
@@ -221,12 +239,14 @@
           \GodfatherTacet
           \PorUnaCabezaBass
           \CityOfStarsBass
+          \KimiONoseteBass
         }
       }
       \new Lyrics \lyricsto "bass" {
         \RememberMeTBLyrics
         \PorUnaCabezaBassLyrics
         \CityOfStarsBassLyrics
+        \KimiONoseteBassLyrics
       }
     >>
     \new PianoStaff \with { instrumentName = #"Piano" shortInstrumentName = #"Pf" } <<
@@ -241,6 +261,7 @@
           \GodfatherPianoRH
           \PorUnaCabezaPianoRH
           \CityOfStarsPianoRH
+          \KimiONosetePianoRH
         }
       }
       \new Staff {
@@ -254,6 +275,7 @@
           \GodfatherPianoLH
           \PorUnaCabezaPianoLH
           \CityOfStarsPianoLH
+          \KimiONosetePianoLH
         }
       }
     >>
@@ -269,6 +291,7 @@
           \GodfatherViolinOne
           \PorUnaCabezaViolinOne
           \CityOfStarsViolinOne
+          \KimiONoseteViolinOne
         }
       }
       \new Staff \with { instrumentName = #"Violin 2" shortInstrumentName = #"Vn2" } {
@@ -282,6 +305,7 @@
           \GodfatherViolinTwo
           \PorUnaCabezaViolinTwo
           \CityOfStarsViolinTwo
+          \KimiONoseteViolinTwo
         }
       }
       \new Staff \with { instrumentName = #"Viola" shortInstrumentName = #"Va" } {
@@ -295,6 +319,7 @@
           \GodfatherViola
           \PorUnaCabezaViola
           \CityOfStarsViola
+          \KimiONoseteViola
         }
       }
       \new Staff \with { instrumentName = #"Cello" shortInstrumentName = #"Vc" } {
@@ -308,6 +333,7 @@
           \GodfatherCello
           \PorUnaCabezaCello
           \CityOfStarsCello
+          \KimiONoseteCello
         }
       }
       \new Staff \with { instrumentName = #"Double bass" shortInstrumentName = #"Db" } {
@@ -321,6 +347,7 @@
           \GodfatherDoubleBass
           \PorUnaCabezaDoubleBass
           \CityOfStarsDoubleBass
+          \KimiONoseteDoubleBass
         }
       }
     >>

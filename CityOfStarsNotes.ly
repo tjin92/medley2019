@@ -39,8 +39,11 @@ CityOfStarsFlute = {
   f'''8  f'''8 e'''8 e'''8  d'''8  a''8 r8 a''8  | % 47
   d'''4 d'''4 d'''8  cs'''8 d'''8 e'''8 ~  | % 48
   e'''2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsOboe = {
@@ -81,8 +84,11 @@ CityOfStarsOboe = {
   d''8  d''8 c''8 d''8  a'8  a'8 r8 a'8  | % 47
   bf'4 bf'4 bf'8  bf'8 bf'8 a'8 ~  | % 48
   a'2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsClarinet = {
@@ -107,8 +113,11 @@ CityOfStarsClarinet = {
   a8  a8 g8 g8  f8  f8 r8 f8  | % 47
   f4 f4 f8  f8 f8 g8 ~  | % 48
   g2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsAltoSax = {
@@ -149,8 +158,11 @@ CityOfStarsAltoSax = {
   d'8  d'8 c'8 d'8  a8  a8 r8 a8  | % 47
   bf4 bf4 bf8  bf8 bf8 a8 ~  | % 48
   a2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsBassClarinet = {
@@ -175,8 +187,11 @@ CityOfStarsBassClarinet = {
   d8  d8 d8 d8  d8  d8 r8 d8  | % 47
   bf,4 bf,4 bf,8  bf,8 bf,8 a,8 ~  | % 48
   a,2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsHorn = {
@@ -194,8 +209,11 @@ CityOfStarsHorn = {
   c''8  c''8 b'8 b'8  a'8  e'8 -> -. r8 e'8  | % 47
   a'2. a'8  b'8 -> ~ | % 48
   b'2. s4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsTrumpet = {
@@ -213,8 +231,11 @@ CityOfStarsTrumpet = {
   f''8  f''8 e''8 e''8  d''8  a'8 -> -. r8 a'8  | % 47
   d''2. d''8  e''8 -> ~ | % 48
   e''2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsTrombone = {
@@ -232,8 +253,11 @@ CityOfStarsTrombone = {
   d8  d8 c8 d8  a,8  a,8 -> -. r8 a,8  | % 47
   bf,2. bf,8  c8 -> ~  | % 48
   c2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsSoprano = {
@@ -295,9 +319,11 @@ CityOfStarsSoprano = {
   g'8  a'8 bf'8 d''8 ~  d''2 | % 57
   r8 cs''8 ^\< cs''8 e''8  a''4 g''4 | % 58
   f''2 d''2 ~ | % 59
-  d''1 \mf ~ | %\barNumberCheck #60
-  d''1 \fermata \bar "|."
-
+  d''1 \mf | %\barNumberCheck #60
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsSopranoLyrics = \lyricmode {
@@ -373,8 +399,11 @@ CityOfStarsAlto = {
   g8  a8 bf8 d'8 ~  d'2 | % 57
   r8 cs'8 ^\<  cs'8 e'8  a'4 g'4 | % 58
   f'2 d'2 ~ | % 59
-  d'1 ^\mf ~ | %\barNumberCheck #60
-  d'1 \fermata \bar "|."
+  d'1 ^\mf | %\barNumberCheck #60
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsAltoLyrics = \lyricmode {
@@ -443,8 +472,11 @@ CityOfStarsTenor = {
   g8 a8 bf8 d'8 ~  d'2 | % 57
   r8 a'8 ^\<  a'8 g'8  e'4 cs'4 | % 58
   d'2 a2 ~ | % 59
-  a1 \mf ~ | %\barNumberCheck #60
-  a1 \fermata \bar "|."
+  a1 \mf | %\barNumberCheck #60
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsTenorLyrics = \lyricmode {
@@ -524,9 +556,12 @@ CityOfStarsBass = {
   R1 | % 56
   g,8  a,8 bf,8 d8 ~  d2 | % 57
   r8 a8 ^\<  a8 g8  e4 cs4 | % 58
-  d2 f2 ~ | % 59
-  f1 ^\mf ~ | %\barNumberCheck #60
-  f1 \fermata \bar "|."
+  d2 d2 ~ | % 59
+  d1 ^\mf | %\barNumberCheck #60
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsBassLyrics = \lyricmode {
@@ -609,8 +644,11 @@ CityOfStarsPianoRH = {
   <b cs' e'>1 ~ ~ ~ | % 58
   <b cs' e'>1 | % 59
   R1 | %\barNumberCheck #60
-  r4 r8 <f'' a'' c''' d'''>8 ~ \arpeggio ~ \arpeggio \arpeggio ~
-  \arpeggio <f'' a'' c''' d'''>2 \fermata \bar "|."
+  \tag #' single {
+    r4 r8 <fs'' a'' c''' d'''>8 ~ \arpeggio ~ \arpeggio \arpeggio ~
+    \arpeggio <fs'' a'' c''' d'''>4 \fermata r4
+    \bar "||"
+  }
 }
 
 CityOfStarsPianoLH = {
@@ -676,8 +714,11 @@ CityOfStarsPianoLH = {
   g,8  bf,8 d8 g8 ~  g8  g8 f8 d8  | % 57
   <a, e g>1 ~ ~ ~ | % 58
   <a, e g>1 | % 59
-  d8  f8 a8 d'8 ~  d'8  d'8 c'8 a8  | %\barNumberCheck #60
-  d8  f8 a8 d'8 ~  d'2 \fermata \bar "|."
+  d8 f8 a8 d'8 ~ d'8 d'8 c'8 a8  | %\barNumberCheck #60
+  \tag #' single {
+    d8 fs8 a8 d'8 ~ d'4 \fermata r4
+    \bar "||"
+  }
 }
 
 CityOfStarsViolinOne = {
@@ -730,8 +771,11 @@ CityOfStarsViolinOne = {
   f''8  f''8 e''8 e''8  d''8  a'8 r8 a'8  | % 47
   d''4 d''4 d''8  cs''8 d''8 e''8 ~  | % 48
   e''2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsViolinTwo = {
@@ -784,8 +828,11 @@ CityOfStarsViolinTwo = {
   d'8  d'8 c'8 d'8  a8  a8 c'8 \rest a8  | % 47
   bf4 bf4 bf8  bf8 bf8 c'8 ~  | % 48
   c'2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsViola = {
@@ -838,8 +885,11 @@ CityOfStarsViola = {
   a8  a8 g8 g8  f8  f8 r8 f8  | % 47
   f4 f4 f8  f8 f8 g8 ~  | % 48
   g2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsCello = {
@@ -892,8 +942,11 @@ CityOfStarsCello = {
   d8  d8 d8 d8  d8  d8 r8 d8  | % 47
   bf,4 bf,4 bf,8  bf,8 bf,8 a,8 ~  | % 48
   a,2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }
 
 CityOfStarsDoubleBass = {
@@ -945,6 +998,9 @@ CityOfStarsDoubleBass = {
   d,4 d4 d,4 d4 | % 47
   bf,4 bf,,4 bf,,4 bf,,8  a,,8 ~  | % 48
   a,,2. r4 | % 49
-  R1*12
-  \bar "|."
+  R1*11
+  \tag #' single {
+    R1\fermataMarkup
+    \bar "||"
+  }
 }

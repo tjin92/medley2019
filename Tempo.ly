@@ -34,5 +34,8 @@ Tempo = {
   \bar "||"
   \tempo "City of Stars" 4 = 108
   s1*60^\markup{\italic {with swing}}
+  \bar "||"
+  \tempo "Kimi o Nosete" 4 = 108
+  s1*55
   \bar "|."
 }
