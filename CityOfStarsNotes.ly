@@ -98,7 +98,7 @@ CityOfStarsClarinet = {
     R1
   }
   R1*32
-  r2 r4 r8 e'8 | % 35
+  r2 r4 r8 e'8 \mf | % 35
   d'4 d'4 d'8  c'8 d'8 e'8 ~  | % 36
   e'4 r8 e'8 e'8  d'8 e'8 e'8 ~  | % 37
   e'4 r8 e'8 e'8  d'8 e'8 f'8 ~  | % 38
@@ -172,7 +172,7 @@ CityOfStarsBassClarinet = {
     R1
   }
   R1*32
-  r2 r4 r8 e8 | % 35
+  r2 r4 r8 e8 \mf | % 35
   f4 f4 f8  e8 f8 g8 ~  | % 36
   g4 r8 g8 g8  f8 g8 g8 ~   | % 37
   g4 r8 g8 g8  f8 g8 a8 ~  | % 38
@@ -387,7 +387,7 @@ CityOfStarsAlto = {
   bf4 ^\f bf4 bf8  a8 bf8 c'8 ~   | % 44
   c'4 r8 c'8 c'8  c'8 c'8 cs'8 ~  | % 45
   cs'4 r8 cs'8 cs'8  b8 cs'8 d'8 ~  | % 46
-  d'8  d'8 c'8 d'8  a8  a8 c'8 \rest a8  | % 47
+  d'8 d'8 c'8 d'8 a8 a8 r8 a8  | % 47
   bf4 bf4 bf8  bf8 bf8 cs'8 ~ | % 48
   cs'2. r4 | % 49
   r4 a8 ^\<  e'8  \times 2/3 {
@@ -452,7 +452,7 @@ CityOfStarsTenor = {
   f4 f4 f8  e8 f8 g8 ~  | % 36
   g4 r8 g8 g8  f8 g8 g8 ~   | % 37
   g4 r8 g8 g8  f8 g8 a8 ~  | % 38
-  a8  a8 g8 g8  f8  a8 e'8 \rest a8  | % 39
+  a8 a8 g8 g8 f8 a8 r8 a8  | % 39
   bf4 ^\< bf4 bf8  a8 bf8 c'8 ~  | %\barNumberCheck #40
   c'4 \! r8 c'8 c'8  bf8 c'8 f'8 ~  | % 41
   f'4 e'4 ^\> d'4 c'4 | % 42
@@ -641,7 +641,7 @@ CityOfStarsPianoRH = {
   R1*2 | % 52
   R1*4 | % 56
   g'8  a'8 bf'8 d''8 ~  d''2 | % 57
-  <b cs' e'>1 ~ ~ ~ | % 58
+  <b cs' e'>1 \arpeggio ~ ~ ~ | % 58
   <b cs' e'>1 | % 59
   R1 | %\barNumberCheck #60
   \tag #' single {
@@ -712,7 +712,7 @@ CityOfStarsPianoLH = {
   f8  a8 c'8 f'8 ~  f'8  f'8 e'8 c'8  | % 55
   f8  a8 c'8 f'8 ~  f'8  f'8 e'8 c'8  | % 56
   g,8  bf,8 d8 g8 ~  g8  g8 f8 d8  | % 57
-  <a, e g>1 ~ ~ ~ | % 58
+  <a, e g>1 \arpeggio ~ ~ ~ | % 58
   <a, e g>1 | % 59
   d8 f8 a8 d'8 ~ d'8 d'8 c'8 a8  | %\barNumberCheck #60
   \tag #' single {
@@ -825,7 +825,7 @@ CityOfStarsViolinTwo = {
   bf4 \f bf4 bf8  a8 bf8 c'8 ~   | % 44
   c'4 r8 c'8 c'8  c'8 c'8 cs'8 ~  | % 45
   cs'4 r8 cs'8 cs'8  b8 cs'8 d'8 ~  | % 46
-  d'8  d'8 c'8 d'8  a8  a8 c'8 \rest a8  | % 47
+  d'8 d'8 c'8 d'8 a8 a8 r8 a8  | % 47
   bf4 bf4 bf8  bf8 bf8 c'8 ~  | % 48
   c'2. r4 | % 49
   R1*11
@@ -874,7 +874,7 @@ CityOfStarsViola = {
   f'4 f'4 f'8  e'8 f'8 g'8 ~  | % 36
   g'4 r8 g'8 g'8  f'8 g'8 g'8 ~   | % 37
   g'4 r8 g'8 g'8  f'8 g'8 a'8 ~  | % 38
-  a'8  a'8 g'8 g'8  f'8  a'8 e''8 \rest a'8  | % 39
+  a'8  a'8 g'8 g'8 f'8 a'8 r8 a'8  | % 39
   bf4 \< bf4 bf8  a8 bf8 c'8 ~  | %\barNumberCheck #40
   c'4 \! r8 c'8 c'8  bf8 c'8 f'8 ~  | % 41
   f'4 e'4 \> d'4 c'4 \! | % 42
