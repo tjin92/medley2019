@@ -25,8 +25,7 @@ KimiONoseteFlute = {
   ef'''4 \< d'''4 c'''4 bf''4 | % 25
   d'''1 \f ~ | % 26
   d'''2. r4 | % 27
-  R1 | % 28
-  R1*2 | %\barNumberCheck #30
+  R1*3 | %\barNumberCheck #30
   r2 r4 d'''4 | % 31
   d'''2 f'''2 | % 32
   d'''4 f'''4 d'''8  c'''8  bf''4 | % 33
@@ -76,15 +75,13 @@ KimiONoseteOboe = {
   ef''4 \< d''4 c''4 bf'4 \! | % 25
   a'1 \f ~ | % 26
   a'2. r4 | % 27
-  R1*2 | % 29
-  R1 | %\barNumberCheck #30
+  R1*3 | %\barNumberCheck #30
   r2 r4 d'4 | % 31
   g''2 d''2 | % 32
   f''2 d''2 | % 33
   ef''4 \> d''8 ef''8~ef''4 c''4 | % 34
   d''2. \! r4 | % 35
-  R1 | % 36
-  R1*6 | % 42
+  R1*7 | % 42
   r2 r4 g'8 \mf a'8  | % 43
   bf'4. a'8 bf'4 d''4 | % 44
   a'2. d'4 | % 45
@@ -110,8 +107,7 @@ KimiONoseteClarinet = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*8 | % 17
+  R1*15 | % 17
   r2 r4 g'8 \mf a'8  | % 18
   bf'4. c''8 bf'4 g'4 | % 19
   a'4 g'4 f'4 d'8  d'8  | %\barNumberCheck #20
@@ -130,8 +126,7 @@ KimiONoseteClarinet = {
   d'8  c'8  bf2 r8 bf8 | % 33
   c'4 \> bf8 c'8~c'4 a4 | % 34
   bf2. \! r4 | % 35
-  R1*2 | % 37
-  R1*5 | % 42
+  R1*7 | % 42
   r2 r4 g'8 \mf a'8  | % 43
   bf'4. a'8 bf'4 d'4 | % 44
   f'2. d'4 | % 45
@@ -157,8 +152,7 @@ KimiONoseteAltoSax = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*8 | % 17
+  R1*15 | % 17
   r2 r4 g'8 \mf a'8  | % 18
   bf'4. a'8 bf'4 d''4 | % 19
   a'4 bf'4 a'4 d'8  d'8  | %\barNumberCheck #20
@@ -175,8 +169,7 @@ KimiONoseteAltoSax = {
   f'2 d'2 | % 33
   ef'4 \> d'8 ef'8~ef'4 c'4 | % 34
   d'2. \! r4 | % 35
-  R1*4 | % 39
-  R1*3 | % 42
+  R1*7 | % 42
   r2 r4 g'8 \mf a'8  | % 43
   bf'4. a'8 bf'4 d''4 | % 44
   a'2. d'4 | % 45
@@ -202,9 +195,8 @@ KimiONoseteBassClarinet = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*9 | % 18
-  bf,2 d2 | % 19
+  R1*16 | % 18
+  bf,2 \mf d2 | % 19
   f1 | %\barNumberCheck #20
   g1 | % 21
   fs1 | % 22
@@ -221,8 +213,7 @@ KimiONoseteBassClarinet = {
   d8  c8  bf,2 r8 bf,8 | % 33
   c4 \> bf,8 c8~c4 a,4 | % 34
   g,2. \! r4 | % 35
-  R1*5 | %\barNumberCheck #40
-  R1*3 | % 43
+  R1*8 | % 43
   d1 \mf | % 44
   c4 d4 f4 g4 | % 45
   d1 | % 46
@@ -247,15 +238,11 @@ KimiONoseteTrombone = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*9 | % 18
-  R1*6 | % 24
-  c4 \< d4 ef4 g4 \! | % 25
+  R1*22 | % 24
+  c4 \mf\< d4 ef4 g4 \! | % 25
   fs4 \< g4 a4 c'4 | % 26
   d'2. \! r4 | % 27
-  R1*8 | % 35
-  R1*9 | % 44
-  R1*6 | %\barNumberCheck #50
+  R1*23 | %\barNumberCheck #50
   r2 r4 g,8 \f a,8 | % 51
   bf,4. c8 d4 f4 | % 52
   a1 \< | % 53
@@ -273,10 +260,8 @@ KimiONoseteHorn = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*9 | % 18
-  R1*6 | % 24
-  ef'4 \< d'4 c'4 bf4 \! | % 25
+  R1*22 | % 24
+  ef'4 \mf\< d'4 c'4 bf4 \! | % 25
   d'1 \f | % 26
   fs'2. r4 | % 27
   d'2 f'2 | % 28
@@ -287,9 +272,7 @@ KimiONoseteHorn = {
   d'4 f'4 d'8  c'8  bf4 | % 33
   c'4 \> bf8 c'8~c'4 a4 | % 34
   g2. \! r4 | % 35
-  R1*5 | %\barNumberCheck #40
-  R1*9 | % 49
-  R1 | %\barNumberCheck #50
+  R1*15 | %\barNumberCheck #50
   r2 r4 g8 \f  a8  | % 51
   bf4. a8 bf4 d'4 | % 52
   c'4 \< d'4 f'4 g'4 ~ | % 53
@@ -307,10 +290,8 @@ KimiONoseteTrumpetOne = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*9 | % 18
-  R1*6 | % 24
-  ef''4 \< d''4 c''4 bf'4 \! | % 25
+  R1*22 | % 24
+  ef''4 \mf\< d''4 c''4 bf'4 \! | % 25
   d''1 \f ~ | % 26
   d''2. d'4 | % 27
   g'2 f'4. f'8 | % 28
@@ -321,13 +302,12 @@ KimiONoseteTrumpetOne = {
   d'8  c'8  bf2 r8 bf8 | % 33
   c'4 \> bf8 c'8~c'4 a4 | % 34
   bf2. \! r4 | % 35
-  R1*6 | % 41
-  R1*9 | %\barNumberCheck #50
+  R1*15 | %\barNumberCheck #50
   r2 r4 g'8 \f  a'8  | % 51
   bf'4. a'8 bf'4 d''4 | % 52
   a'2 ~ a'8  d'8 \< ef'8 f'8  | % 53
   g'1 \ff | % 54
-  a'2 \! -> -- \times 2/3 {
+  a'2 \! -> \times 2/3 {
     ef''4 -- d''4 -- c''4 --
   }
   | % 55
@@ -340,10 +320,8 @@ KimiONoseteTrumpetTwo = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*9 | % 18
-  R1*6 | % 24
-  ef''4 \< d''4 c''4 bf'4 \! | % 25
+  R1*22 | % 24
+  ef''4 \mf\< d''4 c''4 bf'4 \! | % 25
   a'1 \f ~ | % 26
   a'2. d'4 | % 27
   g'2 f'4. f'8 | % 28
@@ -354,8 +332,7 @@ KimiONoseteTrumpetTwo = {
   d'8  c'8  bf2 r8 bf8 | % 33
   c'4 \> bf8 c'8~c'4 a4 | % 34
   bf2. \! r4 | % 35
-  R1*6 | % 41
-  R1*9 | %\barNumberCheck #50
+  R1*15 | %\barNumberCheck #50
   r2 r4 g'8 \f  a'8  | % 51
   bf'4. a'8 bf'4 d''4 | % 52
   a'2 ~ a'8  d'8 \< ef'8 f'8  | % 53
@@ -541,8 +518,7 @@ KimiONoseteTenor = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*8 | % 17
+  R1*15 | % 17
   r2 r4 g8 ^\mf a8  | % 18
   bf4. c'8 bf4 g4 | % 19
   a4 g4 f4 d8  d8  | %\barNumberCheck #20
@@ -607,8 +583,7 @@ KimiONoseteBass = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*9 | % 18
+  R1*16 | % 18
   bf,2 ^\mf d2 | % 19
   f1 | %\barNumberCheck #20
   g1 | % 21
@@ -679,8 +654,8 @@ KimiONosetePianoLH = {
   \key g \minor
   R1*22
   a,1:32^\p^\< d1:32^\sfp^\< d2.:32^\f r4
-  g,4^\mf r4 r2 bf,4 r4 r2 a,4 r4 a,4 r4 bf,4 r4 a,4 r4
-  g,4^\f r4 r2 bf,4 r4 r2 a,4^\> r4 a,4 r4 g,4\! r4 r2
+  g,4 r4 r2 bf,4 r4 r2 a,4 r4 a,4 r4 bf,4 r4 a,4 r4
+  g,4 r4 r2 bf,4 r4 r2 a,4^\> r4 a,4 r4 g,4\! r4 r2
   R1*16
   g,4^\f r4 g,4 r4 a,4^\< r4 a,4 r4 d4^\ff r4 r2
   d4 r4 \times 2/3 {
@@ -695,8 +670,7 @@ KimiONoseteViolinOne = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*8 | % 17
+  R1*15 | % 17
   r2 r4 bf''8 \mf c'''8  | % 18
   d'''4. c'''8 d'''4 f'''4 | % 19
   c'''2. f''8  f''8  | %\barNumberCheck #20
@@ -747,8 +721,7 @@ KimiONoseteViolinTwo = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*8 | % 17
+  R1*15 | % 17
   r2 r4 bf'8 \mf c''8  | % 18
   d''4. c''8 d''4 f''4 | % 19
   c''2. f'8  f'8  | %\barNumberCheck #20
@@ -850,8 +823,7 @@ KimiONoseteCello = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*8 | % 17
+  R1*15 | % 17
   r2 r4 g8 \mf a8  | % 18
   bf4. c'8 bf4 g4 | % 19
   a4 g4 f4 d8  d8  | %\barNumberCheck #20
@@ -902,8 +874,7 @@ KimiONoseteDoubleBass = {
   R1\fermataMarkup
   \bar "||"
   \key g \minor
-  R1*7 | % 9
-  R1*9 | % 18
+  R1*16 | % 18
   bf,,2 \mf d,2 | % 19
   f,1 | %\barNumberCheck #20
   g,1 | % 21
