@@ -23,6 +23,7 @@
         \GodfatherViolinTwo
         \PorUnaCabezaViolinTwo
         \CityOfStarsViolinTwo
+        \KimiONoseteViolinTwo
       }
     >>
   }

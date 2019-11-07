@@ -5,6 +5,10 @@
 
 #(set-default-paper-size "letter")
 
+\paper {
+  page-count = #2
+}
+
 \header {
   instrument = "Flute I"
 }
@@ -23,6 +27,7 @@
         \GodfatherFluteOne
         \PorUnaCabezaFlute
         \CityOfStarsFlute
+        \KimiONoseteFlute
       }
     >>
   }

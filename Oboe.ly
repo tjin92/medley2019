@@ -23,6 +23,7 @@
         \GodfatherOboe
         \PorUnaCabezaOboe
         \CityOfStarsOboe
+        \KimiONoseteOboe
       }
     >>
   }

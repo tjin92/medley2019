@@ -23,6 +23,7 @@
         \GodfatherBassClarinet
         \PorUnaCabezaBassClarinet
         \CityOfStarsBassClarinet
+        \KimiONoseteBassClarinet
       }
     >>
   }

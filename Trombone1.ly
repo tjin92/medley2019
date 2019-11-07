@@ -5,6 +5,10 @@
 
 #(set-default-paper-size "letter")
 
+\paper {
+  page-count = #1
+}
+
 \header {
   instrument = "Trombone I"
 }
@@ -23,6 +27,7 @@
         \GodfatherTromboneOne
         \PorUnaCabezaTrombone
         \CityOfStarsTrombone
+        \KimiONoseteTrombone
       }
     >>
   }

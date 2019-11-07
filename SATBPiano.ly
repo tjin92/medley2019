@@ -26,6 +26,7 @@
             \GodfatherTacet
             \PorUnaCabezaSoprano
             \CityOfStarsSoprano
+            \KimiONoseteSoprano
           }
         >>
       }
@@ -33,6 +34,7 @@
         \RememberMeSALyrics
         \PorUnaCabezaSopranoLyrics
         \CityOfStarsSopranoLyrics
+        \KimiONoseteSopranoLyrics
       }
       \new Staff \with { instrumentName = #"Alto" shortInstrumentName = #"A" } {
         \clef treble
@@ -45,12 +47,14 @@
           \GodfatherTacet
           \PorUnaCabezaAlto
           \CityOfStarsAlto
+          \KimiONoseteAlto
         }
       }
       \new Lyrics \lyricsto "alto" {
         \RememberMeSALyrics
         \PorUnaCabezaAltoLyrics
         \CityOfStarsAltoLyrics
+        \KimiONoseteAltoLyrics
       }
       \new Staff \with { instrumentName = #"Tenor" shortInstrumentName = #"T" } {
         \clef "treble_8"
@@ -63,12 +67,14 @@
           \GodfatherTacet
           \PorUnaCabezaTenor
           \CityOfStarsTenor
+          \KimiONoseteTenor
         }
       }
       \new Lyrics \lyricsto "tenor" {
         \RememberMeTBLyrics
         \PorUnaCabezaTenorLyrics
         \CityOfStarsTenorLyrics
+        \KimiONoseteTenorLyrics
       }
       \new Staff \with { instrumentName = #"Bass" shortInstrumentName = #"B" } {
         \clef bass
@@ -81,12 +87,14 @@
           \GodfatherTacet
           \PorUnaCabezaBass
           \CityOfStarsBass
+          \KimiONoseteBass
         }
       }
       \new Lyrics \lyricsto "bass" {
         \RememberMeTBLyrics
         \PorUnaCabezaBassLyrics
         \CityOfStarsBassLyrics
+        \KimiONoseteBassLyrics
       }
     >>
     \new PianoStaff \with { instrumentName = #"Piano" shortInstrumentName = #"Pf" } <<
@@ -103,6 +111,7 @@
             \GodfatherPianoRH
             \PorUnaCabezaPianoRH
             \CityOfStarsPianoRH
+            \KimiONosetePianoRH
           }
         >>
       }
@@ -117,6 +126,7 @@
           \GodfatherPianoLH
           \PorUnaCabezaPianoLH
           \CityOfStarsPianoLH
+          \KimiONosetePianoLH
         }
       }
     >>

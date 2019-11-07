@@ -23,6 +23,7 @@
         \GodfatherDoubleBass
         \PorUnaCabezaDoubleBass
         \CityOfStarsDoubleBass
+        \KimiONoseteDoubleBass
       }
     >>
   }

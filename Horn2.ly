@@ -23,6 +23,7 @@
         \GodfatherHornTwo
         \PorUnaCabezaHorn
         \CityOfStarsHorn
+        \KimiONoseteHorn
       }
     >>
   }

@@ -23,6 +23,7 @@
         \GodfatherTrumpetTwo
         \PorUnaCabezaTrumpet
         \CityOfStarsTrumpet
+        \KimiONoseteTrumpetTwo
       }
     >>
   }

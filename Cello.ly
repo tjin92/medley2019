@@ -23,6 +23,7 @@
         \GodfatherCello
         \PorUnaCabezaCello
         \CityOfStarsCello
+        \KimiONoseteCello
       }
     >>
   }
