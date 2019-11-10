@@ -1805,7 +1805,7 @@ PorUnaCabezaCello = {
   d,4 r8 bf,8 d8 [ r8 d,8 ] r8 | % 5
   c,4 r8 g,8 ef8 [ r8 a,8 ] r8 | % 6
   bf,4 r8 bf,8 d8 [ r8 g,8 ] r8
-  a,4 r8 a,8 cs8[ r8 g,8] r8 | % 8
+  a,4 r8 a,8 d8[ r8 d,8] r8 | % 8
   g,2 r2  | % 9
   \key g \major
   \bar "||"
@@ -1895,7 +1895,7 @@ PorUnaCabezaDoubleBass = {
   d,4 r8 bf,,8 d,8 [ r8 d,8 ] r8 | % 5
   c,4 r8 g,,8 ef,8 [ r8 a,,8 ] r8 | % 6
   bf,,4 r8 bf,,8 d,8 [ r8 g,,8 ] r8
-  a,,4 r8 a,,8 cs,8 [ r8 g,,8 ] r8 | % 8
+  a,,4 r8 a,,8 d,8 [ r8 d,,8 ] r8 | % 8
   g,,2 r2  | % 9
   \key g \major
   \bar "||"
