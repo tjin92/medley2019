@@ -5,12 +5,16 @@
 
 #(set-default-paper-size "letter")
 
+\paper {
+  page-breaking = #ly:page-turn-breaking
+}
+
 \header {
   instrument = "Violin II"
 }
 
 \score {
-  \new Staff {
+  \new Staff \with { \consists "Page_turn_engraver" } {
     \clef treble
     \numericTimeSignature
     \compressFullBarRests
