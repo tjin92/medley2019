@@ -244,7 +244,7 @@ GodfatherDoubleBass = \relative c, {
 GodfatherTacet = {
   \key a \minor
   \time 4/4
-  R1*12
+  R1*11 R1\fermataMarkup
   \bar "||"
   \key c \minor
   R1*7

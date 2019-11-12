@@ -371,6 +371,6 @@ MerryGoRoundDoubleBass = \relative c {
 }
 
 MerryGoRoundTacet = {
-  R4.*74
+  R4.*70 R4.\fermataMarkup R R\fermataMarkup R
   \bar "||"
 }
