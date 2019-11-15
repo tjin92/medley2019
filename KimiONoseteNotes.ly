@@ -924,7 +924,7 @@ KimiONoseteCymbal = {
   R1\fermataMarkup
   \bar "||"
   R1*22
-  c4\mp\< r4 c4 s4 | % 25
+  c4\mp\< r4 c4 r4 | % 25
   c4\mf r4 r2 | % 26
   c4 r4 r2 | % 27
   R1*24
