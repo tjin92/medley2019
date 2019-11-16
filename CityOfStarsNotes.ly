@@ -201,14 +201,14 @@ CityOfStarsHorn = {
     R1
   }
   R1*39
-  c''4 \mp ( b'4 a'4 g'4 ) | % 42
-  r4 e'4 \< f'4 g'4 | % 43
-  a'2. \f a'8  b'8 -> -.  | % 44
-  b'4 -> -. r8 b'8 b'4 -> -. r8 b'8 | % 45
-  b'4 -> -. r8 b'8 b'4 -> -. b'8  c''8 ~  | % 46
-  c''8  c''8 b'8 b'8  a'8  e'8 -> -. r8 e'8  | % 47
-  a'2. a'8  b'8 -> ~ | % 48
-  b'2. s4 | % 49
+  f'4 \mp ( e'4 d'4 c'4 ) | % 42
+  r4 a4 \< bf4 c'4 | % 43
+  d'2. \f d'8  e'8 -> -.  | % 44
+  e'4 -> -. r8 e'8 e'4 -> -. r8 e'8 | % 45
+  e'4 -> -. r8 e'8 e'4 -> -. e'8  f'8 ~  | % 46
+  f'8  f'8 e'8 e'8  d'8  a8 -> -. r8 a8  | % 47
+  d'2. d'8  e'8 -> ~ | % 48
+  e'2. s4 | % 49
   R1*11
   \tag #' single {
     R1\fermataMarkup
@@ -251,8 +251,8 @@ CityOfStarsTrombone = {
   c4 -> -. r8 c8 c4 -> -. r8 cs8 | % 45
   cs4 -> -. r8 cs8 cs4 -> -. cs8  d8 ~  | % 46
   d8  d8 c8 d8  a,8  a,8 -> -. r8 a,8  | % 47
-  bf,2. bf,8  c8 -> ~  | % 48
-  c2. r4 | % 49
+  bf,2. bf,8 cs8 -> ~  | % 48
+  cs2. r4 | % 49
   R1*11
   \tag #' single {
     R1\fermataMarkup
@@ -826,8 +826,8 @@ CityOfStarsViolinTwo = {
   c'4 r8 c'8 c'8  c'8 c'8 cs'8 ~  | % 45
   cs'4 r8 cs'8 cs'8  b8 cs'8 d'8 ~  | % 46
   d'8 d'8 c'8 d'8 a8 a8 r8 a8  | % 47
-  bf4 bf4 bf8  bf8 bf8 c'8 ~  | % 48
-  c'2. r4 | % 49
+  bf4 bf4 bf8  bf8 bf8 cs'8 ~  | % 48
+  cs'2. r4 | % 49
   R1*11
   \tag #' single {
     R1\fermataMarkup
