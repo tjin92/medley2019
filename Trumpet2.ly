@@ -20,7 +20,7 @@
       \transpose bf c' \removeWithTag #'single {
         \RememberMeTrumpetTwo
         \MerryGoRoundTrumpetTwo
-        \GodfatherTrumpetTwo
+        \GodfatherTacet
         \PorUnaCabezaTrumpet
         \CityOfStarsTrumpet
         \KimiONoseteTrumpetTwo

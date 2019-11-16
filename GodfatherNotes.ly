@@ -104,17 +104,6 @@ GodfatherTrumpetOne = \relative c'' {
   \bar "||"
 }
 
-GodfatherTrumpetTwo = \relative c'' {
-  \key a \minor
-  \time 4/4
-  R1*5 r2 r8 a\mp c g' f e g f f e e gs, a2 r
-  R1*3 R1\fermataMarkup
-  \bar "||"
-  \key c \minor
-  R1*7 R1\fermataMarkup R1*13
-  \bar "||"
-}
-
 GodfatherTromboneOne = \relative c' {
   \key a \minor
   \time 4/4

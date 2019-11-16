@@ -66,7 +66,7 @@
         \numericTimeSignature
         \accidentalStyle modern-cautionary
         \compressFullBarRests
-        \partcombine \GodfatherTrumpetOne \GodfatherTrumpetTwo
+        \partcombine \GodfatherTrumpetOne \GodfatherTacet
       }
       \new Staff \with { instrumentName = #"Trombone" shortInstrumentName = #"Tbn" } {
         \clef bass
