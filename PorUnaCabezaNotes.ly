@@ -457,12 +457,12 @@ PorUnaCabezaHorn = {
   \key g \major
   \bar "||"
   g4 \p -. g'4 -. r4 d'4 -. | % 42
+  g4 -. g'4 -. r4 d'4 -. | % 48
   g4 -. g'4 -. r4 gs4 -. | % 43
   a4 -. a'4 -. r4 e4 -. | % 44
   a4 -. a'4 -. r4 ef'4 -. | % 45
   d'4 -. fs'4 -. r4 a4 -. | % 46
   d'4 -. fs'4 -. r4 a4 -. | % 47
-  g4 -. g'4 -. r4 d'4 -. | % 48
   g4 -. g'4 -. r4 d'4 -. | % 49
   g4 -. g'4 -. r4 d'4 -. | %\barNumberCheck #50
   g4 -. g'4 -. r4 d'4 -. | % 51
@@ -1742,7 +1742,7 @@ PorUnaCabezaViola = {
   a'4 a'4 fs'8 [ g'8 ~ ] \times 2/3 {
       g'8 [ a'8 fs'8 ] }
   | % 56
-  g'4 r8\f^\arco d'8 -> g'8 -> [ r8 d'8 -> ] r8
+  g'4 r8 d'8 -> \f g'8 -> [ r8 d'8 -> ] r8
   \key g \minor
   \bar "||"
   g4 -> g'4 ( \times 2/3 {
